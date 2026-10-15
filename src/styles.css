@@ -167,21 +167,6 @@ img {
   border: 0;
 }
 
-.announcement {
-  display: flex;
-  min-height: 43px;
-  align-items: center;
-  justify-content: center;
-  padding: 9px 20px;
-  background: var(--cyan);
-  color: #fff;
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 0.01em;
-  line-height: 1.35;
-  text-align: center;
-}
-
 .site-header {
   position: relative;
   z-index: 30;
@@ -1397,13 +1382,6 @@ img {
 }
 
 @media (max-width: 833px) {
-  .announcement {
-    min-height: 62px;
-    padding: 9px 14px;
-    font-size: 15px;
-    line-height: 1.35;
-  }
-
   .header-inner {
     width: calc(100% - 20px);
     min-height: 77px;

@@ -4,10 +4,53 @@
   position: relative;
   min-height: 828px;
   overflow: hidden;
+  isolation: isolate;
+  background: #f8fbfd;
+  color: var(--navy-deep);
+}
+
+.hero-molecule-background {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background: #f4f8fc;
+}
+
+.hero-molecule-background::after {
+  position: absolute;
+  inset: 0;
+  content: '';
   background:
-    linear-gradient(90deg, rgba(4, 22, 45, 0.7), rgba(4, 22, 45, 0.16)),
-    url('/assets/hero-molecule.jpg') center / cover no-repeat;
-  color: #fff;
+    linear-gradient(0deg, rgba(255, 255, 255, .92), transparent 28%),
+    linear-gradient(90deg, rgba(255, 255, 255, .9), rgba(255, 255, 255, .82) 30%, rgba(255, 255, 255, .2) 56%, rgba(255, 255, 255, .06));
+}
+
+.hero-molecule-image {
+  position: absolute;
+  inset: -4%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: hero-molecule-float 42s ease-in-out infinite alternate;
+}
+
+.hero-molecule-light {
+  position: absolute;
+  inset: -40%;
+  background: radial-gradient(ellipse at 40% 35%, rgba(255, 255, 255, .55), transparent 44%);
+  animation: hero-molecule-light 28s ease-in-out infinite alternate;
+}
+
+@keyframes hero-molecule-float {
+  from { transform: translate(-1%, -.7%) scale(1.02); }
+  to { transform: translate(1%, .7%) scale(1.09); }
+}
+
+@keyframes hero-molecule-light {
+  from { transform: translate(-8%, -3%); }
+  to { transform: translate(8%, 3%); }
 }
 
 .hero-inner {
@@ -16,6 +59,7 @@
   padding: 96px 0 58px;
   flex-direction: column;
   justify-content: space-between;
+  gap: 48px;
 }
 
 .hero-main {
@@ -28,6 +72,10 @@
 
 .hero-copy {
   max-width: 590px;
+}
+
+.hero .eyebrow {
+  color: #246f91;
 }
 
 .hero h1 {
@@ -46,13 +94,13 @@
 }
 
 .hero h1 strong {
-  color: var(--cyan);
+  color: #147ea8;
 }
 
 .hero-description {
   max-width: 580px;
   margin: 0;
-  color: rgba(255, 255, 255, 0.9);
+  color: #42596c;
   font-size: 16px;
   line-height: 1.75;
 }
@@ -64,16 +112,116 @@
   gap: 18px;
 }
 
-.hero-visual {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+.hero-buttons .button-primary {
+  background: #147ea8;
+  border-color: #147ea8;
 }
 
-.hero-visual img {
+.hero-buttons .button-primary:hover {
+  background: #106688;
+  border-color: #106688;
+}
+
+.hero-buttons .button-light {
+  border: 1px solid #b9cdd9;
+  background: rgba(255, 255, 255, .9);
+  box-shadow: 0 4px 16px rgba(28, 64, 86, .04);
+}
+
+.hero-buttons .button-light:hover {
+  background: #edf5fa;
+}
+
+.hero .benefit-card {
+  border: 1px solid #dce7ee;
+  background: rgba(255, 255, 255, .92);
+  box-shadow: 0 8px 28px rgba(28, 64, 86, .05);
+}
+
+.hero-visual {
+  position: relative;
   width: 100%;
   max-width: 587px;
-  filter: drop-shadow(0 28px 24px rgba(0, 0, 0, 0.18));
+  aspect-ratio: 587 / 450;
+  justify-self: end;
+  container-type: inline-size;
+}
+
+.hero-orbit-scene {
+  position: absolute;
+  inset: 0;
+  perspective: 140cqi;
+  pointer-events: none;
+}
+
+.hero-orbit-tilt,
+.hero-orbit-ring {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+}
+
+.hero-orbit-tilt {
+  transform: rotateX(-12deg);
+}
+
+.hero-orbit-ring {
+  animation: hero-orbit-turn 18s linear infinite;
+}
+
+.hero-orbit-position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  transform: rotateY(var(--phase)) translateZ(28cqi);
+  transform-style: preserve-3d;
+}
+
+.hero-orbit-bottle {
+  position: absolute;
+  height: 46cqi;
+  transform-origin: 0 0;
+  /* Keep the full-resolution atlas: the smaller bottles are enlarged in front. */
+  background-image: var(--hero-bottle-artwork);
+  background-repeat: no-repeat;
+  animation: hero-orbit-face 18s linear infinite;
+}
+
+.hero-orbit-static {
+  display: none;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@keyframes hero-orbit-turn {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(-360deg); }
+}
+
+/* Cancel the ring and each bottle's phase, then cancel the orbital tilt.
+   Only position and perspective change; labels always face the viewer. */
+@keyframes hero-orbit-face {
+  from { transform: rotateY(calc(-1 * var(--phase))) rotateX(12deg) translate(-50%, -50%); }
+  to { transform: rotateY(calc(360deg - var(--phase))) rotateX(12deg) translate(-50%, -50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-molecule-drift,
+  .hero-orbit-ring,
+  .hero-orbit-bottle {
+    animation: none;
+  }
+
+  .hero-orbit-scene {
+    display: none;
+  }
+
+  .hero-orbit-static {
+    display: block;
+  }
 }
 
 .topical-event {
@@ -527,7 +675,8 @@
   }
 
   .hero-visual {
-    display: none;
+    max-width: 520px;
+    justify-self: center;
   }
 
   .welcome-grid,
@@ -565,13 +714,13 @@
 
 @media (max-width: 833px) {
 
+  .hero-molecule-background::after {
+    background: linear-gradient(180deg, rgba(255, 255, 255, .72) 0%, rgba(255, 255, 255, .72) 35%, rgba(255, 255, 255, .1) 58%, rgba(255, 255, 255, .6) 100%);
+  }
+
   .hero,
   .hero-inner {
     min-height: 910px;
-  }
-
-  .hero {
-    background-position: 58% center;
   }
 
   .hero-inner {

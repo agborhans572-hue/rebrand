@@ -2,6 +2,7 @@ import { ShieldCheck, ClipboardList, Truck, TestTube2, Info } from 'lucide-react
 import Catalog from './Catalog.jsx'
 import ResponsiveImage from './ResponsiveImage.jsx'
 import ResearchResources from './ResearchResources.jsx'
+import HeroMoleculeBackground from './HeroMoleculeBackground.jsx'
 import { appPath } from './appPath.js'
 import './home.css'
 const routePaths = { shop: appPath('/shop/'), coaLibrary: appPath('/coa-library/') }
@@ -30,9 +31,58 @@ const researchBenefits = [
   },
 ]
 
+// Pixel regions in the original 1024 × 618 artwork. Each sprite keeps its
+// transparent edges and proportions without downloading new product artwork.
+const heroBottles = [
+  { name: 'BPC-157', x: 4, y: 36, width: 250, height: 562 },
+  { name: 'GHK-Cu', x: 270, y: 118, width: 170, height: 385 },
+  { name: 'GLP-3 (R)', x: 456, y: 156, width: 181, height: 412 },
+  { name: 'MOTS-C', x: 654, y: 144, width: 132, height: 299 },
+  { name: 'BPC-157/TB-500', x: 810, y: 181, width: 146, height: 331 },
+]
+const heroBottleArtwork = `${import.meta.env.BASE_URL}assets/hero-vials.png`
+
+function HeroBottleOrbit() {
+  return (
+    <div
+      className="hero-visual"
+      style={{ '--hero-bottle-artwork': `url("${heroBottleArtwork}")` }}
+    >
+      <div className="hero-orbit-scene" aria-hidden="true">
+        <div className="hero-orbit-tilt">
+          <div className="hero-orbit-ring">
+            {heroBottles.map(({ name, x, y, width, height }, index) => (
+              <div className="hero-orbit-position" key={name} style={{ '--phase': `${index * 72}deg` }}>
+                <div
+                  className="hero-orbit-bottle"
+                  style={{
+                    aspectRatio: `${width} / ${height}`,
+                    backgroundSize: `${1024 / width * 100}% auto`,
+                    backgroundPosition: `${x / (1024 - width) * 100}% ${y / (618 - height) * 100}%`,
+                  }}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+      <ResponsiveImage
+        className="hero-orbit-static"
+        src="/assets/hero-vials.png"
+        alt=""
+        aria-hidden="true"
+        loading="eager"
+        fetchPriority="high"
+        sizes="(max-width: 560px) 90vw, 587px"
+      />
+    </div>
+  )
+}
+
 function Hero({ onGate }) {
   return (
     <section className="hero" id="home">
+      <HeroMoleculeBackground />
       <div className="hero-inner">
         <div className="hero-main">
           <div className="hero-copy">
@@ -58,9 +108,7 @@ function Hero({ onGate }) {
               <a className="button button-light" href="#transparency">VERIFY A COA</a>
             </div>
           </div>
-          <div className="hero-visual" aria-hidden="true">
-            <ResponsiveImage src="/assets/hero-vials.png" alt="" loading="lazy" fetchPriority="high" sizes="(max-width: 800px) 90vw, 600px" />
-          </div>
+          <HeroBottleOrbit />
         </div>
 
         <div className="benefit-grid">

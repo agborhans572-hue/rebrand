@@ -285,9 +285,6 @@ const navGroups = [
 export function Header({ onMenu, onSearch, onCart, onHome, onShop, onNavigate, cartCount }) {
   return (
     <>
-      <div className="announcement">
-        FREE SHIPPING ON ORDERS $175+ AFTER PRODUCT DISCOUNTS
-      </div>
       <header className="site-header">
         <div className="header-inner">
           <a
