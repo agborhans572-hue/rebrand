@@ -114,7 +114,7 @@ async function capture(slug, expectedHeading, viewport) {
     await page.waitForFunction(() => document.querySelector('.support-form-status')?.textContent.includes('sent successfully'))
     if (submittedContact?.method !== 'POST' || submittedContact.body.email !== 'researcher@example.com' || submittedContact.body.message !== 'Local form validation test.') throw new Error('Contact form did not send the expected local test payload')
     const status = await page.$eval('.support-form-status', (node) => node.textContent)
-    if (!status.includes('info@purehealthpeptidesshop.com') && !status.includes('sent successfully')) {
+    if (!status.includes('info@peptalith.com') && !status.includes('sent successfully')) {
       throw new Error(`${slug}/${viewport.label}: contact delivery status not shown`)
     }
   }

@@ -211,7 +211,7 @@ const routePaths = Object.fromEntries(Object.entries({
   research: '/research-areas/',
   news: '/news/',
   editorialStandards: '/editorial-standards/',
-  elite: '/pure-elite-access/',
+  elite: '/peptalith-elite-access/',
   account: '/my-account/',
   authCallback: '/auth/callback/',
   authReset: '/auth/reset-password/',
@@ -241,7 +241,7 @@ const navRouteByLabel = {
   'Research Areas': 'research',
   News: 'news',
   'Lab Guides': 'news',
-  'Pure Elite Access': 'elite',
+  'Peptalith Elite Access': 'elite',
   'My Account': 'account',
   'My account': 'account',
   'Track My Order': 'track',
@@ -266,7 +266,7 @@ const navRouteByLabel = {
 const navGroups = [
   {
     label: 'About',
-    links: ['Why Us?', 'Research Areas', 'Lab Guides', 'Pure Elite Access'],
+    links: ['Why Us?', 'Research Areas', 'Lab Guides', 'Peptalith Elite Access'],
   },
   {
     label: 'Support',
@@ -293,10 +293,10 @@ export function Header({ onMenu, onSearch, onCart, onHome, onShop, onNavigate, c
           <a
             className="brand"
             href="/"
-            aria-label="Pure Health Peptides home"
+            aria-label="Peptalith home"
             onClick={(event) => { event.preventDefault(); onHome() }}
           >
-            <ResponsiveImage loading="eager" src="/assets/logo.svg" alt="Pure Health Peptides" />
+            <ResponsiveImage loading="eager" src="/assets/peptalith-logo.svg" alt="Peptalith" />
           </a>
 
           <nav className="desktop-nav" aria-label="Primary navigation">
@@ -382,7 +382,7 @@ function MobileMenu({ open, onClose, onShop, onNavigate }) {
       <button className="drawer-backdrop" type="button" aria-label="Close menu" onClick={onClose} />
       <aside ref={dialogRef} className="menu-drawer" role="dialog" aria-modal="true" aria-label="Site menu" tabIndex="-1">
         <div className="drawer-heading">
-          <ResponsiveImage src="/assets/logo.svg" alt="Pure Health Peptides" />
+          <ResponsiveImage src="/assets/peptalith-logo.svg" alt="Peptalith" />
           <button type="button" aria-label="Close menu" onClick={onClose}><X /></button>
         </div>
         <a
@@ -578,9 +578,9 @@ function ResearchGate({ open, onClose, onConfirm, onLeave }) {
     <div className="gate-overlay">
       <div ref={dialogRef} className="research-gate" role="dialog" aria-modal="true" aria-labelledby="gate-title" aria-describedby="gate-copy" tabIndex="-1">
         <span className="eyebrow">WELCOME TO</span>
-        <h2 id="gate-title">Pure Health Peptides</h2>
+        <h2 id="gate-title">Peptalith</h2>
         <p id="gate-copy">
-          All products sold by Pure Health Peptides LLC are intended for laboratory and research
+          All products sold by Peptalith are intended for laboratory and research
           purposes only. They are not for human consumption, veterinary use, or medical applications.
           You must be 21 years or older to purchase. Misuse of these products is strictly prohibited.
         </p>
@@ -619,7 +619,7 @@ export function Newsletter() {
     event.preventDefault()
     if (!event.currentTarget.reportValidity()) return
     if (!siteServices.newsletterEndpoint) {
-      setStatus('Newsletter sign-up is not connected on this deployment. Email info@purehealthpeptidesshop.com for updates.')
+      setStatus('Newsletter sign-up is not connected on this deployment. Email info@peptalith.com for updates.')
       return
     }
 
@@ -641,7 +641,7 @@ export function Newsletter() {
       <div className="newsletter-card">
         <div>
           <h2>SUBSCRIBE TO NEWSLETTER</h2>
-          <p>Be the first to know about new products &amp; special offers from Pure Health Peptides!</p>
+          <p>Be the first to know about new products &amp; special offers from Peptalith!</p>
         </div>
         {submitted ? (
           <div className="newsletter-success" role="status">
@@ -661,7 +661,7 @@ export function Newsletter() {
 }
 
 const footerGroups = {
-  about: ['Why Us?', 'Research Areas', 'Lab Guides', 'Pure Elite Access'],
+  about: ['Why Us?', 'Research Areas', 'Lab Guides', 'Peptalith Elite Access'],
   support: ['My account', 'Track My Order', 'FAQs', 'Contact'],
   peptide: ['Product Info', 'Testing Process', 'Dilution Guide'],
   coa: ['Vials', 'Capsules', 'Liquids', 'Topicals'],
@@ -708,10 +708,10 @@ export function Footer({ onNavigate }) {
         <a
           className="footer-logo-link"
           href="/"
-          aria-label="Pure Health Peptides home"
+          aria-label="Peptalith home"
           onClick={(event) => { event.preventDefault(); onNavigate('home') }}
         >
-          <ResponsiveImage className="footer-logo" src="/assets/footer-logo.svg" alt="Pure Health Peptides" />
+          <ResponsiveImage className="footer-logo" src="/assets/peptalith-footer-logo.svg" alt="Peptalith" />
         </a>
 
         <nav className="footer-navigation-desktop" aria-label="Footer navigation">
@@ -747,14 +747,14 @@ export function Footer({ onNavigate }) {
         <div className="footer-contact">
           <div>
             <Mail aria-hidden="true" />
-            <p><strong>Email</strong><a href="mailto:info@purehealthpeptidesshop.com">info@purehealthpeptidesshop.com</a></p>
+            <p><strong>Email</strong><a href="mailto:info@peptalith.com">info@peptalith.com</a></p>
           </div>
           <div><Package aria-hidden="true" /><p><strong>Shipping Days</strong><span>Mon-Fri / Except Holidays</span></p></div>
         </div>
 
         <div className="footer-disclaimer">
           <p>
-            <strong>Disclaimer:</strong> All products sold by Pure Health Peptides LLC are intended for
+            <strong>Disclaimer:</strong> All products sold by Peptalith are intended for
             laboratory and research purposes only. <strong>They are not for human consumption, veterinary
             use, or medical applications. You must be 21 years or older to purchase.</strong> By using this
             site, you agree to comply with all applicable laws and regulations regarding these products.
@@ -764,15 +764,13 @@ export function Footer({ onNavigate }) {
             <strong>FDA Disclaimer:</strong> The statements made within this website have not been evaluated
             by the US Food and Drug Administration. The statements and the products of this company are not
             intended to diagnose, treat, cure or prevent any disease. All products are sold for research,
-            laboratory, or analytical purposes only, and are not for human consumption. Pure Health Peptides
-            LLC is a chemical supplier. Pure Health Peptides LLC is not a compounding pharmacy or chemical
-            compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic act. Pure
-            Health Peptides LLC is not an outsourcing facility as defined under 503B of the Federal Food,
+            laboratory, or analytical purposes only, and are not for human consumption. Peptalith is a chemical supplier. Peptalith is not a compounding pharmacy or chemical
+            compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic act. Peptalith is not an outsourcing facility as defined under 503B of the Federal Food,
             Drug, and Cosmetic act.
           </p>
         </div>
         <ResponsiveImage className="payment-methods" src="/assets/payment-methods.png" alt="Accepted payment methods" />
-        <p className="copyright">© 2026, Pure Health Peptides</p>
+        <p className="copyright">© 2026, Peptalith</p>
       </div>
     </footer>
   )
@@ -884,8 +882,8 @@ export default function App() {
     const metadata = route === 'product' && selectedProduct
       ? (productMetadata?.path === canonicalPath(expectedPath) ? productMetadata : null) || initialProductDocument(selectedProduct.id, catalogVersion)?.metadata || productDocuments[selectedProduct.slug]?.metadata || {
           path: expectedPath,
-          title: `${selectedProduct.name} | Pure Health Peptides`,
-          description: `${selectedProduct.name} research product information and batch testing from Pure Health Peptides.`,
+          title: `${selectedProduct.name} | Peptalith`,
+          description: `${selectedProduct.name} research product information and batch testing from Peptalith.`,
           kind: 'product',
           indexable: true,
         }
@@ -896,18 +894,18 @@ export default function App() {
       : route === 'article'
       ? Boolean(pageMetadata)
       : route !== 'notFound' && normalizePath(location.pathname) === normalizePath(expectedPath)
-    const title = route === 'notFound' || route === 'article' && !pageMetadata ? 'Page Not Found | Pure Health Peptides' : route === 'product' && !selectedProduct
-      ? 'Product Not Found | Pure Health Peptides'
+    const title = route === 'notFound' || route === 'article' && !pageMetadata ? 'Page Not Found | Peptalith' : route === 'product' && !selectedProduct
+      ? 'Product Not Found | Peptalith'
       : metadata.title
     const description = route === 'notFound' || route === 'article' && !pageMetadata ? 'This page could not be found. Browse our research catalog or contact support for assistance.' : route === 'product' && !selectedProduct
-      ? 'This research product is unavailable or is no longer part of the active Pure Health Peptides catalog.'
+      ? 'This research product is unavailable or is no longer part of the active Peptalith catalog.'
       : metadata.description
     const configuredOrigin = import.meta.env.VITE_SITE_URL?.trim().replace(/\/$/, '')
-    const origin = configuredOrigin || 'https://purehealthpeptidesshop.com'
+    const origin = configuredOrigin || 'https://peptalith.com'
     const metadataPath = knownRoute ? metadata.path : location.pathname
     const canonicalUrl = `${origin}${metadataPath}`
     const socialImage = metadata.image || `${origin}/assets/hero-vials.png`
-    const socialImageAlt = metadata.imageAlt || `${title} — Pure Health Peptides`
+    const socialImageAlt = metadata.imageAlt || `${title} — Peptalith`
     const socialImageType = metadata.imageType || (socialImage.toLocaleLowerCase().endsWith('.png') ? 'image/png' : socialImage.toLocaleLowerCase().endsWith('.webp') ? 'image/webp' : 'image/jpeg')
     const indexable = knownRoute && metadata.indexable
 

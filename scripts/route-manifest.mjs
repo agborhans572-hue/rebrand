@@ -21,6 +21,9 @@ for (const route of productionRoutes) {
   if (route.path !== '/') redirect(route.path.slice(0, -1), route.path, route.path === '/shop/' ? 200 : null)
   redirect(`${route.path}index.html`, route.path)
 }
+for (const path of ['/pure-elite-access/', '/pure-elite-access', '/pure-elite-access/index.html']) {
+  redirect(path, '/peptalith-elite-access/')
+}
 export const productAliases = catalog.products.flatMap((product) => product.legacySlugs.map((slug) => ({ path: `/product/${encodedSlug(slug)}/`, canonical: `/product/${product.slug}/` })))
 for (const alias of productAliases) {
   for (const source of [alias.path, alias.path.slice(0, -1), `${alias.path}index.html`]) {

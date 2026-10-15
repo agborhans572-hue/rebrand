@@ -48,7 +48,7 @@ export const verificationSteps = [
   },
   {
     title: 'Dual-Publication Verification',
-    copy: 'Approved COAs are published both by Ethos Analytics and within the Pure Health COA Library. This independent dual-publication model creates a transparent verification trail and helps safeguard the integrity of published analytical records.',
+    copy: 'Approved COAs are published both by Ethos Analytics and within the Peptalith COA Library. This independent dual-publication model creates a transparent verification trail and helps safeguard the integrity of published analytical records.',
   },
   {
     title: 'Public COA Access',
@@ -133,7 +133,7 @@ export const coaRedFlags = [
 export const manufacturingIntro = [
   'There are two ways peptides are produced: chemical synthesis or biological production. Chemical synthesis builds the peptide one amino acid at a time from defined starting materials. Biological production uses living organisms — typically bacteria or yeast — engineered to express the peptide.',
   'All of our peptides are produced by independent third-party laboratories using solid-phase peptide synthesis. Nearly all SPPS facilities are based outside the US — that’s the global reality of how this raw material is made.',
-  'Those raw materials are then lyophilized into the powder form you receive in the vial. This last step happens in so called ‘finishing’ labs around the world, including in the US — and over the last 5–6 months, that’s where Pure Health Peptides has moved to.',
+  'Those raw materials are then lyophilized into the powder form you receive in the vial. This last step happens in so called ‘finishing’ labs around the world, including in the US — and over the last 5–6 months, that’s where Peptalith has moved to.',
   'That’s where (y)our product comes from. That’s why we test it the way we do — so you can be sure that what you receive is fully verified.',
 ]
 

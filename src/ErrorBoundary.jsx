@@ -30,9 +30,9 @@ export default class ErrorBoundary extends Component {
     return (
       <main className="fatal-error" role="alert">
         <div>
-          <p>PURE HEALTH PEPTIDES</p>
+          <p>PEPTALITH</p>
           <h1>We couldn’t load this page.</h1>
-          <p>Please refresh the page. If the problem continues, contact info@purehealthpeptidesshop.com.</p>
+          <p>Please refresh the page. If the problem continues, contact info@peptalith.com.</p>
           <button type="button" onClick={() => window.location.reload()}>REFRESH PAGE</button>
         </div>
       </main>

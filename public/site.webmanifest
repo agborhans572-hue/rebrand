@@ -1,6 +1,6 @@
 {
-  "name": "Pure Health Peptides",
-  "short_name": "Pure Health",
+  "name": "Peptalith",
+  "short_name": "Peptalith",
   "description": "Research peptides independently batch tested in the USA.",
   "lang": "en-US",
   "start_url": "/",
@@ -10,7 +10,7 @@
   "theme_color": "#081a32",
   "icons": [
     {
-      "src": "assets/favicon.png",
+      "src": "assets/peptalith-favicon.png",
       "sizes": "100x100",
       "type": "image/png",
       "purpose": "any"

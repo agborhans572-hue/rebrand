@@ -41,7 +41,7 @@ export async function serveBuiltSite({ directory = 'dist', port = 0, compression
         } else response.end(content)
       } else {
         response.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8', 'X-Robots-Tag': 'noindex, nofollow' })
-        response.end(await readFile(resolve(root, '404.html')).catch(() => '<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow"><title>Page Not Found | Pure Health Peptides</title></head><body><main><h1>Page not found</h1><a href="/shop/">Browse research peptides</a></main></body></html>'))
+        response.end(await readFile(resolve(root, '404.html')).catch(() => '<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow"><title>Page Not Found | Peptalith</title></head><body><main><h1>Page not found</h1><a href="/shop/">Browse research peptides</a></main></body></html>'))
       }
     } catch {
       response.writeHead(404, { 'X-Robots-Tag': 'noindex, nofollow' })

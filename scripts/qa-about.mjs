@@ -10,7 +10,7 @@ const pages = [
   ['about-us', 'About US'],
   ['research-areas', 'Research Areas'],
   ['news', 'Evidence-led guidance for research materials'],
-  ['pure-elite-access', 'PURE ELITE ACCESS'],
+  ['peptalith-elite-access', 'PEPTALITH ELITE ACCESS'],
 ]
 
 await fs.mkdir(output, { recursive: true })
@@ -60,7 +60,7 @@ try {
         throw new Error(`${slug}/${viewport.label}: failed images ${metrics.imageFailures.join(', ')}`)
       }
 
-      if (slug === 'pure-elite-access') {
+      if (slug === 'peptalith-elite-access') {
         const faqButton = await page.$('.elite-faq article:nth-of-type(2) > button')
         await faqButton.evaluate((button) => button.scrollIntoView({ block: 'center' }))
         await faqButton.click()

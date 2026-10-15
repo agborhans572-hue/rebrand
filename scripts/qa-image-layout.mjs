@@ -22,7 +22,7 @@ const mobileRoutes = [
   '/about-us/',
   '/research-areas/',
   '/news/',
-  '/pure-elite-access/',
+  '/peptalith-elite-access/',
   '/info-cards/',
   '/coa-process/',
   '/manufacturing/',

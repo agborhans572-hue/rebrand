@@ -45,7 +45,7 @@ function optionMax(option) {
 }
 
 function usageNotice() {
-  return 'Pure Health Peptides products are supplied to qualified research professionals and institutional users for in vitro laboratory research only. KYC verification is required prior to order fulfillment, and we reserve the right to refuse orders that do not meet buyer qualification criteria. These products are not drugs, foods, cosmetics, diagnostic products, or dietary supplements, have not been evaluated by the FDA, and are not intended for human or animal use. Any such use is prohibited and may violate federal, state, or local law. By purchasing, the buyer represents and warrants that the product will be used solely for in vitro research. The buyer agrees to indemnify, defend, and hold harmless Pure Health Peptides, its officers, employees, and agents from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys fees) arising out of or relating to the buyer’s use, handling, storage, or disposition of the product in any manner inconsistent with its research-use-only designation or applicable law.'
+  return 'Peptalith products are supplied to qualified research professionals and institutional users for in vitro laboratory research only. KYC verification is required prior to order fulfillment, and we reserve the right to refuse orders that do not meet buyer qualification criteria. These products are not drugs, foods, cosmetics, diagnostic products, or dietary supplements, have not been evaluated by the FDA, and are not intended for human or animal use. Any such use is prohibited and may violate federal, state, or local law. By purchasing, the buyer represents and warrants that the product will be used solely for in vitro research. The buyer agrees to indemnify, defend, and hold harmless Peptalith, its officers, employees, and agents from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys fees) arising out of or relating to the buyer’s use, handling, storage, or disposition of the product in any manner inconsistent with its research-use-only designation or applicable law.'
 }
 
 function descriptionWithMolecularControls(html, hasMolecularStructure) {
@@ -256,7 +256,7 @@ export function ProductDetailPage({ product, detail, onAddToCart, onNavigate, on
             <ResponsiveImage src="/assets/product-detail/coa-illustration.png" alt="Certificate of Analysis documentation" />
             <div>
               <h2>Certificate of Analysis</h2>
-              <p>At Pure Health Peptides, transparency is key. Every batch is third-party tested in the USA, with Certificates of Analysis (COAs) readily available for verification, giving researchers confidence in their work.</p>
+              <p>At Peptalith, transparency is key. Every batch is third-party tested in the USA, with Certificates of Analysis (COAs) readily available for verification, giving researchers confidence in their work.</p>
               <a
                 href={coaDestination.path}
                 onClick={(event) => {

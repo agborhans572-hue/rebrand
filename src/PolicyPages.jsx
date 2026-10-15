@@ -21,7 +21,7 @@ export default function PolicyPage({ type }) {
         ))}
         <section>
           <h2>Contact</h2>
-          <p>Questions may be sent to <a href="mailto:info@purehealthpeptidesshop.com">info@purehealthpeptidesshop.com</a>.</p>
+          <p>Questions may be sent to <a href="mailto:info@peptalith.com">info@peptalith.com</a>.</p>
         </section>
       </div>
       <ResearchResources products={false} />

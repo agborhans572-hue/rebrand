@@ -18,7 +18,7 @@ describe('laboratory education library', () => {
     const article = publishedEducationArticles[0]
     render(<EducationArticlePage slug={article.slug} />)
     expect(screen.getByRole('heading', { level: 1, name: article.title })).toBeTruthy()
-    expect(screen.getByText(/Written by/i).textContent).toContain('Pure Health Peptides Editorial Team')
+    expect(screen.getByText(/Written by/i).textContent).toContain('Peptalith Editorial Team')
     expect(screen.getByText(/awaiting a named, credential-verified reviewer/i)).toBeTruthy()
     expect(screen.getByText(/does not provide instructions for human or veterinary use/i)).toBeTruthy()
     expect(screen.getByRole('heading', { name: 'The COA traceability chain' })).toBeTruthy()

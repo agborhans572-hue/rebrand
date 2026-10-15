@@ -652,7 +652,7 @@ export default function ShopPage({ searchQuery = '', onAddToCart, onLearnMore, o
       <section className="shop-seo-band" aria-label="About our research peptides">
         <h2>COA-verified research peptides for controlled laboratory use</h2>
         <p>
-          Pure Health Peptides supplies research materials to qualified professionals and
+          Peptalith supplies research materials to qualified professionals and
           institutions for controlled in-vitro work. Each available batch is independently tested
           for identity, purity, and quantity, with documentation searchable by batch ID.
         </p>

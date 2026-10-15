@@ -24,7 +24,7 @@ for (const name of required) {
   if (!process.env[name]?.trim()) errors.push(`${name} is required`)
 }
 if (!process.env.SITE_URL?.startsWith('https://')) errors.push('SITE_URL must use HTTPS')
-if (process.env.SITE_URL !== 'https://purehealthpeptidesshop.com') {
+if (process.env.SITE_URL !== 'https://peptalith.com') {
   errors.push('SITE_URL must be the canonical production origin')
 }
 if (process.env.VITE_SITE_URL !== process.env.SITE_URL) {
@@ -39,8 +39,8 @@ if (process.env.VITE_ACCOUNT_DELETION_ENDPOINT !== '/api/account/delete-request'
 if (process.env.VITE_CONTACT_ENDPOINT !== '/api/contact') {
   errors.push('VITE_CONTACT_ENDPOINT must use the same-origin production route')
 }
-if (process.env.CONTACT_FROM_EMAIL !== 'info@purehealthpeptidesshop.com') {
-  errors.push('CONTACT_FROM_EMAIL must use the verified Pure Health Peptides mailbox')
+if (process.env.CONTACT_FROM_EMAIL !== 'info@peptalith.com') {
+  errors.push('CONTACT_FROM_EMAIL must use the verified Peptalith mailbox')
 }
 if (!process.env.RESEND_API_KEY?.startsWith('re_')) errors.push('RESEND_API_KEY must be a Resend API key')
 if ((process.env.CRON_SECRET || '').length < 32) errors.push('CRON_SECRET must contain at least 32 characters')

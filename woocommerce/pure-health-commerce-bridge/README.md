@@ -1,4 +1,4 @@
-# Pure Health Commerce Bridge
+# Peptalith Commerce Bridge
 
 This plugin is the WooCommerce-side authority for storefront stock reservations.
 

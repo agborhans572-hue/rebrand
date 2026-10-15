@@ -1,6 +1,6 @@
 import { HttpError } from './http.js'
 
-export const CONTACT_RECIPIENT = 'info@purehealthpeptidesshop.com'
+export const CONTACT_RECIPIENT = 'info@peptalith.com'
 
 type ContactMessage = {
   fullName: string
@@ -27,15 +27,15 @@ export async function sendContactEmail(
         Authorization: `Bearer ${config.apiKey}`,
         'Content-Type': 'application/json',
         'Idempotency-Key': idempotencyKey,
-        'User-Agent': 'pure-health-peptides-contact/1.0',
+        'User-Agent': 'peptalith-contact/1.0',
       },
       body: JSON.stringify({
-        from: `Pure Health Peptides Website <${config.fromEmail}>`,
+        from: `Peptalith Website <${config.fromEmail}>`,
         to: [CONTACT_RECIPIENT],
         reply_to: contact.email,
         subject: 'New website enquiry',
         text: [
-          'A new enquiry was submitted through purehealthpeptidesshop.com.',
+          'A new enquiry was submitted through peptalith.com.',
           '',
           `Name: ${contact.fullName}`,
           `Reply email: ${contact.email}`,

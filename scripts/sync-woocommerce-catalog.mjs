@@ -60,7 +60,7 @@ for (const product of wooProducts.sort((left, right) => left.id - right.id)) {
     slug: product.slug,
     url: product.permalink,
     title: product.name,
-    documentTitle: `${product.name} - Pure Health Peptides`,
+    documentTitle: `${product.name} - Peptalith`,
     type: previous?.type || product.categories.map((category) => category.slug).find((slug) => typeCategories.has(slug)),
     categories: product.categories.filter((category) => !typeCategories.has(category.slug)).map((category) => ({ slug: category.slug, name: category.name })),
     published,

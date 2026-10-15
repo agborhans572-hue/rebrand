@@ -254,7 +254,7 @@ try {
     overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth,
   }))
   assert(invalidState.pathname === '/product/does-not-exist/', 'Invalid product route pathname changed unexpectedly')
-  assert(invalidState.title === 'Page Not Found | Pure Health Peptides', 'Invalid product document title is incorrect')
+  assert(invalidState.title === 'Page Not Found | Peptalith', 'Invalid product document title is incorrect')
   assert(invalidState.heading === 'Page not found', 'Invalid product fallback is incorrect')
   assert(invalidState.overflow === 0, 'Invalid product fallback has horizontal overflow')
   report.invalidProduct = invalidState

@@ -36,7 +36,7 @@ function Hero({ onGate }) {
       <div className="hero-inner">
         <div className="hero-main">
           <div className="hero-copy">
-            <p className="eyebrow eyebrow-light">PURE HEALTH PEPTIDES</p>
+            <p className="eyebrow eyebrow-light">PEPTALITH</p>
             <h1>
               <span>ReSeARCH PePTIDeS</span>
               <strong>YOU CAN TRUST.</strong>
@@ -84,25 +84,25 @@ function TopicalEvent({ onGate }) {
     <section className="topical-event">
       <div className="topical-inner">
         <div className="topical-product">
-          <ResponsiveImage src="/assets/topical-event.png" alt="Pure Health Peptides topical discovery collection" />
+          <ResponsiveImage src="/assets/topical-event.png" alt="Peptalith topical discovery collection" />
         </div>
         <div className="topical-copy">
           <p className="eyebrow">INTRODUCING</p>
-          <h2>PHP — TOPICAL DISCOVeRY eVeNT</h2>
+          <h2>PEPTALITH — TOPICAL DISCOVeRY eVeNT</h2>
           <p className="event-offer">
-            For a limited period — <strong>Receive your Complimentary PHP Discovery Collection</strong>
+            For a limited period — <strong>Receive your Complimentary Peptalith Discovery Collection</strong>
             {' '}with qualifying research orders of <strong>$500 or more*</strong>
           </p>
           <small>*after discount, before fees and taxes</small>
           <ResponsiveImage
             className="topical-mobile-product"
             src="/assets/topical-event.png"
-            alt="Pure Health Peptides topical discovery collection"
+            alt="Peptalith topical discovery collection"
           />
           <a className="topical-link" href={routePaths.shop} onClick={(event) => followShop(event, onGate)}>
-            Discover the PHP Topical Format System.
+            Discover the Peptalith Topical Format System.
           </a>
-          <p>Our uniquely architected topical research platform, designed exclusively by Pure Health Peptides.</p>
+          <p>Our uniquely architected topical research platform, designed exclusively by Peptalith.</p>
         </div>
       </div>
     </section>
@@ -115,11 +115,10 @@ function Welcome() {
       <div className="section-inner welcome-grid">
         <div className="welcome-copy">
           <p className="eyebrow">WELCOME TO</p>
-          <h2>Pure Health Peptides</h2>
+          <h2>Peptalith</h2>
           <p><strong>Where Science Meets Excellence—and Research Has No Limits.</strong></p>
           <p>
-            Your research deserves more than the ordinary. It deserves the best. At Pure Health
-            Peptides, we don’t just supply peptides—we deliver game-changing quality, unbeatable
+            Your research deserves more than the ordinary. It deserves the best. At Peptalith, we don’t just supply peptides—we deliver game-changing quality, unbeatable
             pricing, and world-class service to fuel the breakthroughs of tomorrow.
           </p>
           <p>
@@ -129,8 +128,7 @@ function Welcome() {
             prices you can count on, and service that stands out.
           </p>
           <p>
-            This is where serious researchers come to win. Step into the future of science with Pure
-            Health Peptides—the partner you’ve been waiting for.
+            This is where serious researchers come to win. Step into the future of science with Peptalith—the partner you’ve been waiting for.
           </p>
         </div>
         <aside className="usage-card">
@@ -139,7 +137,7 @@ function Welcome() {
             <h3>Product Usage: For Research Use Only</h3>
             <h4>Not for Human or Veterinary Use</h4>
             <p>
-              Pure Health Peptides products are supplied to qualified research professionals and
+              Peptalith products are supplied to qualified research professionals and
               institutional users for in vitro laboratory research only. KYC verification is required
               prior to order fulfillment, and we reserve the right to refuse orders that do not meet
               buyer qualification criteria. These products are not drugs, foods, cosmetics, or dietary
@@ -164,7 +162,7 @@ function DiscountSection({ onGate }) {
           <h3>Unlock Exclusive Savings with Our Unique Discount Structure!</h3>
           <p>Why settle for less when you can save more—every time?</p>
           <p>
-            At Pure Health Peptides, we reward your commitment to groundbreaking research with a
+            At Peptalith, we reward your commitment to groundbreaking research with a
             straightforward, unbeatable discount structure:
           </p>
           <p><strong>The number of vials you order per product = Your Discount!</strong></p>
@@ -194,13 +192,13 @@ function Transparency({ onNavigate }) {
     <section className="transparency section-pad" id="transparency">
       <div className="section-inner transparency-grid">
         <div className="coa-visual">
-          <ResponsiveImage src="/assets/coa-documents.png" alt="Pure Health Peptides certificates of analysis" />
+          <ResponsiveImage src="/assets/peptalith-coa-montage.png" alt="Peptalith certificate of analysis documents" />
         </div>
         <div className="transparency-copy">
           <p className="eyebrow">PURE SCIENCE</p>
           <h2>TRANSPARENT RESULTS</h2>
           <p>
-            At Pure Health Peptides, we are committed to providing the clarity and confidence researchers
+            At Peptalith, we are committed to providing the clarity and confidence researchers
             need. Every batch of our peptides undergoes rigorous third-party testing in the USA, with
             detailed Certificates of Analysis (COAs) available for verification. We invite you to visit
             our Certifications page, where you can <strong>easily search for your batch number and access

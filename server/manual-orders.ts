@@ -23,7 +23,7 @@ export function prepareOrder(input: unknown) {
   return { customer: request.customer, cart: priceCart(request.items), researchAgreement: true }
 }
 export type ManualOrder = ReturnType<typeof prepareOrder>
-export const STORE_MAILBOX = 'info@purehealthpeptidesshop.com'
+export const STORE_MAILBOX = 'info@peptalith.com'
 export function orderEmail(order: ManualOrder, number: string, date: string, audience: 'store' | 'customer') {
   const c = order.customer
   const money = (cents: number) => `$${(cents / 100).toFixed(2)} USD`

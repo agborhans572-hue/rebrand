@@ -455,13 +455,13 @@
       "permanent": true
     },
     {
-      "source": "/pure-elite-access",
-      "destination": "/pure-elite-access/",
+      "source": "/peptalith-elite-access",
+      "destination": "/peptalith-elite-access/",
       "permanent": true
     },
     {
-      "source": "/pure-elite-access/index.html",
-      "destination": "/pure-elite-access/",
+      "source": "/peptalith-elite-access/index.html",
+      "destination": "/peptalith-elite-access/",
       "permanent": true
     },
     {
@@ -1832,6 +1832,21 @@
     {
       "source": "/product/phase-2-configuration-modular-peptide-systems-b-d/index.html",
       "destination": "/product/phase-2-configuration-modular-peptide-systems-b-d/",
+      "permanent": true
+    },
+    {
+      "source": "/pure-elite-access/",
+      "destination": "/peptalith-elite-access/",
+      "permanent": true
+    },
+    {
+      "source": "/pure-elite-access",
+      "destination": "/peptalith-elite-access/",
+      "permanent": true
+    },
+    {
+      "source": "/pure-elite-access/index.html",
+      "destination": "/peptalith-elite-access/",
       "permanent": true
     },
     {

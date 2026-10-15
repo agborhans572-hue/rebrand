@@ -6,7 +6,7 @@ import { articleCitationUrls } from '../src/educationAuthority.js'
 const catalog = JSON.parse(readFileSync(new URL('../catalog/catalog.generated.json', import.meta.url), 'utf8'))
 const shopProducts = catalog.products
 
-export const SITE_ORIGIN = 'https://purehealthpeptidesshop.com'
+export const SITE_ORIGIN = 'https://peptalith.com'
 
 const productDetails = JSON.parse(
   readFileSync(new URL('../src/productDetailData.json', import.meta.url), 'utf8'),
@@ -89,10 +89,10 @@ function baseSchemaGraph(route) {
     {
       '@type': 'Organization',
       '@id': ORGANIZATION_ID,
-      name: 'Pure Health Peptides',
+      name: 'Peptalith',
       url: `${SITE_ORIGIN}/`,
-      logo: { '@type': 'ImageObject', url: `${SITE_ORIGIN}/assets/logo.svg` },
-      email: 'info@purehealthpeptidesshop.com',
+      logo: { '@type': 'ImageObject', url: `${SITE_ORIGIN}/assets/peptalith-logo.svg` },
+      email: 'info@peptalith.com',
       hasMerchantReturnPolicy: { '@type': 'MerchantReturnPolicy', merchantReturnLink: absoluteUrl('/refund-policy/') },
       hasShippingService: {
         '@type': 'ShippingService', '@id': absoluteUrl('/shipping-policy/#us-shipping'),
@@ -115,7 +115,7 @@ function baseSchemaGraph(route) {
       '@type': 'WebSite',
       '@id': WEBSITE_ID,
       url: `${SITE_ORIGIN}/`,
-      name: 'Pure Health Peptides',
+      name: 'Peptalith',
       publisher: { '@id': ORGANIZATION_ID },
       inLanguage: 'en-US',
     },
@@ -223,7 +223,7 @@ function productSchema(route, product) {
     description: route.description,
     image: [absoluteUrl(product.image), route.image],
     sku: product.sku,
-    brand: { '@type': 'Brand', name: 'Pure Health Peptides' },
+    brand: { '@type': 'Brand', name: 'Peptalith' },
     category: `${FORMAT_META[product.type]?.title || 'Research Material'} — laboratory research use only`,
     additionalProperty: [
       { '@type': 'PropertyValue', name: 'Intended use', value: 'Controlled in vitro laboratory research only' },
@@ -238,7 +238,7 @@ function productSchema(route, product) {
 const staticRoutes = [
   {
     path: '/',
-    title: 'Research Peptides for Laboratory Use | Pure Health Peptides',
+    title: 'Research Peptides for Laboratory Use | Peptalith',
     description: 'Shop high-purity research peptides for controlled in vitro laboratory use. Every batch is independently tested in the USA with a searchable COA.',
     breadcrumb: 'Home',
   },
@@ -250,8 +250,8 @@ const staticRoutes = [
   },
   {
     path: '/about-us/',
-    title: 'About Our Research Peptide Quality Standards | PHP',
-    description: 'Learn how Pure Health Peptides supports qualified laboratories with independent batch testing, traceable COAs, and research-use-only compliance.',
+    title: 'About Our Research Peptide Quality Standards | Peptalith',
+    description: 'Learn how Peptalith supports qualified laboratories with independent batch testing, traceable COAs, and research-use-only compliance.',
     breadcrumb: 'About Us',
   },
   {
@@ -262,7 +262,7 @@ const staticRoutes = [
   },
   {
     path: '/news/',
-    title: 'Peptide Testing & Laboratory Guides | PHP',
+    title: 'Peptide Testing & Laboratory Guides | Peptalith',
     description: 'Read evidence-led guides to peptide COAs, HPLC purity, mass spectrometry, storage, material formats, lot numbers, and batch verification.',
     breadcrumb: 'Laboratory Guides',
   },
@@ -277,55 +277,55 @@ const staticRoutes = [
   })),
   {
     path: '/editorial-standards/',
-    title: 'Editorial Standards for Laboratory Education | PHP',
-    description: 'See how Pure Health Peptides attributes, sources, discloses, updates, and corrects educational content about laboratory research materials.',
+    title: 'Editorial Standards for Laboratory Education | Peptalith',
+    description: 'See how Peptalith attributes, sources, discloses, updates, and corrects educational content about laboratory research materials.',
     breadcrumb: 'Editorial Standards',
   },
   {
-    path: '/pure-elite-access/',
-    title: 'Pure Elite Access | Pure Health Peptides',
-    description: 'Explore Pure Elite Access rewards, member tiers, and research catalog benefits.',
+    path: '/peptalith-elite-access/',
+    title: 'Peptalith Elite Access | Peptalith',
+    description: 'Explore Peptalith Elite Access rewards, member tiers, and research catalog benefits.',
   },
   {
     path: '/my-account/',
-    title: 'My Account | Pure Health Peptides',
-    description: 'Securely access your Pure Health Peptides profile, address, orders, and account settings.',
+    title: 'My Account | Peptalith',
+    description: 'Securely access your Peptalith profile, address, orders, and account settings.',
     indexable: false,
   },
   {
     path: '/auth/callback/',
-    title: 'Verifying Account | Pure Health Peptides',
-    description: 'Complete a secure Pure Health Peptides account verification or sign-in.',
+    title: 'Verifying Account | Peptalith',
+    description: 'Complete a secure Peptalith account verification or sign-in.',
     indexable: false,
   },
   {
     path: '/auth/reset-password/',
-    title: 'Reset Password | Pure Health Peptides',
-    description: 'Complete a secure Pure Health Peptides customer password reset.',
+    title: 'Reset Password | Peptalith',
+    description: 'Complete a secure Peptalith customer password reset.',
     indexable: false,
   },
   {
     path: '/auth/error/',
-    title: 'Account Link Error | Pure Health Peptides',
-    description: 'Request a new Pure Health Peptides account verification or recovery link.',
+    title: 'Account Link Error | Peptalith',
+    description: 'Request a new Peptalith account verification or recovery link.',
     indexable: false,
   },
   {
     path: '/track-my-order/',
-    title: 'Track My Order | Pure Health Peptides',
-    description: 'Open the Pure Health Peptides order tracking area.',
+    title: 'Track My Order | Peptalith',
+    description: 'Open the Peptalith order tracking area.',
     indexable: false,
   },
   {
     path: '/checkout/',
-    title: 'Checkout | Pure Health Peptides',
-    description: 'Complete a Pure Health Peptides research product checkout.',
+    title: 'Checkout | Peptalith',
+    description: 'Complete a Peptalith research product checkout.',
     indexable: false,
   },
   {
     path: '/order-confirmation/',
-    title: 'Order Confirmation | Pure Health Peptides',
-    description: 'Review the status and summary of a Pure Health Peptides order.',
+    title: 'Order Confirmation | Peptalith',
+    description: 'Review the status and summary of a Peptalith order.',
     indexable: false,
   },
   {
@@ -336,45 +336,45 @@ const staticRoutes = [
   },
   {
     path: '/contact-us/',
-    title: 'Contact Us | Pure Health Peptides Support',
-    description: 'Contact Pure Health Peptides support for catalog, order, shipping, or research documentation questions.',
+    title: 'Contact Us | Peptalith Support',
+    description: 'Contact Peptalith support for catalog, order, shipping, or research documentation questions.',
   },
   {
     path: '/shipping-policy/',
-    title: 'U.S. Shipping Policy | Rates & Delivery | Pure Health Peptides',
+    title: 'U.S. Shipping Policy | Rates & Delivery | Peptalith',
     description: 'U.S. shipping is $10.99, free on orders of $175 or more after discounts. Review estimated 2-3 business day transit, tracking, and shipment support.',
   },
   {
     path: '/refund-policy/',
-    title: 'Refund Policy | Pure Health Peptides',
-    description: 'Review Pure Health Peptides cancellation, return authorization, damage claim, and refund procedures.',
+    title: 'Refund Policy | Peptalith',
+    description: 'Review Peptalith cancellation, return authorization, damage claim, and refund procedures.',
   },
   {
     path: '/privacy-policy/',
-    title: 'Privacy Policy | Pure Health Peptides',
-    description: 'Learn how Pure Health Peptides collects, uses, protects, and retains customer and transaction information.',
+    title: 'Privacy Policy | Peptalith',
+    description: 'Learn how Peptalith collects, uses, protects, and retains customer and transaction information.',
   },
   {
     path: '/terms-and-conditions/',
-    title: 'Terms and Conditions | Pure Health Peptides',
-    description: 'Review the purchasing, research-use, site-content, and customer responsibility terms for Pure Health Peptides.',
+    title: 'Terms and Conditions | Peptalith',
+    description: 'Review the purchasing, research-use, site-content, and customer responsibility terms for Peptalith.',
   },
   {
     path: '/info-cards/',
-    title: 'Research Peptide Product Information Cards | PHP',
+    title: 'Research Peptide Product Information Cards | Peptalith',
     description: 'Browse downloadable research peptide information cards with compound identity, molecular details, storage guidance, and laboratory-use references.',
     breadcrumb: 'Product Information Cards',
   },
   {
     path: '/coa-process/',
-    title: 'How Research Peptide COA Testing Works | PHP',
+    title: 'How Research Peptide COA Testing Works | Peptalith',
     description: 'Learn how third-party HPLC and analytical testing verify research peptide identity, purity, quantity, and batch quality through a Certificate of Analysis.',
     breadcrumb: 'COA Testing Process',
   },
   {
     path: '/manufacturing/',
-    title: 'Research Peptide Quality & Manufacturing Standards | PHP',
-    description: 'Review sourcing, handling, batch documentation, and independent quality-control standards for Pure Health Peptides laboratory research materials.',
+    title: 'Research Peptide Quality & Manufacturing Standards | Peptalith',
+    description: 'Review sourcing, handling, batch documentation, and independent quality-control standards for Peptalith laboratory research materials.',
     breadcrumb: 'Quality & Manufacturing',
   },
   {
@@ -454,11 +454,11 @@ const productRoutes = shopProducts.map((product) => {
 })
 
 const pageImages = {
-  '/coa-library/': '/assets/coa-documents.png',
-  '/coa-library/vials/': '/assets/coa-documents.png',
-  '/coa-library/capsules/': '/assets/coa-documents.png',
-  '/coa-library/liquids/': '/assets/coa-documents.png',
-  '/coa-library/topicals/': '/assets/coa-documents.png',
+  '/coa-library/': '/assets/peptalith-coa-montage.png',
+  '/coa-library/vials/': '/assets/peptalith-coa-montage.png',
+  '/coa-library/capsules/': '/assets/peptalith-coa-montage.png',
+  '/coa-library/liquids/': '/assets/peptalith-coa-montage.png',
+  '/coa-library/topicals/': '/assets/peptalith-coa-montage.png',
   '/coa-process/': '/assets/peptide-info/coa-lab.png',
   '/manufacturing/': '/assets/about/news-manufacturing.png',
   '/about-us/': '/assets/about/about-bg.jpg',
@@ -473,7 +473,7 @@ const enrichedStaticRoutes = staticRoutes.map((route) => {
       ? `${route.article.shortTitle} — laboratory research guide`
       : route.path.startsWith('/coa-') || route.path === '/coa-library/'
       ? 'Research peptide Certificate of Analysis documentation'
-      : 'Pure Health Peptides laboratory research materials',
+      : 'Peptalith laboratory research materials',
   }
   return { ...enriched, schema: staticSchema(enriched) }
 })

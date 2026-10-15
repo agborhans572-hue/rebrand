@@ -220,9 +220,9 @@ export function EducationArticlePage({ slug }) {
           <h1>{article.title}</h1>
           <p className="article-dek">{article.description}</p>
           <div className="article-byline">
-            <div className="article-byline-mark" aria-hidden="true">PHP</div>
+            <div className="article-byline-mark" aria-hidden="true">P</div>
             <p>
-              <span>Written by <a href={appPath('/editorial-standards/')}>Pure Health Peptides Editorial Team</a></span>
+              <span>Written by <a href={appPath('/editorial-standards/')}>Peptalith Editorial Team</a></span>
               <ReviewerStatus reviewer={article.reviewer} />
               <span>Published {formatDate(article.publishedAt)} · Updated {formatDate(article.updatedAt)} · {article.readingMinutes} min read</span>
             </p>
@@ -282,7 +282,7 @@ export function EducationArticlePage({ slug }) {
 
           <aside className="article-method-note" id="review-status">
             <h2>About this article</h2>
-            <p>Prepared by the Pure Health Peptides Editorial Team using AI-assisted drafting and source research. Claims were checked against the references and batch reports listed above; AI output is not presented as laboratory evidence.</p>
+            <p>Prepared by the Peptalith Editorial Team using AI-assisted drafting and source research. Claims were checked against the references and batch reports listed above; AI output is not presented as laboratory evidence.</p>
             {article.reviewer ? (
               <p><strong>Scientific review:</strong> {article.reviewer.name}, {article.reviewer.credentials}{article.reviewer.role ? `, ${article.reviewer.role}` : ''}. <a href={article.reviewer.profileUrl}>Verify reviewer background</a>.</p>
             ) : (
@@ -326,7 +326,7 @@ export function EditorialStandardsPage() {
       <div className="editorial-body">
         <section>
           <h2>Who is responsible</h2>
-          <p>Articles are published under the Pure Health Peptides Editorial Team when the organization—not a named individual—is responsible for the page. We do not invent author biographies, degrees, laboratory affiliations, or reviewer credentials. A review byline appears only after a qualified individual has reviewed the complete page, approved the attribution, and supplied verifiable background information.</p>
+          <p>Articles are published under the Peptalith Editorial Team when the organization—not a named individual—is responsible for the page. We do not invent author biographies, degrees, laboratory affiliations, or reviewer credentials. A review byline appears only after a qualified individual has reviewed the complete page, approved the attribution, and supplied verifiable background information.</p>
         </section>
         <section>
           <h2>Independent scientific review</h2>
@@ -357,7 +357,7 @@ export function EditorialStandardsPage() {
         </section>
         <section>
           <h2>Updates and corrections</h2>
-          <p>Material changes receive a new “updated” date; dates are not changed solely to make a page appear fresh. For a suspected factual error, broken source, undisclosed conflict, or mismatch with a batch document, email <a href="mailto:info@purehealthpeptidesshop.com?subject=Editorial%20correction">info@purehealthpeptidesshop.com</a> with the page address and supporting detail. We evaluate corrections against the underlying source and update the page when warranted.</p>
+          <p>Material changes receive a new “updated” date; dates are not changed solely to make a page appear fresh. For a suspected factual error, broken source, undisclosed conflict, or mismatch with a batch document, email <a href="mailto:info@peptalith.com?subject=Editorial%20correction">info@peptalith.com</a> with the page address and supporting detail. We evaluate corrections against the underlying source and update the page when warranted.</p>
         </section>
         <aside>
           <h2>Need the evidence for a specific lot?</h2>

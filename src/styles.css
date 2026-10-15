@@ -541,7 +541,7 @@ img {
 
 .newsletter-section {
   padding: 48px 20px 96px;
-  background: url('/assets/newsletter-bg.svg') center / cover no-repeat;
+  background: url('/assets/molecule-newsletter-bg.svg') center / cover no-repeat;
 }
 
 .newsletter-card {

@@ -117,7 +117,7 @@ export function CoaProcessPage({ onNavigate }) {
         <div className="verification-grid">
           <ResponsiveImage className="verification-lab" src="/assets/peptide-info/coa-lab.png" alt="Research vial in an analytical laboratory" />
           <div>
-            <h2>THe PURe HeALTH VeRIFICATION PROCeSS</h2>
+            <h2>THe Peptalith VeRIFICATION PROCeSS</h2>
             <p>Every batch follows a structured verification process designed to provide traceability, independent testing, and public transparency.</p>
             <NumberedSteps items={verificationSteps} />
           </div>
@@ -160,7 +160,7 @@ export function CoaProcessPage({ onNavigate }) {
       <section className="testing-manufacturing-link scientific-copy-section">
         <h2>HOw testing cOnnects tO manufacturing</h2>
         <p>Testing answers one half of the sourcing question — what is actually in the vial. The other half is where the material comes from and how it is made.</p>
-        <p>For the full picture of how Pure Health Peptides products are produced, including our domestic finishing operations and the chemical synthesis methods used to produce our peptides, see our Manufacturing Process page.</p>
+        <p>For the full picture of how Peptalith products are produced, including our domestic finishing operations and the chemical synthesis methods used to produce our peptides, see our Manufacturing Process page.</p>
         <p>For verifiable batch-level proof of testing for any specific product you have received, search for your batch ID in the COA Library.</p>
         <div className="info-button-row">
           <InfoButton onClick={() => onNavigate('manufacturing')}>VIEW MANUFACTURING PROCESS</InfoButton>
@@ -281,7 +281,7 @@ export function DilutionGuidePage() {
         </DilutionSection>
 
         <DilutionSection title="Commitment to Research Quality">
-          <p>Pure Health Peptides is committed to providing high-purity research compounds and supporting materials with transparency and consistency.<br />All products are offered for research use only and are not intended for human or animal use.</p>
+          <p>Peptalith is committed to providing high-purity research compounds and supporting materials with transparency and consistency.<br />All products are offered for research use only and are not intended for human or animal use.</p>
         </DilutionSection>
 
         <button className="dilution-chart-button" type="button" onClick={() => setChartOpen(true)} aria-label="Open dilution recommendation chart">

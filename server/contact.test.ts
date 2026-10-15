@@ -2,7 +2,7 @@ import assert from 'node:assert/strict'
 import test from 'node:test'
 import { CONTACT_RECIPIENT, sendContactEmail } from '../netlify/functions/_shared/contact.ts'
 
-test('contact delivery always targets the Pure Health Peptides Shop inbox', async () => {
+test('contact delivery always targets the Peptalith Shop inbox', async () => {
   let requestBody: Record<string, unknown> | undefined
   await sendContactEmail({
     fullName: 'QA Researcher',

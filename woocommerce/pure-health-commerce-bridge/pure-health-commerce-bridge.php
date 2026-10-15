@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Pure Health Commerce Bridge
- * Description: Signed, idempotent WooCommerce stock reservations for the Pure Health Vercel storefront.
+ * Plugin Name: Peptalith Commerce Bridge
+ * Description: Signed, idempotent WooCommerce stock reservations for the Peptalith Vercel storefront.
  * Version: 1.0.0
  * Requires Plugins: woocommerce
  * Requires PHP: 8.1
@@ -233,7 +233,7 @@ final class Pure_Health_Commerce_Bridge {
             if (function_exists('as_schedule_single_action')) {
                 as_schedule_single_action($expires_at, 'php_commerce_expire_reservation', [$order->get_id()], 'pure-health-commerce');
             }
-            $order->add_order_note('Stock reserved by the Pure Health storefront checkout bridge.');
+            $order->add_order_note('Stock reserved by the Peptalith storefront checkout bridge.');
             delete_option($lock_key);
             return self::reservation_response($order, false);
         } catch (Throwable $error) {
@@ -248,7 +248,7 @@ final class Pure_Health_Commerce_Bridge {
             if ($error instanceof \Automattic\WooCommerce\Checkout\Helpers\ReserveStockException) {
                 return new WP_Error('out_of_stock', 'There is not enough stock for this cart.', ['status' => 409]);
             }
-            error_log('Pure Health reservation failed: ' . $error->getMessage());
+            error_log('Peptalith reservation failed: ' . $error->getMessage());
             return new WP_Error('reservation_failed', 'The inventory reservation service is unavailable.', ['status' => 503]);
         }
     }

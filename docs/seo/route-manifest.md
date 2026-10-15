@@ -29,9 +29,9 @@ Observed statuses are pre-change production measurements; — means unmeasured.
 | /editorial-standards/ | indexable-200 | 200 | 200 | /editorial-standards/ | index, follow | yes |
 | /editorial-standards | permanent-redirect | 308 | — | /editorial-standards/ | — | no |
 | /editorial-standards/index.html | permanent-redirect | 308 | — | /editorial-standards/ | — | no |
-| /pure-elite-access/ | indexable-200 | 200 | 200 | /pure-elite-access/ | index, follow | yes |
-| /pure-elite-access | permanent-redirect | 308 | — | /pure-elite-access/ | — | no |
-| /pure-elite-access/index.html | permanent-redirect | 308 | — | /pure-elite-access/ | — | no |
+| /peptalith-elite-access/ | indexable-200 | 200 | 200 | /peptalith-elite-access/ | index, follow | yes |
+| /peptalith-elite-access | permanent-redirect | 308 | — | /peptalith-elite-access/ | — | no |
+| /peptalith-elite-access/index.html | permanent-redirect | 308 | — | /peptalith-elite-access/ | — | no |
 | /my-account/ | private-noindex | 200 | 200 | /my-account/ | noindex, nofollow | no |
 | /my-account | permanent-redirect | 308 | — | /my-account/ | — | no |
 | /my-account/index.html | permanent-redirect | 308 | — | /my-account/ | — | no |
@@ -443,6 +443,9 @@ Observed statuses are pre-change production measurements; — means unmeasured.
 | /product/phase-2-configuration-modular-peptide-systems-b-d/ | indexable-200 | 200 | 200 | /product/phase-2-configuration-modular-peptide-systems-b-d/ | index, follow | yes |
 | /product/phase-2-configuration-modular-peptide-systems-b-d | permanent-redirect | 308 | — | /product/phase-2-configuration-modular-peptide-systems-b-d/ | — | no |
 | /product/phase-2-configuration-modular-peptide-systems-b-d/index.html | permanent-redirect | 308 | — | /product/phase-2-configuration-modular-peptide-systems-b-d/ | — | no |
+| /pure-elite-access/ | permanent-redirect | 308 | — | /peptalith-elite-access/ | — | no |
+| /pure-elite-access | permanent-redirect | 308 | — | /peptalith-elite-access/ | — | no |
+| /pure-elite-access/index.html | permanent-redirect | 308 | — | /peptalith-elite-access/ | — | no |
 | /product/cjc-1295dac-ipamorelin/ | permanent-redirect | 308 | 404 | /product/cjc-1295-dac-ipamorelin/ | — | no |
 | /product/cjc-1295dac-ipamorelin | permanent-redirect | 308 | — | /product/cjc-1295-dac-ipamorelin/ | — | no |
 | /product/cjc-1295dac-ipamorelin/index.html | permanent-redirect | 308 | — | /product/cjc-1295-dac-ipamorelin/ | — | no |

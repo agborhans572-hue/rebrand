@@ -11,7 +11,7 @@ const request = {
 test('manual orders use authoritative pricing and include complete delivery/contact details in both receipts', () => {
   const order = prepareOrder(request)
   assert.equal(order.cart.totalCents, 3299)
-  assert.equal(STORE_MAILBOX, 'info@purehealthpeptidesshop.com')
+  assert.equal(STORE_MAILBOX, 'info@peptalith.com')
   for (const audience of ['store','customer'] as const) {
     const email = orderEmail(order, 'PHP-00000001', '2026-10-07', audience)
     for (const value of ['Suite 2','123 Main Street','02101','customer@example.com','+1 555 123 4567','$32.99 USD','awaiting payment']) assert.ok(email.text.includes(value))

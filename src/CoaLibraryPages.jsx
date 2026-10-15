@@ -34,7 +34,7 @@ const trustCards = [
 const coaFaqs = [
   {
     question: 'Where is my batch ID printed?',
-    answer: 'The batch ID is printed vertically along the side of the product label. The same identifier appears on the COA. If your product label is damaged or unreadable, contact us at info@purehealthpeptidesshop.com with a photo of your product and we’ll help locate the matching COA.',
+    answer: 'The batch ID is printed vertically along the side of the product label. The same identifier appears on the COA. If your product label is damaged or unreadable, contact us at info@peptalith.com with a photo of your product and we’ll help locate the matching COA.',
   },
   {
     question: 'Why is my batch ID not in the list?',
@@ -49,12 +49,12 @@ const coaFaqs = [
     answer: 'The product page lists the minimum specification — the floor every batch must meet. The COA reports the actual measured result for the specific batch you received, which will typically exceed the specification. A spec of “≥99%” with a result of “99.82%” means your batch is well above the minimum.',
   },
   {
-    question: 'Are these COAs issued by Pure Health Peptides or by an independent lab?',
-    answer: 'Every COA is issued by an independent third-party analytical laboratory. Pure Health Peptides does not perform its own testing. Our primary testing partner is Ethos Analytics, an ISO/IEC 17025-accredited laboratory; earlier COAs in the Library may be issued by BioRegen or other prior testing partners. The lab is identified on each COA. We send samples to the lab, the lab analyzes them and issues the certificate, and we publish those certificates to you unaltered.',
+    question: 'Are these COAs issued by Peptalith or by an independent lab?',
+    answer: 'Every COA is issued by an independent third-party analytical laboratory. Peptalith does not perform its own testing. Our primary testing partner is Ethos Analytics, an ISO/IEC 17025-accredited laboratory; earlier COAs in the Library may be issued by BioRegen or other prior testing partners. The lab is identified on each COA. We send samples to the lab, the lab analyzes them and issues the certificate, and we publish those certificates to you unaltered.',
   },
   {
     question: 'My product label has a single QR code — does it work for all carrier types?',
-    answer: 'Yes. Every Pure Health Peptides product — vials, capsules, liquids, and topical systems — uses the same universal QR code. The QR code points to this COA Library landing page, where you select your carrier type to begin the lookup.',
+    answer: 'Yes. Every Peptalith product — vials, capsules, liquids, and topical systems — uses the same universal QR code. The QR code points to this COA Library landing page, where you select your carrier type to begin the lookup.',
   },
   {
     question: 'What if the same batch ID appears under multiple sizes (for example, 5 mg and 10 mg)?',
@@ -119,7 +119,7 @@ export function CoaLibraryPage({ onNavigate }) {
 
       <section className="coa-trust-section">
         <h2>Why every batch is testeD</h2>
-        <p>Pure Health Peptides does not test its own products. Every Certificate of Analysis you receive from us is issued by an independent third-party laboratory with its own accreditations, its own analytical staff, and its own commercial reputation to protect.</p>
+        <p>Peptalith does not test its own products. Every Certificate of Analysis you receive from us is issued by an independent third-party laboratory with its own accreditations, its own analytical staff, and its own commercial reputation to protect.</p>
         <div className="coa-trust-grid">
           {trustCards.map((card) => (
             <article key={card.title}>

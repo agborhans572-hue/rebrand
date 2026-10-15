@@ -21,7 +21,7 @@ export async function prerenderPages() {
     const documents = JSON.parse(await readFile('src/productDocumentManifest.json', 'utf8'))
     const coaSource = JSON.parse(await readFile('src/coaLibraryData.json', 'utf8'))
     const pages = {
-      '/': [home.default], '/shop/': [shop.default], '/about-us/': [about.AboutPage], '/research-areas/': [about.ResearchAreasPage], '/news/': [education.LearningCenterPage], '/editorial-standards/': [education.EditorialStandardsPage], '/pure-elite-access/': [about.ElitePage],
+      '/': [home.default], '/shop/': [shop.default], '/about-us/': [about.AboutPage], '/research-areas/': [about.ResearchAreasPage], '/news/': [education.LearningCenterPage], '/editorial-standards/': [education.EditorialStandardsPage], '/peptalith-elite-access/': [about.ElitePage],
       '/faqs/': [support.FaqPage], '/contact-us/': [support.ContactPage], '/info-cards/': [info.ProductInfoPage], '/coa-process/': [info.CoaProcessPage], '/manufacturing/': [info.ManufacturingPage], '/dilution-guide/': [info.DilutionGuidePage], '/coa-library/': [coa.CoaLibraryPage],
       '/shipping-policy/': [policy.default, { type: 'shipping' }], '/refund-policy/': [policy.default, { type: 'refunds' }], '/privacy-policy/': [policy.default, { type: 'privacy' }], '/terms-and-conditions/': [policy.default, { type: 'terms' }],
     }
@@ -41,7 +41,7 @@ export async function prerenderPages() {
       if (!component) throw new Error(`Missing public renderer for ${route.path}`)
       const noop = () => {}
       let html = renderToStaticMarkup(createElement(component, { onShop: noop, onNavigate: noop, onAddToCart: noop, onProduct: noop, onLearnMore: noop, ...props }))
-      if (['/', '/about-us/', '/news/', '/pure-elite-access/', '/contact-us/', '/coa-process/', '/manufacturing/', '/coa-library/'].includes(route.path) || route.kind === 'article' || route.product?.type === 'topicals') html += renderToStaticMarkup(createElement(chrome.Newsletter))
+      if (['/', '/about-us/', '/news/', '/peptalith-elite-access/', '/contact-us/', '/coa-process/', '/manufacturing/', '/coa-library/'].includes(route.path) || route.kind === 'article' || route.product?.type === 'topicals') html += renderToStaticMarkup(createElement(chrome.Newsletter))
       html = html.replace(/<form\b/g, '<noscript><p>Enable JavaScript to use this form.</p></noscript><form inert="" aria-disabled="true"')
       output.set(route.path, { html, document })
     }

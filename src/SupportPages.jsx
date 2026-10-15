@@ -10,8 +10,8 @@ const faqCategories = [
     items: [
       ['What are peptides?', 'Peptides are short chains of amino acids linked by peptide bonds. They serve as biological messengers that regulate various physiological functions such as metabolism, immune response, and cellular repair. Peptides are widely researched in fields like regenerative medicine, anti-aging, and metabolic studies.'],
       ['How do peptides differ from proteins?', 'Peptides are shorter in length than proteins, typically consisting of 2-50 amino acids, while proteins are composed of longer chains, often exceeding 50 amino acids. Peptides usually act as signaling molecules, whereas proteins have structural or enzymatic roles in the body.'],
-      ['What types of peptides do you offer?', 'Pure Health Peptides offers a wide range of research peptides, categorized into research areas such as:\n\n• Oncology & Cell Fate\n• Regeneration & Longevity\n• Growth & Repair\n• Cognitive & Neuro\n• Dermal, Hair & Tissue Appearance\n• Immune & Inflammatory\n• Metabolic\n• Reproductive & Neuroendocrine\n• Mitochondrial & Cellular Energy'],
-      ['Are your peptides synthetic or naturally derived?', 'All peptides offered by Pure Health Peptides are synthetically produced using state-of-the-art peptide synthesis technology. This ensures high purity, batch consistency, and stability for research applications.'],
+      ['What types of peptides do you offer?', 'Peptalith offers a wide range of research peptides, categorized into research areas such as:\n\n• Oncology & Cell Fate\n• Regeneration & Longevity\n• Growth & Repair\n• Cognitive & Neuro\n• Dermal, Hair & Tissue Appearance\n• Immune & Inflammatory\n• Metabolic\n• Reproductive & Neuroendocrine\n• Mitochondrial & Cellular Energy'],
+      ['Are your peptides synthetic or naturally derived?', 'All peptides offered by Peptalith are synthetically produced using state-of-the-art peptide synthesis technology. This ensures high purity, batch consistency, and stability for research applications.'],
       ['What is the purity level of your peptides?', 'Our peptides have a purity level of ≥99%, verified through High-Performance Liquid Chromatography (HPLC) and Mass Spectrometry (MS) analysis.'],
       ['How do you verify the quality and purity of your peptides?', 'Every batch is tested for purity, molecular integrity, and contaminants, with results documented in a Certificate of Analysis (CoA).'],
       ['Do you provide Certificates of Analysis (CoA) for your peptides?', 'Yes, each batch of peptides comes with a Certificate of Analysis (CoA) that verifies its purity, molecular composition, and batch-specific testing results. These CoA’s are available in our COA Library on the website.'],
@@ -31,12 +31,12 @@ const faqCategories = [
   {
     title: 'Pricing & Discounts',
     items: [
-      ['How are your peptides priced?', 'At Pure Health Peptides, we offer the absolute best price per vial—no gimmicks, no hidden fees, and no need for coupon codes. Our straightforward pricing structure ensures high-quality research peptides at unbeatable prices without the hassle of promotions or temporary discounts.'],
+      ['How are your peptides priced?', 'At Peptalith, we offer the absolute best price per vial—no gimmicks, no hidden fees, and no need for coupon codes. Our straightforward pricing structure ensures high-quality research peptides at unbeatable prices without the hassle of promotions or temporary discounts.'],
       ['Do you offer bulk order discounts?', 'Yes! Our no-hassle volume discounts mean the more you buy, the less you pay. We automatically apply a 1% discount per extra vial purchased, up to a maximum of 25% off. Unlike other companies, there’s no need for coupon codes or promotions—our best price is always available to every customer, every time.'],
       ['Do you have a wholesale program?', 'We don’t require a separate wholesale program because our volume discounts automatically create wholesale pricing! Whether you’re purchasing a single vial or a large order, you’re already getting the best possible price, with discounts increasing as you buy more.'],
       ['Can I get a discount if I’m a repeat customer?', 'Every customer—whether new or returning—automatically receives the best price per vial from the start. There’s no need to wait for special promotions or customer loyalty programs. We believe in transparent, everyday low pricing with volume discounts that reward larger purchases.'],
       ['Do you offer any promotions or special deals?', 'We don’t play the promo code game—we simply offer the best price upfront. Unlike companies that inflate their prices only to offer random discounts, our pricing is designed to be fair and consistent. Plus, our volume discounts ensure you get the lowest possible price per vial—every single time.'],
-      ['How do I apply a coupon code at checkout?', 'You don’t have to! With Pure Health Peptides, there are no coupon codes, no limited-time offers, and no gimmicks. Our automatic volume discounts apply instantly, so you never have to search for deals.'],
+      ['How do I apply a coupon code at checkout?', 'You don’t have to! With Peptalith, there are no coupon codes, no limited-time offers, and no gimmicks. Our automatic volume discounts apply instantly, so you never have to search for deals.'],
       ['Do you price match with other peptide suppliers?', 'We don’t need to—we already offer the best price per vial with no tricks or hidden costs. Our straightforward pricing and volume discount structure mean that you’re always paying the lowest possible price without having to compare with competitors.'],
       ['Do you have a rewards or loyalty program?', 'Our volume discount structure is our loyalty program! Instead of making customers jump through hoops, we ensure that every order gets the best possible price. The more vials you buy, the more you save—up to 25% off per order.'],
       ['Are there extra costs for custom peptide synthesis?', 'Custom peptide synthesis requires specialized production and additional costs based on sequence complexity, purity level, and batch size. If you need a custom peptide, contact us for a personalized quote.'],
@@ -54,9 +54,9 @@ const faqCategories = [
       ['Can I track my order?', 'Yes! Once your order ships, you will receive a tracking number via email, allowing you to monitor the status of your package.'],
       ['Do you offer expedited shipping options?', 'Because we use USPS Priority Mail, our standard shipping already provides fast delivery within 2-3 business days. Additional expedited options are not necessary.'],
       ['Do you ship to PO boxes?', 'Yes! We ship to PO boxes, thanks to USPS Priority Mail.'],
-      ['What should I do if my package is lost or delayed?', 'If you selected optional shipping insurance ($2.99), your shipment is fully covered against loss and damages.\n\nIf your insured package is lost or damaged, we will issue a replacement or refund at no additional cost.\n\nIf no insurance was selected, Pure Health Peptides is not responsible for carrier delays or lost shipments.'],
+      ['What should I do if my package is lost or delayed?', 'If you selected optional shipping insurance ($2.99), your shipment is fully covered against loss and damages.\n\nIf your insured package is lost or damaged, we will issue a replacement or refund at no additional cost.\n\nIf no insurance was selected, Peptalith is not responsible for carrier delays or lost shipments.'],
       ['Do you offer discreet packaging?', 'Yes! All shipments are sent in plain, discreet packaging with no mention of peptide-related contents to ensure privacy.'],
-      ['What happens if my package is damaged during shipping?', '• If you purchased shipping insurance: Your package is fully covered, and we will replace or refund your order.\n• If no insurance was purchased: Pure Health Peptides is not liable for damages caused by the carrier.\n• If you receive a damaged package, please take photos and contact us within 48 hours of delivery.'],
+      ['What happens if my package is damaged during shipping?', '• If you purchased shipping insurance: Your package is fully covered, and we will replace or refund your order.\n• If no insurance was purchased: Peptalith is not liable for damages caused by the carrier.\n• If you receive a damaged package, please take photos and contact us within 48 hours of delivery.'],
       ['Can I change my shipping address after placing an order?', 'If your order has not yet shipped, we may be able to update the shipping address. Please contact us immediately after placing your order. Once an order has shipped, we cannot change the delivery address.'],
       ['Do you offer free shipping for large orders?', 'Yes! Orders over $175 qualify for free USPS Priority Mail shipping.'],
       ['What is the estimated delivery time for domestic orders?', 'We use USPS Priority Mail, which delivers within 2-3 business days across the U.S.'],
@@ -86,8 +86,8 @@ const faqCategories = [
       ['Why can’t you provide dosage or usage instructions?', 'Because our peptides are for research use only, providing dosage, administration, or application guidelines would be a violation of FDA regulations. We do not support or endorse the use of these peptides outside of laboratory research settings.'],
       ['Do you comply with cGMP (Current Good Manufacturing Practice) regulations?', 'Yes! Our suppliers and partners are cGMP-certified, ensuring that all peptides are manufactured under strict quality control standards to maintain purity, consistency, and safety for research applications.'],
       ['How does your company ensure compliance with regulatory guidelines?', 'We follow strict FDA-compliant policies, including:\n\n✔ Labeling all products “For Research Use Only”\n✔ Prohibiting human or veterinary consumption\n✔ Manufacturing peptides in ISO & cGMP-certified facilities\n✔ Conducting U.S.-based third-party testing\n\nWe operate with full transparency and do not provide medical advice, dosage information, or treatment recommendations.'],
-      ['Why am I banned from your website?', 'Pure Health Peptides reserves the right to restrict access to users who violate our policies, attempt to misuse our products, or engage in fraudulent or suspicious activities. Common reasons for being banned include:\n\n• Misuse of Products\n• Fraudulent Transactions\n• Violation of Terms & Policies\n• Regulatory Compliance Issues.\n\nIf you believe you have been mistakenly banned, please contact our support team for further assistance.'],
-      ['If you have any other questions for us?', 'For all other general inquiries, please feel free to contact us at info@purehealthpeptidesshop.com. However, we strictly cannot provide any guidance, recommendations, or answers related to dosage, administration, regimens, or personal use in any form. All our products are for research purposes only.'],
+      ['Why am I banned from your website?', 'Peptalith reserves the right to restrict access to users who violate our policies, attempt to misuse our products, or engage in fraudulent or suspicious activities. Common reasons for being banned include:\n\n• Misuse of Products\n• Fraudulent Transactions\n• Violation of Terms & Policies\n• Regulatory Compliance Issues.\n\nIf you believe you have been mistakenly banned, please contact our support team for further assistance.'],
+      ['If you have any other questions for us?', 'For all other general inquiries, please feel free to contact us at info@peptalith.com. However, we strictly cannot provide any guidance, recommendations, or answers related to dosage, administration, regimens, or personal use in any form. All our products are for research purposes only.'],
     ],
   },
 ]
@@ -103,7 +103,7 @@ export function TrackOrderPage() {
     event.preventDefault()
     if (!event.currentTarget.reportValidity()) return
     if (!siteServices.orderTrackingEndpoint) {
-      setStatus('Order lookup is not connected on this deployment. Email info@purehealthpeptidesshop.com for order support.')
+      setStatus('Order lookup is not connected on this deployment. Email info@peptalith.com for order support.')
       return
     }
 
@@ -167,7 +167,7 @@ export function FaqPage() {
         ))}
         <section className="faq-legal">
           <h2>Legal Disclaimer:</h2>
-          <p>“By purchasing from Pure Health Peptides, you acknowledge that these products are for laboratory research use only. Pure Health Peptides assumes no liability for misuse, improper handling, or applications outside of legally authorized research. Customers are responsible for ensuring compliance with all applicable laws in their jurisdiction.”</p>
+          <p>“By purchasing from Peptalith, you acknowledge that these products are for laboratory research use only. Peptalith assumes no liability for misuse, improper handling, or applications outside of legally authorized research. Customers are responsible for ensuring compliance with all applicable laws in their jurisdiction.”</p>
         </section>
       </section>
     </div>
@@ -188,14 +188,14 @@ export function ContactPage() {
       form.reset()
       setStatus('Thanks—your message was sent successfully.')
     } catch (error) {
-      setStatus(safeServiceMessage(error, 'Your message could not be sent. Please try again or email info@purehealthpeptidesshop.com.'))
+      setStatus(safeServiceMessage(error, 'Your message could not be sent. Please try again or email info@peptalith.com.'))
     }
   }
 
   return (
     <div className="support-page contact-page">
       <section className="contact-content">
-        <h1>Send us a message</h1><p>Contact Pure Health Peptides for help with orders, shipping, catalog information, or research documentation. Include your order number when relevant. Please do not send payment details or account passwords. You can also email <a href="mailto:info@purehealthpeptidesshop.com">info@purehealthpeptidesshop.com</a>.</p><ResearchResources />
+        <h1>Send us a message</h1><p>Contact Peptalith for help with orders, shipping, catalog information, or research documentation. Include your order number when relevant. Please do not send payment details or account passwords. You can also email <a href="mailto:info@peptalith.com">info@peptalith.com</a>.</p><ResearchResources />
         <form onSubmit={submit}>
           <label className="sr-only" htmlFor="support-full-name">Full Name</label>
           <input id="support-full-name" name="fullName" type="text" placeholder="Full Name" autoComplete="name" maxLength="100" required />

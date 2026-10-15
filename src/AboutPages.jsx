@@ -112,7 +112,7 @@ export function AboutPage({ onShop, onNavigate }) {
       <section className="about-hero about-hero-standard">
         <div className="about-hero-content">
           <h1>About US</h1>
-          <p><strong>Pure Science, Pure Innovation</strong> &nbsp;–&nbsp; At Pure Health Peptides, we are revolutionizing the way researchers and laboratories approach the study of peptides and their potential. Our mission is simple yet profound: to provide the highest-quality research-grade peptides while adhering to the strictest regulatory standards at the best possible price. As an e-commerce platform built on precision, innovation, and trust, we are redefining the landscape of peptide research.</p>
+          <p><strong>Pure Science, Pure Innovation</strong> &nbsp;–&nbsp; At Peptalith, we are revolutionizing the way researchers and laboratories approach the study of peptides and their potential. Our mission is simple yet profound: to provide the highest-quality research-grade peptides while adhering to the strictest regulatory standards at the best possible price. As an e-commerce platform built on precision, innovation, and trust, we are redefining the landscape of peptide research.</p>
           <PageButton onClick={onShop}>SHOP NOW</PageButton>
         </div>
       </section>
@@ -121,7 +121,7 @@ export function AboutPage({ onShop, onNavigate }) {
         <div className="about-two-column">
           <article>
             <h2>Who We Are</h2>
-            <p>At Pure Health Peptides, we combine extensive business expertise with a strong passion for innovation to deliver premium research-grade peptides. While our team’s experience spans a variety of innovative industries, we also partner with leading experts in biochemistry and biology to ensure the highest standards in quality and compliance. Pure Health Peptides is not just another peptide supplier. We stand apart by offering:</p>
+            <p>At Peptalith, we combine extensive business expertise with a strong passion for innovation to deliver premium research-grade peptides. While our team’s experience spans a variety of innovative industries, we also partner with leading experts in biochemistry and biology to ensure the highest standards in quality and compliance. Peptalith is not just another peptide supplier. We stand apart by offering:</p>
             <ul>
               <li><strong>Unrivaled Quality</strong> – We source, test, and verify each peptide through rigorous analytical processes, ensuring the highest purity and consistency.</li>
               <li><strong>Best Possible Pricing</strong> – By streamlining sourcing and manufacturing, we eliminate unnecessary markups, making high-quality peptides affordable for all researchers.</li>
@@ -132,9 +132,9 @@ export function AboutPage({ onShop, onNavigate }) {
           </article>
           <article>
             <h2>Why Peptides?</h2>
-            <p>Peptides play a critical role in biomedical and life sciences research, contributing to advancements in metabolism, cellular repair, immune function, and molecular signaling. As highly specific protein components, they are essential tools for investigating biological processes and therapeutic potential. At Pure Health Peptides, we provide researchers with the precision materials needed to advance scientific understanding, supporting research that may lead to future innovations in various fields of study.</p>
+            <p>Peptides play a critical role in biomedical and life sciences research, contributing to advancements in metabolism, cellular repair, immune function, and molecular signaling. As highly specific protein components, they are essential tools for investigating biological processes and therapeutic potential. At Peptalith, we provide researchers with the precision materials needed to advance scientific understanding, supporting research that may lead to future innovations in various fields of study.</p>
             <h2>Buy More, Save More</h2>
-            <p>Pure Health Peptides offers exclusive savings with a simple “Order More, Save More” discount structure—buy more vials of the same product and unlock bigger discounts, starting at 2% off for 2 vials, 3% off for 3 vials, and up to 15% off for 15+ vials. Plus, enjoy special perks: orders over $75 receive a free Vial Vault for secure storage and orders over $175* (net product value after discounts*) enjoy free shipping.</p>
+            <p>Peptalith offers exclusive savings with a simple “Order More, Save More” discount structure—buy more vials of the same product and unlock bigger discounts, starting at 2% off for 2 vials, 3% off for 3 vials, and up to 15% off for 15+ vials. Plus, enjoy special perks: orders over $75 receive a free Vial Vault for secure storage and orders over $175* (net product value after discounts*) enjoy free shipping.</p>
             <PageButton onClick={onShop}>SHOP NOW</PageButton>
           </article>
         </div>
@@ -143,7 +143,7 @@ export function AboutPage({ onShop, onNavigate }) {
       <section className="whats-next-section">
         <div>
           <h2>What’s Next?</h2>
-          <p>Pure Health Peptides is more than a platform—it’s a partner in discovery. We are here to support and accelerate research breakthroughs, providing world-class peptides and an exceptional customer experience. As peptide research continues to evolve, we remain at the forefront—driving innovation, ensuring quality, and empowering researchers with the tools they need to succeed. Explore our catalog and discover what’s next—where pure science meets pure innovation.</p>
+          <p>Peptalith is more than a platform—it’s a partner in discovery. We are here to support and accelerate research breakthroughs, providing world-class peptides and an exceptional customer experience. As peptide research continues to evolve, we remain at the forefront—driving innovation, ensuring quality, and empowering researchers with the tools they need to succeed. Explore our catalog and discover what’s next—where pure science meets pure innovation.</p>
           <PageButton outline onClick={() => onNavigate('contact')}>Contact Us</PageButton>
         </div>
       </section>
@@ -253,9 +253,9 @@ export function ElitePage({ onShop, onNavigate }) {
     <div className="about-page elite-page">
       <section className="about-hero elite-hero">
         <div className="about-hero-content">
-          <h1>PURE ELITE ACCESS</h1>
+          <h1>PEPTALITH ELITE ACCESS</h1>
           <h2>Research<br className="mobile-break" /> Account Loyalty Program</h2>
-          <p>Pure Elite Access is our account-based loyalty program designed for customers who regularly purchase research compounds from Pure Health Peptides. The program rewards long-term purchasing activity with automatic pricing benefits and priority access — while maintaining our strict For Research Use Only standards.</p>
+          <p>Peptalith Elite Access is our account-based loyalty program designed for customers who regularly purchase research compounds from Peptalith. The program rewards long-term purchasing activity with automatic pricing benefits and priority access — while maintaining our strict For Research Use Only standards.</p>
           <PageButton onClick={onShop}>EARN MORE - SHOP NOW</PageButton>
           <p className="elite-hero-note">Participation is based solely on periodic (quarterly) purchase history and account activity. No medical information, use cases, or outcomes are involved.</p>
         </div>
@@ -265,9 +265,9 @@ export function ElitePage({ onShop, onNavigate }) {
         <div className="elite-welcome-grid">
           <article className="elite-welcome-copy">
             <p className="elite-kicker">Welcome to</p>
-            <h2>PURE ELITE ACCESS</h2>
+            <h2>PEPTALITH ELITE ACCESS</h2>
             <h3>Where Science and Research Meet Excellence.</h3>
-            <p>Pure Elite Access recognizes consistent research purchasing with tiered benefits. There are no applications, no codes, and no manual steps. If your account qualifies, benefits apply automatically at checkout.</p>
+            <p>Peptalith Elite Access recognizes consistent research purchasing with tiered benefits. There are no applications, no codes, and no manual steps. If your account qualifies, benefits apply automatically at checkout.</p>
             <p><strong>Access Process:</strong></p>
             <ul>
               <li>Automatic savings on eligible orders</li>
@@ -290,7 +290,7 @@ export function ElitePage({ onShop, onNavigate }) {
         <h2>How it works</h2>
         <div>
           <ResponsiveImage src="/assets/about/elite-earn-points.jpg" alt="Earn points with every completed order" />
-          <ResponsiveImage src="/assets/about/elite-points.jpg" alt="Points build your Pure Elite Access level" />
+          <ResponsiveImage src="/assets/about/elite-points.jpg" alt="Points build your Peptalith Elite Access level" />
           <ResponsiveImage src="/assets/about/elite-tier-status.jpg" alt="Tier status is reviewed periodically" />
         </div>
       </section>
@@ -298,14 +298,14 @@ export function ElitePage({ onShop, onNavigate }) {
       <section className="elite-terms">
         <article>
           <h2>Program Progression &amp; Tier Qualification</h2>
-          <p>Pure Elite Access is a rolling loyalty program based on completed purchase activity and accumulated account points over individualized evaluation periods tied to each account’s purchase history. The program does not operate on fixed calendar quarters.</p>
+          <p>Peptalith Elite Access is a rolling loyalty program based on completed purchase activity and accumulated account points over individualized evaluation periods tied to each account’s purchase history. The program does not operate on fixed calendar quarters.</p>
           <p>Members progress through tier levels by reaching qualifying point thresholds within their active evaluation period:</p>
           <ul>
             <li><strong>Silver Tier — Unlocks at 75 points</strong><br />Includes a 5% automatic site-wide discount</li>
             <li><strong>Gold Tier — Unlocks at 150 points</strong><br />Includes a 7.5% automatic site-wide discount</li>
             <li><strong>Platinum Tier — Unlocks at 250 points</strong><br />Includes a 10% automatic site-wide discount</li>
           </ul>
-          <p>Applicable Pure Elite discounts are automatically applied at checkout and may additionally stack with available volume-based pricing adjustments where applicable.</p>
+          <p>Applicable Peptalith Elite discounts are automatically applied at checkout and may additionally stack with available volume-based pricing adjustments where applicable.</p>
           <p>Once a tier has been unlocked, ongoing account activity and purchase history are periodically reviewed to determine whether the account:</p>
           <ul><li>maintains its current tier,</li><li>progresses to a higher tier,</li><li>or falls below the applicable maintenance threshold.</li></ul>
           <p>To promote continuity and reduce abrupt status changes, each tier includes a built-in protection period, as outlined below.</p>
@@ -316,7 +316,7 @@ export function ElitePage({ onShop, onNavigate }) {
         </article>
         <article>
           <h2>Discounts &amp; Promotions</h2>
-          <p>During promotional periods, you may elect to apply either your Pure Elite Access discount or an active promotional offer. Discounts are not combinable and may not be stacked. In case you use a promotion code and want to restore your personal ‘Pure Elite Discount Code’, please access your account and copy-paste your code into the Discount Code check-out area.</p>
+          <p>During promotional periods, you may elect to apply either your Peptalith Elite Access discount or an active promotional offer. Discounts are not combinable and may not be stacked. In case you use a promotion code and want to restore your personal ‘Peptalith Elite Discount Code’, please access your account and copy-paste your code into the Discount Code check-out area.</p>
         </article>
         <article>
           <h2>Tier Stability &amp; Grace Period</h2>
@@ -326,16 +326,16 @@ export function ElitePage({ onShop, onNavigate }) {
         </article>
         <article>
           <h2>Program Scope &amp; Research Use Limitation</h2>
-          <p>Pure Elite Access is based solely on completed purchase activity and account history. It does not involve or consider medical information, intended use, outcomes, or recommendations.</p>
+          <p>Peptalith Elite Access is based solely on completed purchase activity and account history. It does not involve or consider medical information, intended use, outcomes, or recommendations.</p>
           <p>All products remain strictly <strong>For Research Use Only</strong>, and participation in the program does not alter or expand the permitted use of any product.</p>
         </article>
         <article>
           <h2>Governing Terms</h2>
-          <p>Pure Elite Access is subject to the Company’s Terms &amp; Conditions. In the event of any conflict, the Terms &amp; Conditions shall control.</p>
+          <p>Peptalith Elite Access is subject to the Company’s Terms &amp; Conditions. In the event of any conflict, the Terms &amp; Conditions shall control.</p>
         </article>
         <article>
           <h2>Program Administration &amp; Modifications</h2>
-          <p>Pure Health Peptides reserves the right to modify, suspend, or terminate the Pure Elite Access program, in whole or in part, at any time, at its sole discretion. The Company also reserves the right to deny, suspend, or revoke participation in the program for any account that fails to comply with applicable Terms &amp; Conditions, including but not limited to violations of the “For Research Use Only” requirements. Any changes to the program will be applied in a commercially reasonable and non-discriminatory manner.</p>
+          <p>Peptalith reserves the right to modify, suspend, or terminate the Peptalith Elite Access program, in whole or in part, at any time, at its sole discretion. The Company also reserves the right to deny, suspend, or revoke participation in the program for any account that fails to comply with applicable Terms &amp; Conditions, including but not limited to violations of the “For Research Use Only” requirements. Any changes to the program will be applied in a commercially reasonable and non-discriminatory manner.</p>
         </article>
         <PageButton outline onClick={() => onNavigate('contact')}>Contact Us</PageButton>
       </section>
@@ -344,7 +344,7 @@ export function ElitePage({ onShop, onNavigate }) {
         <div>
           <article>
             <h2>Discounts &amp; promotions</h2>
-            <p>Pure Elite Access discounts are assigned based on your individual tier level (Silver, Gold, or Platinum). Each tier includes a unique, automatically applied discount code that reflects your status.</p>
+            <p>Peptalith Elite Access discounts are assigned based on your individual tier level (Silver, Gold, or Platinum). Each tier includes a unique, automatically applied discount code that reflects your status.</p>
             <p>Your tier-specific discount code will apply automatically at checkout when you are logged into your account.</p>
             <p>During special promotions, discount codes cannot be stacked. If you prefer to use an active promotional code instead of your Elite tier discount, simply remove your tier code at checkout and enter the promotional code in the coupon code box and click apply.</p>
             <PageButton onClick={onShop}>SHOP NOW</PageButton>

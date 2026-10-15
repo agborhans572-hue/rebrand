@@ -2799,7 +2799,7 @@
         "product": "VIP"
       }
     ],
-    "title": "Vial COAs - Pure Health Peptides Lab Reports"
+    "title": "Vial COAs - Peptalith Lab Reports"
   },
   "capsules": {
     "heading": "Capsule certificate of analysis (coa) Library",
@@ -3110,7 +3110,7 @@
         "product": "Vocus"
       }
     ],
-    "title": "Liquid COAs - Pure Health Peptides Certificates"
+    "title": "Liquid COAs - Peptalith Certificates"
   },
   "topicals": {
     "heading": "Topical Certificate of Analysis (COA) library",
@@ -3161,6 +3161,6 @@
         "product": "System E –Lot PHP-TSE-001"
       }
     ],
-    "title": "Topical COAs - Pure Health Peptides | Lab Tested Certified"
+    "title": "Topical COAs - Peptalith | Lab Tested Certified"
   }
 }

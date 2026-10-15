@@ -227,30 +227,30 @@
       "sitemap": false
     },
     {
-      "path": "/pure-elite-access/",
+      "path": "/peptalith-elite-access/",
       "classification": "indexable-200",
       "expectedStatus": 200,
       "observedStatus": 200,
-      "canonical": "/pure-elite-access/",
+      "canonical": "/peptalith-elite-access/",
       "robots": "index, follow",
       "sitemap": true,
       "kind": "page"
     },
     {
-      "path": "/pure-elite-access",
+      "path": "/peptalith-elite-access",
       "classification": "permanent-redirect",
       "expectedStatus": 308,
       "observedStatus": null,
-      "canonical": "/pure-elite-access/",
+      "canonical": "/peptalith-elite-access/",
       "robots": null,
       "sitemap": false
     },
     {
-      "path": "/pure-elite-access/index.html",
+      "path": "/peptalith-elite-access/index.html",
       "classification": "permanent-redirect",
       "expectedStatus": 308,
       "observedStatus": null,
-      "canonical": "/pure-elite-access/",
+      "canonical": "/peptalith-elite-access/",
       "robots": null,
       "sitemap": false
     },
@@ -4087,6 +4087,33 @@
       "expectedStatus": 308,
       "observedStatus": null,
       "canonical": "/product/phase-2-configuration-modular-peptide-systems-b-d/",
+      "robots": null,
+      "sitemap": false
+    },
+    {
+      "path": "/pure-elite-access/",
+      "classification": "permanent-redirect",
+      "expectedStatus": 308,
+      "observedStatus": null,
+      "canonical": "/peptalith-elite-access/",
+      "robots": null,
+      "sitemap": false
+    },
+    {
+      "path": "/pure-elite-access",
+      "classification": "permanent-redirect",
+      "expectedStatus": 308,
+      "observedStatus": null,
+      "canonical": "/peptalith-elite-access/",
+      "robots": null,
+      "sitemap": false
+    },
+    {
+      "path": "/pure-elite-access/index.html",
+      "classification": "permanent-redirect",
+      "expectedStatus": 308,
+      "observedStatus": null,
+      "canonical": "/peptalith-elite-access/",
       "robots": null,
       "sitemap": false
     },

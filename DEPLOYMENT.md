@@ -31,7 +31,7 @@ In **Project → Settings → Environment Variables**, add these values for the 
 | `STRIPE_SECRET_KEY` | Stripe live secret key | Yes |
 | `STRIPE_WEBHOOK_SECRET` | Stripe endpoint signing secret | Yes |
 | `RESEND_API_KEY` | Resend sending-access API key | Yes |
-| `CONTACT_FROM_EMAIL` | `info@purehealthpeptidesshop.com` on the verified sending domain | No |
+| `CONTACT_FROM_EMAIL` | `info@peptalith.com` on the verified sending domain | No |
 | `WOOCOMMERCE_URL` | WooCommerce store URL | No |
 | `WC_CONSUMER_KEY` | WooCommerce REST API key | Yes |
 | `WC_CONSUMER_SECRET` | WooCommerce REST API secret | Yes |
@@ -65,7 +65,7 @@ Vercel Pro is required for the one-minute commerce cron. Set Stripe's endpoint t
 - A same-domain cutover must preserve or origin-route `/wp-content/uploads/` before the SPA fallback: the COA library currently links to 640 existing PDF URLs under that path. Preserve the live `/disclaimer/` and `/waiver-agreement-policy/` pages referenced by the footer. Shipping, refund, privacy, and terms pages are emitted by this application.
 - Apply the policies in `_headers`. Hosts that do not consume this portable headers format must map the same headers in their dashboard, CDN, or web-server configuration.
 - Keep HTML revalidated, cache `/_app/` for one year because those files are content-hashed, and cache the stable `/assets/` paths for no more than the included seven-day window.
-- Redirect the non-canonical hostname to `https://purehealthpeptidesshop.com` and issue a valid TLS certificate before enabling traffic.
+- Redirect the non-canonical hostname to `https://peptalith.com` and issue a valid TLS certificate before enabling traffic.
 
 ## Release checks
 
@@ -81,7 +81,7 @@ The repository includes Vercel serverless adapters for server-priced Stripe Chec
 
 - `VITE_ACCOUNT_DELETION_ENDPOINT` accepts a recent authenticated deletion request and immediately disables protected access.
 - `VITE_CHECKOUT_ENDPOINT` accepts `POST { checkoutAttemptId, catalogVersion, items: [{ productId, variantId, quantity }] }` and returns `{ checkoutUrl, orderNumber, expiresAt }`. It sends one signed reservation request to the Woo bridge and never accepts browser prices/SKUs/totals. A stale cart receives HTTP 409; an unavailable authority fails closed with retryable HTTP 503.
-- `VITE_CONTACT_ENDPOINT` points to `/api/contact`, which validates and rate-limits `POST { fullName, email, message }`, then delivers the enquiry only to `info@purehealthpeptidesshop.com` through Resend. Verify `purehealthpeptidesshop.com` in Resend and configure `RESEND_API_KEY` plus `CONTACT_FROM_EMAIL` in the server-side deployment environment.
+- `VITE_CONTACT_ENDPOINT` points to `/api/contact`, which validates and rate-limits `POST { fullName, email, message }`, then delivers the enquiry only to `info@peptalith.com` through Resend. Verify `peptalith.com` in Resend and configure `RESEND_API_KEY` plus `CONTACT_FROM_EMAIL` in the server-side deployment environment.
 - `VITE_NEWSLETTER_ENDPOINT` accepts `POST { email }`.
 - `VITE_ORDER_TRACKING_ENDPOINT` accepts `POST { orderid, order_email }` and may return a user-safe `message` or `status`.
 
@@ -89,7 +89,7 @@ Keep these endpoints same-origin under the included Content Security Policy and 
 
 ## Customer authentication
 
-In production Supabase, set the Site URL to `https://purehealthpeptidesshop.com` and allow only `/auth/callback/` and `/auth/reset-password/` on that origin. Enable confirmed email signup, double-confirmed email changes, secure password changes, custom SMTP with link tracking disabled, one-hour link expiry, a 60-second resend interval, and a 12-character minimum password.
+In production Supabase, set the Site URL to `https://peptalith.com` and allow only `/auth/callback/` and `/auth/reset-password/` on that origin. Enable confirmed email signup, double-confirmed email changes, secure password changes, custom SMTP with link tracking disabled, one-hour link expiry, a 60-second resend interval, and a 12-character minimum password.
 
 Enable Cloudflare Turnstile and keep sign-in/sign-up and token-verification limits at 30 per five minutes per IP. On Supabase Pro, configure 15-minute JWTs, refresh-token rotation, a 12-hour inactivity timeout, and a seven-day session time-box. Google remains disabled unless its credentials and callbacks are staging-tested.
 
@@ -97,4 +97,4 @@ Vercel invokes `/api/cron/process-commerce-jobs` every minute and `/api/cron/pro
 
 See `docs/LAUNCH_RUNBOOK.md` for database migration verification, Stripe webhook registration, live payment/refund evidence, backups, MFA, HTTPS, monitoring, legal approval, and rollback.
 
-The Content Security Policy intentionally permits same-origin application resources, Cloudflare Turnstile, Supabase, and the exact Chatwoot Cloud origins needed by the website widget. It allows inline styles for React's dynamic product layout and images from this site plus the canonical Pure Health Peptides origin. Update and retest the policy before adding any other analytics, payment, chat, embedded content, or external API origin.
+The Content Security Policy intentionally permits same-origin application resources, Cloudflare Turnstile, Supabase, and the exact Chatwoot Cloud origins needed by the website widget. It allows inline styles for React's dynamic product layout and images from this site plus the canonical Peptalith origin. Update and retest the policy before adding any other analytics, payment, chat, embedded content, or external API origin.

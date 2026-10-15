@@ -1,5 +1,6 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
+import { rebrandText } from './branding.mjs'
 import { shopProducts as legacyProducts, RESEARCH_CATEGORIES } from '../src/shopData.js'
 import {
   SITE_ORIGIN,
@@ -61,11 +62,11 @@ const products = audit.products.map((sourceProduct) => {
     .map((image, index) => ({
       role: image.role || (index === 0 ? 'primary' : 'gallery'),
       src: image.src,
-      alt: (contentOverride.name ? image.alt?.replaceAll('Semx', 'Semax') : image.alt)?.trim() || `${productName} ${image.role || `gallery image ${index + 1}`}`,
+      alt: rebrandText((contentOverride.name ? image.alt?.replaceAll('Semx', 'Semax') : image.alt)?.trim()) || `${productName} ${image.role || `gallery image ${index + 1}`}`,
     }))
   const primaryImage = images.find((image) => image.role === 'primary') || images[0]
-  const shortDescriptionHtml = contentOverride.shortDescriptionHtml || sourceProduct.shortDescriptionHtml || detail.shortDescriptionHtml
-  const descriptionHtml = contentOverride.descriptionHtml || sourceProduct.descriptionHtml || detail.descriptionHtml
+  const shortDescriptionHtml = rebrandText(contentOverride.shortDescriptionHtml || sourceProduct.shortDescriptionHtml || detail.shortDescriptionHtml)
+  const descriptionHtml = rebrandText(contentOverride.descriptionHtml || sourceProduct.descriptionHtml || detail.descriptionHtml)
   const options = sourceProduct.variants.map((variant) => {
     const row = logisticsByVariant.get(String(variant.id))
     const localizedVariantImage = imageMap.get(variant.image) || primaryImage

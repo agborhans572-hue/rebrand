@@ -6,7 +6,7 @@ import { sendResendEmail } from '../../../server/resend-mail.js'
 export function manualServices() {
   const env = z.object({ SITE_URL: z.string().url(), SUPABASE_URL: z.string().url(),
     SUPABASE_SERVICE_ROLE_KEY: z.string().min(30), RESEND_API_KEY: z.string().startsWith('re_').min(10),
-    ORDER_EMAIL_FROM: z.string().email().default('orders@purehealthpeptidesshop.com'),
+    ORDER_EMAIL_FROM: z.string().email().default('orders@peptalith.com'),
     TURNSTILE_SECRET_KEY: z.string().min(1), CRON_SECRET: z.string().min(32).optional(),
     MONITORING_WEBHOOK_URL: z.string().url().optional(),
   }).parse(process.env)

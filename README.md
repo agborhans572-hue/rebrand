@@ -1,6 +1,6 @@
-# Pure Health Peptides rebuild
+# Peptalith rebuild
 
-A production-optimized React/Vite storefront for Pure Health Peptides. It includes the 115-product catalog, verified Supabase customer accounts, server-priced Stripe Checkout, Supabase order persistence, verified/idempotent payment webhooks, protected order tracking, legal pages, and the original content experience.
+A production-optimized React/Vite storefront for Peptalith. It includes the 115-product catalog, verified Supabase customer accounts, server-priced Stripe Checkout, Supabase order persistence, verified/idempotent payment webhooks, protected order tracking, legal pages, and the original content experience.
 
 ## Local development
 

@@ -64,14 +64,16 @@ await inBatches(sources, 8, async (source) => {
 await inBatches(catalog.products, 6, async (product) => {
   const sourcePath = resolve('public', (product.options[product.defaultOption]?.image || product.image).replace(/^\//, ''))
   const foreground = await sharp(sourcePath).rotate().resize({ width: 760, height: 560, fit: 'contain', withoutEnlargement: true }).webp({ quality: 88 }).toBuffer()
-  const output = resolve(socialRoot, `${product.slug}.webp`)
+  const digest = createHash('sha256').update(foreground).digest('hex').slice(0, 16)
+  const filename = `${product.slug}-${digest}.webp`
+  const output = resolve(socialRoot, filename)
   await access(output).catch(async () => {
     await sharp({ create: { width: 1200, height: 630, channels: 4, background: '#f3f8f5' } })
       .composite([{ input: foreground, gravity: 'center' }])
       .webp({ quality: 88, effort: 1 })
       .toFile(output)
   })
-  manifest.social[product.slug] = { src: `/_product-media/social/${product.slug}.webp`, width: 1200, height: 630, type: 'image/webp' }
+  manifest.social[product.slug] = { src: `/_product-media/social/${filename}`, width: 1200, height: 630, type: 'image/webp' }
 })
 
 // Retain immutable derivatives referenced by previous deployments.
