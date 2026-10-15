@@ -203,6 +203,7 @@ function Welcome() {
 function DiscountSection({ onGate }) {
   return (
     <section className="discount-section">
+      <HeroMoleculeBackground />
       <div className="section-inner discount-grid">
         <div className="discount-column">
           <p className="eyebrow eyebrow-light">ORDER MORE, SAVE MORE</p>

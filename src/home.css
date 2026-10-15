@@ -74,7 +74,8 @@
   max-width: 590px;
 }
 
-.hero .eyebrow {
+.hero .eyebrow,
+.discount-section .eyebrow {
   color: #246f91;
 }
 
@@ -112,12 +113,14 @@
   gap: 18px;
 }
 
-.hero-buttons .button-primary {
+.hero-buttons .button-primary,
+.discount-section .button-primary {
   background: #147ea8;
   border-color: #147ea8;
 }
 
-.hero-buttons .button-primary:hover {
+.hero-buttons .button-primary:hover,
+.discount-section .button-primary:hover {
   background: #106688;
   border-color: #106688;
 }
@@ -546,10 +549,16 @@
   position: relative;
   min-height: 637px;
   padding: 88px 20px;
+  overflow: hidden;
+  isolation: isolate;
+  background: #f8fbfd;
+  color: #42596c;
+}
+
+.discount-section .hero-molecule-background::after {
   background:
-    linear-gradient(90deg, rgba(2, 17, 34, 0.3), rgba(2, 17, 34, 0.15)),
-    url('/assets/discount-bg.jpg') center / cover no-repeat;
-  color: #fff;
+    linear-gradient(0deg, rgba(255, 255, 255, .8), rgba(255, 255, 255, .08) 35%, rgba(255, 255, 255, .08) 75%, rgba(255, 255, 255, .5)),
+    linear-gradient(90deg, rgba(255, 255, 255, .86), rgba(255, 255, 255, .68) 50%, rgba(255, 255, 255, .86));
 }
 
 .discount-grid {
@@ -564,15 +573,20 @@
 
 .discount-section h2 {
   margin-bottom: 18px;
-  color: #fff;
+  color: var(--navy-deep);
   font-size: 22px;
   line-height: 1.4;
 }
 
 .discount-section h3 {
   margin: 0 0 8px;
+  color: var(--navy-deep);
   font-size: 18px;
   line-height: 1.5;
+}
+
+.discount-section strong {
+  color: var(--navy-deep);
 }
 
 .discount-section p,
@@ -825,6 +839,10 @@
   .discount-section {
     min-height: auto;
     padding: 40px 20px;
+  }
+
+  .discount-section .hero-molecule-background::after {
+    background: rgba(255, 255, 255, .76);
   }
 
   .discount-grid {
