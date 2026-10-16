@@ -1,5 +1,5 @@
 {
-  "version": "45c5f103f1efac7f0ffc",
+  "version": "4138a5e274d762ef1fbd",
   "source": {
     "shop": "https://purehealthpeptides.com/shop/",
     "productFeed": "https://purehealthpeptides.com/wp-json/wc/store/v1/products",
@@ -62,7 +62,7 @@
           "id": "26282",
           "wooVariantId": 26282,
           "sku": "WC-V-26282",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "50mg",
           "attributes": {
             "weight": "50mg"
@@ -100,11 +100,11 @@
       "discountRule": 1,
       "date": "2026-01-23",
       "latestOrder": 1769126400000,
-      "productUrl": "https://peptalith.com/product/5-amino-1mq/",
+      "productUrl": "https://www.peptalith.com/product/5-amino-1mq/",
       "optionLabel": "weight",
       "wooProductId": 25738,
       "sku": "WC-P-25738",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "5-amino-1mq",
       "detailKey": "5-amino-1mq",
       "legacySlugs": [],
@@ -175,7 +175,7 @@
           "id": "29631",
           "wooVariantId": 29631,
           "sku": "WC-V-29631",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mL",
           "attributes": {
             "volume": "10mL"
@@ -212,11 +212,11 @@
       "discountRule": 1,
       "date": "2026-02-13",
       "latestOrder": 1770940800000,
-      "productUrl": "https://peptalith.com/product/acetic-acid/",
+      "productUrl": "https://www.peptalith.com/product/acetic-acid/",
       "optionLabel": "volume",
       "wooProductId": 29573,
       "sku": "WC-P-29573",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "acetic-acid",
       "detailKey": "acetic-acid",
       "legacySlugs": [],
@@ -273,7 +273,7 @@
           "id": "9896",
           "wooVariantId": 9896,
           "sku": "WC-V-9896",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -302,7 +302,7 @@
           "id": "9897",
           "wooVariantId": 9897,
           "sku": "WC-V-9897",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -341,11 +341,11 @@
       "discountRule": 1,
       "date": "2025-08-05",
       "latestOrder": 1754352000000,
-      "productUrl": "https://peptalith.com/product/adipotide/",
+      "productUrl": "https://www.peptalith.com/product/adipotide/",
       "optionLabel": "Weight",
       "wooProductId": 9895,
       "sku": "WC-P-9895",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "adipotide",
       "detailKey": "adipotide",
       "legacySlugs": [],
@@ -415,7 +415,7 @@
           "id": "26284",
           "wooVariantId": 26284,
           "sku": "WC-V-26284",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "50mg",
           "attributes": {
             "weight": "50mg"
@@ -453,11 +453,11 @@
       "discountRule": 1,
       "date": "2026-01-23",
       "latestOrder": 1769126400000,
-      "productUrl": "https://peptalith.com/product/aicar/",
+      "productUrl": "https://www.peptalith.com/product/aicar/",
       "optionLabel": "weight",
       "wooProductId": 25748,
       "sku": "WC-P-25748",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "aicar",
       "detailKey": "aicar",
       "legacySlugs": [],
@@ -518,7 +518,7 @@
           "id": "586",
           "wooVariantId": 586,
           "sku": "WC-V-586",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -547,7 +547,7 @@
           "id": "5792",
           "wooVariantId": 5792,
           "sku": "WC-V-5792",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -584,11 +584,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/aod9604/",
+      "productUrl": "https://www.peptalith.com/product/aod9604/",
       "optionLabel": "Weight",
       "wooProductId": 416,
       "sku": "WC-P-416",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "aod9604",
       "detailKey": "aod9604",
       "legacySlugs": [],
@@ -650,7 +650,7 @@
           "id": "21122",
           "wooVariantId": 21122,
           "sku": "WC-V-21122",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -679,7 +679,7 @@
           "id": "21123",
           "wooVariantId": 21123,
           "sku": "WC-V-21123",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -717,11 +717,11 @@
       "discountRule": 1,
       "date": "2025-12-12",
       "latestOrder": 1765497600000,
-      "productUrl": "https://peptalith.com/product/ara-290/",
+      "productUrl": "https://www.peptalith.com/product/ara-290/",
       "optionLabel": "weight",
       "wooProductId": 20745,
       "sku": "WC-P-20745",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "ara-290",
       "detailKey": "ara-290",
       "legacySlugs": [],
@@ -787,7 +787,7 @@
           "id": "3638",
           "wooVariantId": 3638,
           "sku": "WC-V-3638",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10ml",
           "attributes": {
             "weight": "10ml"
@@ -824,11 +824,11 @@
       "discountRule": 1,
       "date": "2024-12-25",
       "latestOrder": 1735084800000,
-      "productUrl": "https://peptalith.com/product/bacteriostatic-water/",
+      "productUrl": "https://www.peptalith.com/product/bacteriostatic-water/",
       "optionLabel": "Weight",
       "wooProductId": 3635,
       "sku": "WC-P-3635",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "bacteriostatic-water",
       "detailKey": "bacteriostatic-water",
       "legacySlugs": [],
@@ -885,7 +885,7 @@
           "id": "420",
           "wooVariantId": 420,
           "sku": "WC-V-420",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -914,7 +914,7 @@
           "id": "2501",
           "wooVariantId": 2501,
           "sku": "WC-V-2501",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -943,7 +943,7 @@
           "id": "5775",
           "wooVariantId": 5775,
           "sku": "WC-V-5775",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "15mg",
           "attributes": {
             "weight": "15mg"
@@ -981,11 +981,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/bpc-157/",
+      "productUrl": "https://www.peptalith.com/product/bpc-157/",
       "optionLabel": "Weight",
       "wooProductId": 419,
       "sku": "WC-P-419",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "bpc-157",
       "detailKey": "bpc-157",
       "legacySlugs": [],
@@ -1051,7 +1051,7 @@
           "id": "585",
           "wooVariantId": 585,
           "sku": "WC-V-585",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5/5mg",
           "attributes": {
             "weight": "5/5mg"
@@ -1080,7 +1080,7 @@
           "id": "5781",
           "wooVariantId": 5781,
           "sku": "WC-V-5781",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10/10mg",
           "attributes": {
             "weight": "10/10mg"
@@ -1119,11 +1119,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/bpc-157-tb-500/",
+      "productUrl": "https://www.peptalith.com/product/bpc-157-tb-500/",
       "optionLabel": "Weight",
       "wooProductId": 422,
       "sku": "WC-P-422",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "bpc-157-tb-500",
       "detailKey": "bpc-157-tb-500",
       "legacySlugs": [],
@@ -1193,7 +1193,7 @@
           "id": "48583",
           "wooVariantId": 48583,
           "sku": "WC-V-48583",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -1231,11 +1231,11 @@
       "discountRule": 1,
       "date": "2026-05-03",
       "latestOrder": 1777766400000,
-      "productUrl": "https://peptalith.com/product/cardiogen/",
+      "productUrl": "https://www.peptalith.com/product/cardiogen/",
       "optionLabel": "weight",
       "wooProductId": 25762,
       "sku": "WC-P-25762",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "cardiogen",
       "detailKey": "cardiogen",
       "legacySlugs": [],
@@ -1291,7 +1291,7 @@
           "id": "57358",
           "wooVariantId": 57358,
           "sku": "WC-V-57358",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -1320,7 +1320,7 @@
           "id": "57359",
           "wooVariantId": 57359,
           "sku": "WC-V-57359",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -1349,7 +1349,7 @@
           "id": "57360",
           "wooVariantId": 57360,
           "sku": "WC-V-57360",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30mg",
           "attributes": {
             "weight": "30mg"
@@ -1386,11 +1386,11 @@
       "discountRule": 1,
       "date": "2025-09-11",
       "latestOrder": 1757548800000,
-      "productUrl": "https://peptalith.com/product/cartalax/",
+      "productUrl": "https://www.peptalith.com/product/cartalax/",
       "optionLabel": "weight",
       "wooProductId": 13103,
       "sku": "WC-P-13103",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "cartalax",
       "detailKey": "cartalax",
       "legacySlugs": [],
@@ -1447,7 +1447,7 @@
           "id": "27506",
           "wooVariantId": 27506,
           "sku": "WC-V-27506",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -1485,11 +1485,11 @@
       "discountRule": 1,
       "date": "2026-01-28",
       "latestOrder": 1769558400000,
-      "productUrl": "https://peptalith.com/product/chonluten/",
+      "productUrl": "https://www.peptalith.com/product/chonluten/",
       "optionLabel": "weight",
       "wooProductId": 25843,
       "sku": "WC-P-25843",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "chonluten",
       "detailKey": "chonluten",
       "legacySlugs": [],
@@ -1550,7 +1550,7 @@
           "id": "442",
           "wooVariantId": 442,
           "sku": "WC-V-442",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -1579,7 +1579,7 @@
           "id": "443",
           "wooVariantId": 443,
           "sku": "WC-V-443",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -1616,11 +1616,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/cjc-1295/",
+      "productUrl": "https://www.peptalith.com/product/cjc-1295/",
       "optionLabel": "Weight",
       "wooProductId": 426,
       "sku": "WC-P-426",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "cjc-1295",
       "detailKey": "cjc-1295",
       "legacySlugs": [],
@@ -1677,7 +1677,7 @@
           "id": "444",
           "wooVariantId": 444,
           "sku": "WC-V-444",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -1706,7 +1706,7 @@
           "id": "6007",
           "wooVariantId": 6007,
           "sku": "WC-V-6007",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -1743,11 +1743,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/cjc-1295-dac/",
+      "productUrl": "https://www.peptalith.com/product/cjc-1295-dac/",
       "optionLabel": "Weight",
       "wooProductId": 427,
       "sku": "WC-P-427",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "cjc-1295-dac",
       "detailKey": "cjc-1295-dac",
       "legacySlugs": [],
@@ -1809,7 +1809,7 @@
           "id": "22273",
           "wooVariantId": 22273,
           "sku": "WC-V-22273",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5/5mg",
           "attributes": {
             "weight": "5/5mg"
@@ -1838,7 +1838,7 @@
           "id": "22274",
           "wooVariantId": 22274,
           "sku": "WC-V-22274",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10/10mg",
           "attributes": {
             "weight": "10/10mg"
@@ -1875,11 +1875,11 @@
       "discountRule": 1,
       "date": "2025-06-01",
       "latestOrder": 1748736000000,
-      "productUrl": "https://peptalith.com/product/cjc-1295-dac-ipamorelin/",
+      "productUrl": "https://www.peptalith.com/product/cjc-1295-dac-ipamorelin/",
       "optionLabel": "weight",
       "wooProductId": 5060,
       "sku": "WC-P-5060",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "cjc-1295-dac-ipamorelin",
       "detailKey": "cjc-1295dac-ipamorelin",
       "legacySlugs": [
@@ -1943,7 +1943,7 @@
           "id": "581",
           "wooVariantId": 581,
           "sku": "WC-V-581",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5/5mg",
           "attributes": {
             "weight": "5/5mg"
@@ -1972,7 +1972,7 @@
           "id": "5779",
           "wooVariantId": 5779,
           "sku": "WC-V-5779",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10/10mg",
           "attributes": {
             "weight": "10/10mg"
@@ -2009,11 +2009,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/cjc-1295-ipamorelin/",
+      "productUrl": "https://www.peptalith.com/product/cjc-1295-ipamorelin/",
       "optionLabel": "Weight",
       "wooProductId": 428,
       "sku": "WC-P-428",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "cjc-1295-ipamorelin",
       "detailKey": "cjc1295-ipamorelin",
       "legacySlugs": [
@@ -2077,7 +2077,7 @@
           "id": "27513",
           "wooVariantId": 27513,
           "sku": "WC-V-27513",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -2115,11 +2115,11 @@
       "discountRule": 1,
       "date": "2026-01-28",
       "latestOrder": 1769558400000,
-      "productUrl": "https://peptalith.com/product/cortagen/",
+      "productUrl": "https://www.peptalith.com/product/cortagen/",
       "optionLabel": "weight",
       "wooProductId": 25761,
       "sku": "WC-P-25761",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "cortagen",
       "detailKey": "cortagen",
       "legacySlugs": [],
@@ -2180,7 +2180,7 @@
           "id": "5780",
           "wooVariantId": 5780,
           "sku": "WC-V-5780",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -2209,7 +2209,7 @@
           "id": "580",
           "wooVariantId": 580,
           "sku": "WC-V-580",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -2246,11 +2246,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/dsip/",
+      "productUrl": "https://www.peptalith.com/product/dsip/",
       "optionLabel": "Weight",
       "wooProductId": 429,
       "sku": "WC-P-429",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "dsip",
       "detailKey": "dsip",
       "legacySlugs": [],
@@ -2307,7 +2307,7 @@
           "id": "19760",
           "wooVariantId": 19760,
           "sku": "WC-V-19760",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -2336,7 +2336,7 @@
           "id": "19761",
           "wooVariantId": 19761,
           "sku": "WC-V-19761",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -2365,7 +2365,7 @@
           "id": "19762",
           "wooVariantId": 19762,
           "sku": "WC-V-19762",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "50mg",
           "attributes": {
             "weight": "50mg"
@@ -2403,11 +2403,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/epithalon/",
+      "productUrl": "https://www.peptalith.com/product/epithalon/",
       "optionLabel": "Weight",
       "wooProductId": 432,
       "sku": "WC-P-432",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "epithalon",
       "detailKey": "epithalon",
       "legacySlugs": [],
@@ -2468,7 +2468,7 @@
           "id": "27510",
           "wooVariantId": 27510,
           "sku": "WC-V-27510",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "1mg",
           "attributes": {
             "weight": "1mg"
@@ -2506,11 +2506,11 @@
       "discountRule": 1,
       "date": "2026-01-28",
       "latestOrder": 1769558400000,
-      "productUrl": "https://peptalith.com/product/follistatin-315/",
+      "productUrl": "https://www.peptalith.com/product/follistatin-315/",
       "optionLabel": "weight",
       "wooProductId": 25744,
       "sku": "WC-P-25744",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "follistatin-315",
       "detailKey": "follistatin-315",
       "legacySlugs": [],
@@ -2571,7 +2571,7 @@
           "id": "21809",
           "wooVariantId": 21809,
           "sku": "WC-V-21809",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "1mg",
           "attributes": {
             "weight": "1mg"
@@ -2609,11 +2609,11 @@
       "discountRule": 1,
       "date": "2025-12-18",
       "latestOrder": 1766016000000,
-      "productUrl": "https://peptalith.com/product/follistatin-344/",
+      "productUrl": "https://www.peptalith.com/product/follistatin-344/",
       "optionLabel": "weight",
       "wooProductId": 21553,
       "sku": "WC-P-21553",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "follistatin-344",
       "detailKey": "follistatin-344",
       "legacySlugs": [],
@@ -2674,7 +2674,7 @@
           "id": "14052",
           "wooVariantId": 14052,
           "sku": "WC-V-14052",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -2703,7 +2703,7 @@
           "id": "14053",
           "wooVariantId": 14053,
           "sku": "WC-V-14053",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -2741,11 +2741,11 @@
       "discountRule": 1,
       "date": "2025-09-23",
       "latestOrder": 1758585600000,
-      "productUrl": "https://peptalith.com/product/foxo4-dri/",
+      "productUrl": "https://www.peptalith.com/product/foxo4-dri/",
       "optionLabel": "weight",
       "wooProductId": 13084,
       "sku": "WC-P-13084",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "foxo4-dri",
       "detailKey": "foxo4-dri",
       "legacySlugs": [],
@@ -2806,7 +2806,7 @@
           "id": "15854",
           "wooVariantId": 15854,
           "sku": "WC-V-15854",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "1mg",
           "attributes": {
             "weight": "1mg"
@@ -2835,7 +2835,7 @@
           "id": "15855",
           "wooVariantId": 15855,
           "sku": "WC-V-15855",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "2mg",
           "attributes": {
             "weight": "2mg"
@@ -2872,11 +2872,11 @@
       "discountRule": 1,
       "date": "2025-10-14",
       "latestOrder": 1760400000000,
-      "productUrl": "https://peptalith.com/product/gdf-8/",
+      "productUrl": "https://www.peptalith.com/product/gdf-8/",
       "optionLabel": "weight",
       "wooProductId": 13095,
       "sku": "WC-P-13095",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "gdf-8",
       "detailKey": "gdf-8",
       "legacySlugs": [],
@@ -2933,7 +2933,7 @@
           "id": "579",
           "wooVariantId": 579,
           "sku": "WC-V-579",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "50mg",
           "attributes": {
             "weight": "50mg"
@@ -2962,7 +2962,7 @@
           "id": "2386",
           "wooVariantId": 2386,
           "sku": "WC-V-2386",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "100mg",
           "attributes": {
             "weight": "100mg"
@@ -3001,11 +3001,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/ghk-cu/",
+      "productUrl": "https://www.peptalith.com/product/ghk-cu/",
       "optionLabel": "Weight",
       "wooProductId": 433,
       "sku": "WC-P-433",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "ghk-cu",
       "detailKey": "ghk-cu",
       "legacySlugs": [],
@@ -3070,7 +3070,7 @@
           "id": "5784",
           "wooVariantId": 5784,
           "sku": "WC-V-5784",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -3107,11 +3107,11 @@
       "discountRule": 1,
       "date": "2025-06-01",
       "latestOrder": 1748736000000,
-      "productUrl": "https://peptalith.com/product/ghpr-2/",
+      "productUrl": "https://www.peptalith.com/product/ghpr-2/",
       "optionLabel": "Weight",
       "wooProductId": 4679,
       "sku": "WC-P-4679",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "ghpr-2",
       "detailKey": "ghpr-2",
       "legacySlugs": [],
@@ -3173,7 +3173,7 @@
           "id": "2539",
           "wooVariantId": 2539,
           "sku": "WC-V-2539",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -3210,11 +3210,11 @@
       "discountRule": 1,
       "date": "2025-02-05",
       "latestOrder": 1738713600000,
-      "productUrl": "https://peptalith.com/product/ghpr-6/",
+      "productUrl": "https://www.peptalith.com/product/ghpr-6/",
       "optionLabel": "Weight",
       "wooProductId": 2537,
       "sku": "WC-P-2537",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "ghpr-6",
       "detailKey": "ghpr-6",
       "legacySlugs": [],
@@ -3286,7 +3286,7 @@
           "id": "5767",
           "wooVariantId": 5767,
           "sku": "WC-V-5767",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5/50/2mg",
           "attributes": {
             "weight": "5/50/2mg"
@@ -3315,7 +3315,7 @@
           "id": "5768",
           "wooVariantId": 5768,
           "sku": "WC-V-5768",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10/50/10mg",
           "attributes": {
             "weight": "10/50/10mg"
@@ -3354,11 +3354,11 @@
       "discountRule": 1,
       "date": "2025-05-31",
       "latestOrder": 1748649600000,
-      "productUrl": "https://peptalith.com/product/glow-bpc-157-ghk-cu-tb-500-blend/",
+      "productUrl": "https://www.peptalith.com/product/glow-bpc-157-ghk-cu-tb-500-blend/",
       "optionLabel": "Weight",
       "wooProductId": 4684,
       "sku": "WC-P-4684",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "glow-bpc-157-ghk-cu-tb-500-blend",
       "detailKey": "glow-bpc-157-ghk-cu-tb-500-blend",
       "legacySlugs": [],
@@ -3448,7 +3448,7 @@
           "id": "5771",
           "wooVariantId": 5771,
           "sku": "WC-V-5771",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5/50/2/3mg",
           "attributes": {
             "weight": "5/50/2/3mg"
@@ -3477,7 +3477,7 @@
           "id": "5957",
           "wooVariantId": 5957,
           "sku": "WC-V-5957",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10/50/10/5mg",
           "attributes": {
             "weight": "10/50/10/5mg"
@@ -3516,11 +3516,11 @@
       "discountRule": 1,
       "date": "2025-05-31",
       "latestOrder": 1748649600000,
-      "productUrl": "https://peptalith.com/product/glow-plus-bpc-157-ghk-cu-tb-500-thymosin-alpha-1-blend/",
+      "productUrl": "https://www.peptalith.com/product/glow-plus-bpc-157-ghk-cu-tb-500-thymosin-alpha-1-blend/",
       "optionLabel": "Weight",
       "wooProductId": 4685,
       "sku": "WC-P-4685",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "glow-plus-bpc-157-ghk-cu-tb-500-thymosin-alpha-1-blend",
       "detailKey": "glow-plus-bpc-157-ghk-cu-tb-500-thymosin-alpha-1-blend",
       "legacySlugs": [],
@@ -3585,7 +3585,7 @@
           "id": "5783",
           "wooVariantId": 5783,
           "sku": "WC-V-5783",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -3622,11 +3622,11 @@
       "discountRule": 1,
       "date": "2025-06-05",
       "latestOrder": 1749081600000,
-      "productUrl": "https://peptalith.com/product/glp-1-c/",
+      "productUrl": "https://www.peptalith.com/product/glp-1-c/",
       "optionLabel": "Weight",
       "wooProductId": 4563,
       "sku": "WC-P-4563",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "glp-1-c",
       "detailKey": "glp-1-c",
       "legacySlugs": [],
@@ -3688,7 +3688,7 @@
           "id": "25151",
           "wooVariantId": 25151,
           "sku": "WC-V-25151",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5/5mg",
           "attributes": {
             "weight": "5/5mg"
@@ -3717,7 +3717,7 @@
           "id": "25152",
           "wooVariantId": 25152,
           "sku": "WC-V-25152",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10/10mg",
           "attributes": {
             "weight": "10/10mg"
@@ -3754,11 +3754,11 @@
       "discountRule": 1,
       "date": "2026-01-18",
       "latestOrder": 1768694400000,
-      "productUrl": "https://peptalith.com/product/glp-1-c-s/",
+      "productUrl": "https://www.peptalith.com/product/glp-1-c-s/",
       "optionLabel": "weight",
       "wooProductId": 21566,
       "sku": "WC-P-21566",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "glp-1-c-s",
       "detailKey": "glp-1-c-s",
       "legacySlugs": [],
@@ -3815,7 +3815,7 @@
           "id": "460",
           "wooVariantId": 460,
           "sku": "WC-V-460",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -3844,7 +3844,7 @@
           "id": "461",
           "wooVariantId": 461,
           "sku": "WC-V-461",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -3873,7 +3873,7 @@
           "id": "462",
           "wooVariantId": 462,
           "sku": "WC-V-462",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "15mg",
           "attributes": {
             "weight": "15mg"
@@ -3902,7 +3902,7 @@
           "id": "463",
           "wooVariantId": 463,
           "sku": "WC-V-463",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -3931,7 +3931,7 @@
           "id": "2376",
           "wooVariantId": 2376,
           "sku": "WC-V-2376",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30mg",
           "attributes": {
             "weight": "30mg"
@@ -3968,11 +3968,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/glp-1-s/",
+      "productUrl": "https://www.peptalith.com/product/glp-1-s/",
       "optionLabel": "Weight",
       "wooProductId": 459,
       "sku": "WC-P-459",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "glp-1-s",
       "detailKey": "glp-1-s",
       "legacySlugs": [],
@@ -4029,7 +4029,7 @@
           "id": "475",
           "wooVariantId": 475,
           "sku": "WC-V-475",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -4058,7 +4058,7 @@
           "id": "476",
           "wooVariantId": 476,
           "sku": "WC-V-476",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "15mg",
           "attributes": {
             "weight": "15mg"
@@ -4087,7 +4087,7 @@
           "id": "477",
           "wooVariantId": 477,
           "sku": "WC-V-477",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -4116,7 +4116,7 @@
           "id": "478",
           "wooVariantId": 478,
           "sku": "WC-V-478",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30mg",
           "attributes": {
             "weight": "30mg"
@@ -4153,11 +4153,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/glp-2-t/",
+      "productUrl": "https://www.peptalith.com/product/glp-2-t/",
       "optionLabel": "Weight",
       "wooProductId": 474,
       "sku": "WC-P-474",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "glp-2-t",
       "detailKey": "glp-2-t",
       "legacySlugs": [],
@@ -4214,7 +4214,7 @@
           "id": "4267",
           "wooVariantId": 4267,
           "sku": "WC-V-4267",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -4243,7 +4243,7 @@
           "id": "456",
           "wooVariantId": 456,
           "sku": "WC-V-456",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -4272,7 +4272,7 @@
           "id": "457",
           "wooVariantId": 457,
           "sku": "WC-V-457",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "15mg",
           "attributes": {
             "weight": "15mg"
@@ -4301,7 +4301,7 @@
           "id": "458",
           "wooVariantId": 458,
           "sku": "WC-V-458",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -4330,7 +4330,7 @@
           "id": "5793",
           "wooVariantId": 5793,
           "sku": "WC-V-5793",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30mg",
           "attributes": {
             "weight": "30mg"
@@ -4367,11 +4367,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/glp-3-r/",
+      "productUrl": "https://www.peptalith.com/product/glp-3-r/",
       "optionLabel": "Weight",
       "wooProductId": 455,
       "sku": "WC-P-455",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "glp-3-r",
       "detailKey": "glp-3-r",
       "legacySlugs": [],
@@ -4443,7 +4443,7 @@
           "id": "5109",
           "wooVariantId": 5109,
           "sku": "WC-V-5109",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "600mg",
           "attributes": {
             "weight": "600mg"
@@ -4472,7 +4472,7 @@
           "id": "63452",
           "wooVariantId": 63452,
           "sku": "WC-V-63452",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "1200mg",
           "attributes": {
             "weight": "1200mg"
@@ -4510,11 +4510,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/glutathione/",
+      "productUrl": "https://www.peptalith.com/product/glutathione/",
       "optionLabel": "Weight",
       "wooProductId": 479,
       "sku": "WC-P-479",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "glutathione",
       "detailKey": "glutathione",
       "legacySlugs": [],
@@ -4580,7 +4580,7 @@
           "id": "26290",
           "wooVariantId": 26290,
           "sku": "WC-V-26290",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "2mg",
           "attributes": {
             "weight": "2mg"
@@ -4617,11 +4617,11 @@
       "discountRule": 1,
       "date": "2026-01-23",
       "latestOrder": 1769126400000,
-      "productUrl": "https://peptalith.com/product/gonadorelin/",
+      "productUrl": "https://www.peptalith.com/product/gonadorelin/",
       "optionLabel": "weight",
       "wooProductId": 25736,
       "sku": "WC-P-25736",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "gonadorelin",
       "detailKey": "gonadorelin",
       "legacySlugs": [],
@@ -4678,7 +4678,7 @@
           "id": "3636",
           "wooVariantId": 3636,
           "sku": "WC-V-3636",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -4716,11 +4716,11 @@
       "discountRule": 1,
       "date": "2025-02-25",
       "latestOrder": 1740441600000,
-      "productUrl": "https://peptalith.com/product/h-fragment-176-191/",
+      "productUrl": "https://www.peptalith.com/product/h-fragment-176-191/",
       "optionLabel": "Weight",
       "wooProductId": 3030,
       "sku": "WC-P-3030",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "h-fragment-176-191",
       "detailKey": "hgh-176-191",
       "legacySlugs": [
@@ -4788,7 +4788,7 @@
           "id": "578",
           "wooVariantId": 578,
           "sku": "WC-V-578",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -4817,7 +4817,7 @@
           "id": "5795",
           "wooVariantId": 5795,
           "sku": "WC-V-5795",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -4854,11 +4854,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/hexarelin/",
+      "productUrl": "https://www.peptalith.com/product/hexarelin/",
       "optionLabel": "Weight",
       "wooProductId": 434,
       "sku": "WC-P-434",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "hexarelin",
       "detailKey": "hexarelin",
       "legacySlugs": [],
@@ -4920,7 +4920,7 @@
           "id": "25913",
           "wooVariantId": 25913,
           "sku": "WC-V-25913",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -4957,11 +4957,11 @@
       "discountRule": 1,
       "date": "2026-03-13",
       "latestOrder": 1773360000000,
-      "productUrl": "https://peptalith.com/product/hexarelin-acetate/",
+      "productUrl": "https://www.peptalith.com/product/hexarelin-acetate/",
       "optionLabel": "weight",
       "wooProductId": 25845,
       "sku": "WC-P-25845",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "hexarelin-acetate",
       "detailKey": "hexarelin-acetate",
       "legacySlugs": [],
@@ -5018,7 +5018,7 @@
           "id": "13321",
           "wooVariantId": 13321,
           "sku": "WC-V-13321",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -5047,7 +5047,7 @@
           "id": "13322",
           "wooVariantId": 13322,
           "sku": "WC-V-13322",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -5085,11 +5085,11 @@
       "discountRule": 1,
       "date": "2025-09-17",
       "latestOrder": 1758067200000,
-      "productUrl": "https://peptalith.com/product/humanin/",
+      "productUrl": "https://www.peptalith.com/product/humanin/",
       "optionLabel": "weight",
       "wooProductId": 13089,
       "sku": "WC-P-13089",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "humanin",
       "detailKey": "humanin",
       "legacySlugs": [],
@@ -5155,7 +5155,7 @@
           "id": "19602",
           "wooVariantId": 19602,
           "sku": "WC-V-19602",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "1mg",
           "attributes": {
             "weight": "1mg"
@@ -5184,7 +5184,7 @@
           "id": "19603",
           "wooVariantId": 19603,
           "sku": "WC-V-19603",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "2mg",
           "attributes": {
             "weight": "2mg"
@@ -5221,11 +5221,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/igf-1-lr3/",
+      "productUrl": "https://www.peptalith.com/product/igf-1-lr3/",
       "optionLabel": "Weight",
       "wooProductId": 435,
       "sku": "WC-P-435",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "igf-1-lr3",
       "detailKey": "igf-1-lr3",
       "legacySlugs": [],
@@ -5282,7 +5282,7 @@
           "id": "440",
           "wooVariantId": 440,
           "sku": "WC-V-440",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -5311,7 +5311,7 @@
           "id": "441",
           "wooVariantId": 441,
           "sku": "WC-V-441",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -5348,11 +5348,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/ipamorelin/",
+      "productUrl": "https://www.peptalith.com/product/ipamorelin/",
       "optionLabel": "Weight",
       "wooProductId": 438,
       "sku": "WC-P-438",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "ipamorelin",
       "detailKey": "ipamorelin",
       "legacySlugs": [],
@@ -5414,7 +5414,7 @@
           "id": "13627",
           "wooVariantId": 13627,
           "sku": "WC-V-13627",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -5443,7 +5443,7 @@
           "id": "582",
           "wooVariantId": 582,
           "sku": "WC-V-582",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -5480,11 +5480,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/kisspeptin-10/",
+      "productUrl": "https://www.peptalith.com/product/kisspeptin-10/",
       "optionLabel": "Weight",
       "wooProductId": 439,
       "sku": "WC-P-439",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "kisspeptin-10",
       "detailKey": "kispeptin-10",
       "legacySlugs": [
@@ -5548,7 +5548,7 @@
           "id": "14050",
           "wooVariantId": 14050,
           "sku": "WC-V-14050",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10/50/10/10mg",
           "attributes": {
             "weight": "10/50/10/10mg"
@@ -5587,11 +5587,11 @@
       "discountRule": 1,
       "date": "2025-09-21",
       "latestOrder": 1758412800000,
-      "productUrl": "https://peptalith.com/product/klow/",
+      "productUrl": "https://www.peptalith.com/product/klow/",
       "optionLabel": "weight",
       "wooProductId": 13093,
       "sku": "WC-P-13093",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "klow",
       "detailKey": "klow",
       "legacySlugs": [],
@@ -5656,7 +5656,7 @@
           "id": "9922",
           "wooVariantId": 9922,
           "sku": "WC-V-9922",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -5685,7 +5685,7 @@
           "id": "9923",
           "wooVariantId": 9923,
           "sku": "WC-V-9923",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -5723,11 +5723,11 @@
       "discountRule": 1,
       "date": "2025-08-09",
       "latestOrder": 1754697600000,
-      "productUrl": "https://peptalith.com/product/kpv/",
+      "productUrl": "https://www.peptalith.com/product/kpv/",
       "optionLabel": "Weight",
       "wooProductId": 9920,
       "sku": "WC-P-9920",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "kpv",
       "detailKey": "kpv",
       "legacySlugs": [],
@@ -5793,7 +5793,7 @@
           "id": "14935",
           "wooVariantId": 14935,
           "sku": "WC-V-14935",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -5822,7 +5822,7 @@
           "id": "14936",
           "wooVariantId": 14936,
           "sku": "WC-V-14936",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -5859,11 +5859,11 @@
       "discountRule": 1,
       "date": "2025-10-01",
       "latestOrder": 1759276800000,
-      "productUrl": "https://peptalith.com/product/livagen/",
+      "productUrl": "https://www.peptalith.com/product/livagen/",
       "optionLabel": "weight",
       "wooProductId": 13106,
       "sku": "WC-P-13106",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "livagen",
       "detailKey": "livagen",
       "legacySlugs": [],
@@ -5925,7 +5925,7 @@
           "id": "583",
           "wooVariantId": 583,
           "sku": "WC-V-583",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -5954,7 +5954,7 @@
           "id": "584",
           "wooVariantId": 584,
           "sku": "WC-V-584",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -5992,11 +5992,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/ll-37/",
+      "productUrl": "https://www.peptalith.com/product/ll-37/",
       "optionLabel": "Weight",
       "wooProductId": 423,
       "sku": "WC-P-423",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "ll-37",
       "detailKey": "ll-37",
       "legacySlugs": [],
@@ -6062,7 +6062,7 @@
           "id": "449",
           "wooVariantId": 449,
           "sku": "WC-V-449",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -6091,7 +6091,7 @@
           "id": "450",
           "wooVariantId": 450,
           "sku": "WC-V-450",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -6129,11 +6129,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/melanoten-2/",
+      "productUrl": "https://www.peptalith.com/product/melanoten-2/",
       "optionLabel": "Weight",
       "wooProductId": 448,
       "sku": "WC-P-448",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "melanoten-2",
       "detailKey": "melanoten-2",
       "legacySlugs": [],
@@ -6199,7 +6199,7 @@
           "id": "27508",
           "wooVariantId": 27508,
           "sku": "WC-V-27508",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "2mg",
           "attributes": {
             "weight": "2mg"
@@ -6237,11 +6237,11 @@
       "discountRule": 1,
       "date": "2026-01-28",
       "latestOrder": 1769558400000,
-      "productUrl": "https://peptalith.com/product/mgf-mechano-growth-factor/",
+      "productUrl": "https://www.peptalith.com/product/mgf-mechano-growth-factor/",
       "optionLabel": "weight",
       "wooProductId": 25755,
       "sku": "WC-P-25755",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "mgf-mechano-growth-factor",
       "detailKey": "mgf-mechano-growth-factor",
       "legacySlugs": [],
@@ -6297,7 +6297,7 @@
           "id": "25514",
           "wooVariantId": 25514,
           "sku": "WC-V-25514",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -6326,7 +6326,7 @@
           "id": "25515",
           "wooVariantId": 25515,
           "sku": "WC-V-25515",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -6355,7 +6355,7 @@
           "id": "25516",
           "wooVariantId": 25516,
           "sku": "WC-V-25516",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "40mg",
           "attributes": {
             "weight": "40mg"
@@ -6394,11 +6394,11 @@
       "discountRule": 1,
       "date": "2025-05-31",
       "latestOrder": 1748649600000,
-      "productUrl": "https://peptalith.com/product/mots-c/",
+      "productUrl": "https://www.peptalith.com/product/mots-c/",
       "optionLabel": "Weight",
       "wooProductId": 4680,
       "sku": "WC-P-4680",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "mots-c",
       "detailKey": "mots-c",
       "legacySlugs": [],
@@ -6473,7 +6473,7 @@
           "id": "27505",
           "wooVariantId": 27505,
           "sku": "WC-V-27505",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -6511,11 +6511,11 @@
       "discountRule": 1,
       "date": "2026-01-28",
       "latestOrder": 1769558400000,
-      "productUrl": "https://peptalith.com/product/n-acetyl-epithalon-amidate/",
+      "productUrl": "https://www.peptalith.com/product/n-acetyl-epithalon-amidate/",
       "optionLabel": "weight",
       "wooProductId": 25734,
       "sku": "WC-P-25734",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "n-acetyl-epithalon-amidate",
       "detailKey": "n-acetyl-epithalon-amidate",
       "legacySlugs": [],
@@ -6576,7 +6576,7 @@
           "id": "26279",
           "wooVariantId": 26279,
           "sku": "WC-V-26279",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -6614,11 +6614,11 @@
       "discountRule": 1,
       "date": "2026-01-23",
       "latestOrder": 1769126400000,
-      "productUrl": "https://peptalith.com/product/n-acetyl-selank-amidate/",
+      "productUrl": "https://www.peptalith.com/product/n-acetyl-selank-amidate/",
       "optionLabel": "weight",
       "wooProductId": 25731,
       "sku": "WC-P-25731",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "n-acetyl-selank-amidate",
       "detailKey": "n-acetyl-selank-amidate",
       "legacySlugs": [],
@@ -6684,7 +6684,7 @@
           "id": "26280",
           "wooVariantId": 26280,
           "sku": "WC-V-26280",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -6722,11 +6722,11 @@
       "discountRule": 1,
       "date": "2026-01-23",
       "latestOrder": 1769126400000,
-      "productUrl": "https://peptalith.com/product/n-acetyl-semax-amidate/",
+      "productUrl": "https://www.peptalith.com/product/n-acetyl-semax-amidate/",
       "optionLabel": "weight",
       "wooProductId": 25727,
       "sku": "WC-P-25727",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "n-acetyl-semax-amidate",
       "detailKey": "n-acetyl-semx-amidate",
       "legacySlugs": [
@@ -6784,7 +6784,7 @@
           "id": "452",
           "wooVariantId": 452,
           "sku": "WC-V-452",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "100mg",
           "attributes": {
             "weight": "100mg"
@@ -6813,7 +6813,7 @@
           "id": "453",
           "wooVariantId": 453,
           "sku": "WC-V-453",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500mg",
           "attributes": {
             "weight": "500mg"
@@ -6851,11 +6851,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/nad/",
+      "productUrl": "https://www.peptalith.com/product/nad/",
       "optionLabel": "Weight",
       "wooProductId": 451,
       "sku": "WC-P-451",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "nad",
       "detailKey": "nad",
       "legacySlugs": [],
@@ -6921,7 +6921,7 @@
           "id": "27507",
           "wooVariantId": 27507,
           "sku": "WC-V-27507",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -6959,11 +6959,11 @@
       "discountRule": 1,
       "date": "2026-01-28",
       "latestOrder": 1769558400000,
-      "productUrl": "https://peptalith.com/product/ovagen/",
+      "productUrl": "https://www.peptalith.com/product/ovagen/",
       "optionLabel": "weight",
       "wooProductId": 25844,
       "sku": "WC-P-25844",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "ovagen",
       "detailKey": "ovagen",
       "legacySlugs": [],
@@ -7024,7 +7024,7 @@
           "id": "26508",
           "wooVariantId": 26508,
           "sku": "WC-V-26508",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -7053,7 +7053,7 @@
           "id": "26509",
           "wooVariantId": 26509,
           "sku": "WC-V-26509",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -7091,11 +7091,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/oxytocin/",
+      "productUrl": "https://www.peptalith.com/product/oxytocin/",
       "optionLabel": "Weight",
       "wooProductId": 454,
       "sku": "WC-P-454",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "oxytocin",
       "detailKey": "oxytocin",
       "legacySlugs": [],
@@ -7156,7 +7156,7 @@
           "id": "27512",
           "wooVariantId": 27512,
           "sku": "WC-V-27512",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -7194,11 +7194,11 @@
       "discountRule": 1,
       "date": "2026-01-28",
       "latestOrder": 1769558400000,
-      "productUrl": "https://peptalith.com/product/p-21-adamantane/",
+      "productUrl": "https://www.peptalith.com/product/p-21-adamantane/",
       "optionLabel": "weight",
       "wooProductId": 25756,
       "sku": "WC-P-25756",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "p-21-adamantane",
       "detailKey": "p-21-adamantane",
       "legacySlugs": [],
@@ -7259,7 +7259,7 @@
           "id": "9918",
           "wooVariantId": 9918,
           "sku": "WC-V-9918",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "2mg",
           "attributes": {
             "weight": "2mg"
@@ -7288,7 +7288,7 @@
           "id": "9919",
           "wooVariantId": 9919,
           "sku": "WC-V-9919",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -7325,11 +7325,11 @@
       "discountRule": 1,
       "date": "2025-08-09",
       "latestOrder": 1754697600000,
-      "productUrl": "https://peptalith.com/product/peg-mgf/",
+      "productUrl": "https://www.peptalith.com/product/peg-mgf/",
       "optionLabel": "Weight",
       "wooProductId": 9916,
       "sku": "WC-P-9916",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "peg-mgf",
       "detailKey": "peg-mgf",
       "legacySlugs": [],
@@ -7386,7 +7386,7 @@
           "id": "14931",
           "wooVariantId": 14931,
           "sku": "WC-V-14931",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -7415,7 +7415,7 @@
           "id": "14932",
           "wooVariantId": 14932,
           "sku": "WC-V-14932",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -7453,11 +7453,11 @@
       "discountRule": 1,
       "date": "2025-10-01",
       "latestOrder": 1759276800000,
-      "productUrl": "https://peptalith.com/product/pinealon/",
+      "productUrl": "https://www.peptalith.com/product/pinealon/",
       "optionLabel": "weight",
       "wooProductId": 13100,
       "sku": "WC-P-13100",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "pinealon",
       "detailKey": "pinealon",
       "legacySlugs": [],
@@ -7523,7 +7523,7 @@
           "id": "14879",
           "wooVariantId": 14879,
           "sku": "WC-V-14879",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -7552,7 +7552,7 @@
           "id": "14880",
           "wooVariantId": 14880,
           "sku": "WC-V-14880",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -7589,11 +7589,11 @@
       "discountRule": 1,
       "date": "2025-09-30",
       "latestOrder": 1759190400000,
-      "productUrl": "https://peptalith.com/product/pnc-27/",
+      "productUrl": "https://www.peptalith.com/product/pnc-27/",
       "optionLabel": "weight",
       "wooProductId": 14376,
       "sku": "WC-P-14376",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "pnc-27",
       "detailKey": "pnc-27",
       "legacySlugs": [],
@@ -7650,7 +7650,7 @@
           "id": "24840",
           "wooVariantId": 24840,
           "sku": "WC-V-24840",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -7679,7 +7679,7 @@
           "id": "24841",
           "wooVariantId": 24841,
           "sku": "WC-V-24841",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "40mg",
           "attributes": {
             "weight": "40mg"
@@ -7716,11 +7716,11 @@
       "discountRule": 1,
       "date": "2025-05-30",
       "latestOrder": 1748563200000,
-      "productUrl": "https://peptalith.com/product/prostamax/",
+      "productUrl": "https://www.peptalith.com/product/prostamax/",
       "optionLabel": "Weight",
       "wooProductId": 4690,
       "sku": "WC-P-4690",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "prostamax",
       "detailKey": "prostamax",
       "legacySlugs": [],
@@ -7782,7 +7782,7 @@
           "id": "5782",
           "wooVariantId": 5782,
           "sku": "WC-V-5782",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -7819,11 +7819,11 @@
       "discountRule": 1,
       "date": "2025-06-01",
       "latestOrder": 1748736000000,
-      "productUrl": "https://peptalith.com/product/pt-141/",
+      "productUrl": "https://www.peptalith.com/product/pt-141/",
       "optionLabel": "Weight",
       "wooProductId": 4681,
       "sku": "WC-P-4681",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "pt-141",
       "detailKey": "pt-141",
       "legacySlugs": [],
@@ -7880,7 +7880,7 @@
           "id": "5791",
           "wooVariantId": 5791,
           "sku": "WC-V-5791",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -7909,7 +7909,7 @@
           "id": "5960",
           "wooVariantId": 5960,
           "sku": "WC-V-5960",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -7946,11 +7946,11 @@
       "discountRule": 1,
       "date": "2025-05-29",
       "latestOrder": 1748476800000,
-      "productUrl": "https://peptalith.com/product/selank/",
+      "productUrl": "https://www.peptalith.com/product/selank/",
       "optionLabel": "Weight",
       "wooProductId": 4682,
       "sku": "WC-P-4682",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "selank",
       "detailKey": "selank",
       "legacySlugs": [],
@@ -8012,7 +8012,7 @@
           "id": "24789",
           "wooVariantId": 24789,
           "sku": "WC-V-24789",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -8041,7 +8041,7 @@
           "id": "24790",
           "wooVariantId": 24790,
           "sku": "WC-V-24790",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -8078,11 +8078,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/semx/",
+      "productUrl": "https://www.peptalith.com/product/semx/",
       "optionLabel": "weight",
       "wooProductId": 464,
       "sku": "WC-P-464",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "semx",
       "detailKey": "semx",
       "legacySlugs": [],
@@ -8139,7 +8139,7 @@
           "id": "16390",
           "wooVariantId": 16390,
           "sku": "WC-V-16390",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -8168,7 +8168,7 @@
           "id": "16391",
           "wooVariantId": 16391,
           "sku": "WC-V-16391",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -8205,11 +8205,11 @@
       "discountRule": 1,
       "date": "2025-06-19",
       "latestOrder": 1750291200000,
-      "productUrl": "https://peptalith.com/product/sermorlin/",
+      "productUrl": "https://www.peptalith.com/product/sermorlin/",
       "optionLabel": "Weight",
       "wooProductId": 4686,
       "sku": "WC-P-4686",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "sermorlin",
       "detailKey": "sermorlin",
       "legacySlugs": [],
@@ -8271,7 +8271,7 @@
           "id": "57351",
           "wooVariantId": 57351,
           "sku": "WC-V-57351",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -8300,7 +8300,7 @@
           "id": "57352",
           "wooVariantId": 57352,
           "sku": "WC-V-57352",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -8338,11 +8338,11 @@
       "discountRule": 1,
       "date": "2026-01-19",
       "latestOrder": 1768780800000,
-      "productUrl": "https://peptalith.com/product/slu-pp-332/",
+      "productUrl": "https://www.peptalith.com/product/slu-pp-332/",
       "optionLabel": "weight",
       "wooProductId": 25741,
       "sku": "WC-P-25741",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "slu-pp-332",
       "detailKey": "slu-pp-332",
       "legacySlugs": [],
@@ -8403,7 +8403,7 @@
           "id": "26278",
           "wooVariantId": 26278,
           "sku": "WC-V-26278",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -8440,11 +8440,11 @@
       "discountRule": 1,
       "date": "2026-01-23",
       "latestOrder": 1769126400000,
-      "productUrl": "https://peptalith.com/product/snap-8/",
+      "productUrl": "https://www.peptalith.com/product/snap-8/",
       "optionLabel": "weight",
       "wooProductId": 25750,
       "sku": "WC-P-25750",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "snap-8",
       "detailKey": "snap-8",
       "legacySlugs": [],
@@ -8501,7 +8501,7 @@
           "id": "468",
           "wooVariantId": 468,
           "sku": "WC-V-468",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -8530,7 +8530,7 @@
           "id": "469",
           "wooVariantId": 469,
           "sku": "WC-V-469",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -8568,11 +8568,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/tb-500/",
+      "productUrl": "https://www.peptalith.com/product/tb-500/",
       "optionLabel": "Weight",
       "wooProductId": 467,
       "sku": "WC-P-467",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "tb-500",
       "detailKey": "tb-500",
       "legacySlugs": [],
@@ -8638,7 +8638,7 @@
           "id": "471",
           "wooVariantId": 471,
           "sku": "WC-V-471",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -8667,7 +8667,7 @@
           "id": "472",
           "wooVariantId": 472,
           "sku": "WC-V-472",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -8704,11 +8704,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/tesmorelin/",
+      "productUrl": "https://www.peptalith.com/product/tesmorelin/",
       "optionLabel": "Weight",
       "wooProductId": 470,
       "sku": "WC-P-470",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "tesmorelin",
       "detailKey": "tesmorelin",
       "legacySlugs": [],
@@ -8765,7 +8765,7 @@
           "id": "9913",
           "wooVariantId": 9913,
           "sku": "WC-V-9913",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -8794,7 +8794,7 @@
           "id": "9914",
           "wooVariantId": 9914,
           "sku": "WC-V-9914",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -8832,11 +8832,11 @@
       "discountRule": 1,
       "date": "2025-09-23",
       "latestOrder": 1758585600000,
-      "productUrl": "https://peptalith.com/product/thymalin/",
+      "productUrl": "https://www.peptalith.com/product/thymalin/",
       "optionLabel": "Weight",
       "wooProductId": 9909,
       "sku": "WC-P-9909",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "thymalin",
       "detailKey": "thymalin",
       "legacySlugs": [],
@@ -8897,7 +8897,7 @@
           "id": "14882",
           "wooVariantId": 14882,
           "sku": "WC-V-14882",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -8926,7 +8926,7 @@
           "id": "14883",
           "wooVariantId": 14883,
           "sku": "WC-V-14883",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -8964,11 +8964,11 @@
       "discountRule": 1,
       "date": "2025-09-30",
       "latestOrder": 1759190400000,
-      "productUrl": "https://peptalith.com/product/thymogen/",
+      "productUrl": "https://www.peptalith.com/product/thymogen/",
       "optionLabel": "weight",
       "wooProductId": 13081,
       "sku": "WC-P-13081",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "thymogen",
       "detailKey": "thymogen",
       "legacySlugs": [],
@@ -9034,7 +9034,7 @@
           "id": "15718",
           "wooVariantId": 15718,
           "sku": "WC-V-15718",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -9063,7 +9063,7 @@
           "id": "15719",
           "wooVariantId": 15719,
           "sku": "WC-V-15719",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -9100,11 +9100,11 @@
       "discountRule": 1,
       "date": "2024-12-30",
       "latestOrder": 1735516800000,
-      "productUrl": "https://peptalith.com/product/thymosin-alpha-1/",
+      "productUrl": "https://www.peptalith.com/product/thymosin-alpha-1/",
       "optionLabel": "Weight",
       "wooProductId": 473,
       "sku": "WC-P-473",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "thymosin-alpha-1",
       "detailKey": "thymosin-alpha-1",
       "legacySlugs": [],
@@ -9166,7 +9166,7 @@
           "id": "26276",
           "wooVariantId": 26276,
           "sku": "WC-V-26276",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -9204,11 +9204,11 @@
       "discountRule": 1,
       "date": "2026-01-23",
       "latestOrder": 1769126400000,
-      "productUrl": "https://peptalith.com/product/vesugen/",
+      "productUrl": "https://www.peptalith.com/product/vesugen/",
       "optionLabel": "weight",
       "wooProductId": 25842,
       "sku": "WC-P-25842",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "vesugen",
       "detailKey": "vesugen",
       "legacySlugs": [],
@@ -9264,7 +9264,7 @@
           "id": "14937",
           "wooVariantId": 14937,
           "sku": "WC-V-14937",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -9293,7 +9293,7 @@
           "id": "14938",
           "wooVariantId": 14938,
           "sku": "WC-V-14938",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -9331,11 +9331,11 @@
       "discountRule": 1,
       "date": "2025-10-01",
       "latestOrder": 1759276800000,
-      "productUrl": "https://peptalith.com/product/vilon/",
+      "productUrl": "https://www.peptalith.com/product/vilon/",
       "optionLabel": "weight",
       "wooProductId": 13111,
       "sku": "WC-P-13111",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "vilon",
       "detailKey": "vilon",
       "legacySlugs": [],
@@ -9401,7 +9401,7 @@
           "id": "9905",
           "wooVariantId": 9905,
           "sku": "WC-V-9905",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -9430,7 +9430,7 @@
           "id": "9906",
           "wooVariantId": 9906,
           "sku": "WC-V-9906",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -9469,11 +9469,11 @@
       "discountRule": 1,
       "date": "2025-08-05",
       "latestOrder": 1754352000000,
-      "productUrl": "https://peptalith.com/product/vip/",
+      "productUrl": "https://www.peptalith.com/product/vip/",
       "optionLabel": "Weight",
       "wooProductId": 9903,
       "sku": "WC-P-9903",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "vip",
       "detailKey": "vip",
       "legacySlugs": [],
@@ -9543,7 +9543,7 @@
           "id": "30982",
           "wooVariantId": 30982,
           "sku": "WC-V-30982",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "50mg/cap",
           "attributes": {
             "weight": "50mg/cap"
@@ -9581,11 +9581,11 @@
       "discountRule": 2,
       "date": "2026-02-23",
       "latestOrder": 1771804800000,
-      "productUrl": "https://peptalith.com/product/5-amino-1mq-capsules/",
+      "productUrl": "https://www.peptalith.com/product/5-amino-1mq-capsules/",
       "optionLabel": "weight",
       "wooProductId": 30567,
       "sku": "WC-P-30567",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "5-amino-1mq-capsules",
       "detailKey": "5-amino-1mq-2",
       "legacySlugs": [
@@ -9648,7 +9648,7 @@
           "id": "44784",
           "wooVariantId": 44784,
           "sku": "WC-V-44784",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "50mg/cap",
           "attributes": {
             "weight": "50mg/cap"
@@ -9686,11 +9686,11 @@
       "discountRule": 2,
       "date": "2026-03-22",
       "latestOrder": 1774137600000,
-      "productUrl": "https://peptalith.com/product/bam15/",
+      "productUrl": "https://www.peptalith.com/product/bam15/",
       "optionLabel": "weight",
       "wooProductId": 36433,
       "sku": "WC-P-36433",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "bam15",
       "detailKey": "bam15-encapsulated-solid",
       "legacySlugs": [
@@ -9748,7 +9748,7 @@
           "id": "31041",
           "wooVariantId": 31041,
           "sku": "WC-V-31041",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500mcg/cap",
           "attributes": {
             "weight": "500mcg/cap"
@@ -9786,11 +9786,11 @@
       "discountRule": 2,
       "date": "2026-02-23",
       "latestOrder": 1771804800000,
-      "productUrl": "https://peptalith.com/product/bpc-157-arginate-salt/",
+      "productUrl": "https://www.peptalith.com/product/bpc-157-arginate-salt/",
       "optionLabel": "weight",
       "wooProductId": 30650,
       "sku": "WC-P-30650",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "bpc-157-arginate-salt",
       "detailKey": "bpc-157-arginate-salt",
       "legacySlugs": [],
@@ -9851,7 +9851,7 @@
           "id": "31036",
           "wooVariantId": 31036,
           "sku": "WC-V-31036",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500/500mcg/cap",
           "attributes": {
             "weight": "500/500mcg/cap"
@@ -9890,11 +9890,11 @@
       "discountRule": 2,
       "date": "2026-02-23",
       "latestOrder": 1771804800000,
-      "productUrl": "https://peptalith.com/product/bpc-157-tb-500-t-beta-4-blend/",
+      "productUrl": "https://www.peptalith.com/product/bpc-157-tb-500-t-beta-4-blend/",
       "optionLabel": "weight",
       "wooProductId": 30652,
       "sku": "WC-P-30652",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "bpc-157-tb-500-t-beta-4-blend",
       "detailKey": "bpc-157-tb-500-t%ce%b24-blend",
       "legacySlugs": [
@@ -9961,7 +9961,7 @@
           "id": "31011",
           "wooVariantId": 31011,
           "sku": "WC-V-31011",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg/cap",
           "attributes": {
             "weight": "5mg/cap"
@@ -9990,7 +9990,7 @@
           "id": "31012",
           "wooVariantId": 31012,
           "sku": "WC-V-31012",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg/cap",
           "attributes": {
             "weight": "10mg/cap"
@@ -10028,11 +10028,11 @@
       "discountRule": 2,
       "date": "2026-02-23",
       "latestOrder": 1771804800000,
-      "productUrl": "https://peptalith.com/product/dhx-pnb-0408/",
+      "productUrl": "https://www.peptalith.com/product/dhx-pnb-0408/",
       "optionLabel": "weight",
       "wooProductId": 30666,
       "sku": "WC-P-30666",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "dhx-pnb-0408",
       "detailKey": "dhx",
       "legacySlugs": [
@@ -10100,7 +10100,7 @@
           "id": "50657",
           "wooVariantId": 50657,
           "sku": "WC-V-50657",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500mcg/cap",
           "attributes": {
             "weight": "500mcg/cap"
@@ -10129,7 +10129,7 @@
           "id": "50658",
           "wooVariantId": 50658,
           "sku": "WC-V-50658",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "1000mcg/cap",
           "attributes": {
             "weight": "1000mcg/cap"
@@ -10167,11 +10167,11 @@
       "discountRule": 2,
       "date": "2026-06-02",
       "latestOrder": 1780358400000,
-      "productUrl": "https://peptalith.com/product/epithalon-capsules/",
+      "productUrl": "https://www.peptalith.com/product/epithalon-capsules/",
       "optionLabel": "weight",
       "wooProductId": 50656,
       "sku": "WC-P-50656",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "epithalon-capsules",
       "detailKey": "epithalon-2",
       "legacySlugs": [
@@ -10229,7 +10229,7 @@
           "id": "44795",
           "wooVariantId": 44795,
           "sku": "WC-V-44795",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "0.5/2/0.5mg/cap",
           "attributes": {
             "weight": "0.5/2/0.5mg/cap"
@@ -10268,11 +10268,11 @@
       "discountRule": 2,
       "date": "2026-04-17",
       "latestOrder": 1776384000000,
-      "productUrl": "https://peptalith.com/product/glow/",
+      "productUrl": "https://www.peptalith.com/product/glow/",
       "optionLabel": "weight",
       "wooProductId": 36443,
       "sku": "WC-P-36443",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "glow",
       "detailKey": "glow",
       "legacySlugs": [],
@@ -10337,7 +10337,7 @@
           "id": "30986",
           "wooVariantId": 30986,
           "sku": "WC-V-30986",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "12.5mg/cap",
           "attributes": {
             "weight": "12.5mg/cap"
@@ -10366,7 +10366,7 @@
           "id": "30987",
           "wooVariantId": 30987,
           "sku": "WC-V-30987",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "25mg/cap",
           "attributes": {
             "weight": "25mg/cap"
@@ -10405,11 +10405,11 @@
       "discountRule": 2,
       "date": "2026-02-23",
       "latestOrder": 1771804800000,
-      "productUrl": "https://peptalith.com/product/ibutamorin/",
+      "productUrl": "https://www.peptalith.com/product/ibutamorin/",
       "optionLabel": "weight",
       "wooProductId": 30661,
       "sku": "WC-P-30661",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "ibutamorin",
       "detailKey": "ibutamorin",
       "legacySlugs": [],
@@ -10479,7 +10479,7 @@
           "id": "57874",
           "wooVariantId": 57874,
           "sku": "WC-V-57874",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500mcg/cap",
           "attributes": {
             "weight": "500mcg/cap"
@@ -10517,11 +10517,11 @@
       "discountRule": 2,
       "date": "2026-06-02",
       "latestOrder": 1780358400000,
-      "productUrl": "https://peptalith.com/product/kpv-capsules/",
+      "productUrl": "https://www.peptalith.com/product/kpv-capsules/",
       "optionLabel": "weight",
       "wooProductId": 50659,
       "sku": "WC-P-50659",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "kpv-capsules",
       "detailKey": "kpv-2",
       "legacySlugs": [
@@ -10579,7 +10579,7 @@
           "id": "30983",
           "wooVariantId": 30983,
           "sku": "WC-V-30983",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg/cap",
           "attributes": {
             "weight": "20mg/cap"
@@ -10618,11 +10618,11 @@
       "discountRule": 2,
       "date": "2026-02-23",
       "latestOrder": 1771804800000,
-      "productUrl": "https://peptalith.com/product/methylene-blue/",
+      "productUrl": "https://www.peptalith.com/product/methylene-blue/",
       "optionLabel": "weight",
       "wooProductId": 30659,
       "sku": "WC-P-30659",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "methylene-blue",
       "detailKey": "methylene-blue",
       "legacySlugs": [],
@@ -10687,7 +10687,7 @@
           "id": "50654",
           "wooVariantId": 50654,
           "sku": "WC-V-50654",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500mcg/cap",
           "attributes": {
             "weight": "500mcg/cap"
@@ -10716,7 +10716,7 @@
           "id": "50655",
           "wooVariantId": 50655,
           "sku": "WC-V-50655",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "1000mcg/cap",
           "attributes": {
             "weight": "1000mcg/cap"
@@ -10755,11 +10755,11 @@
       "discountRule": 2,
       "date": "2026-05-11",
       "latestOrder": 1778457600000,
-      "productUrl": "https://peptalith.com/product/mots-c-capsules/",
+      "productUrl": "https://www.peptalith.com/product/mots-c-capsules/",
       "optionLabel": "weight",
       "wooProductId": 50650,
       "sku": "WC-P-50650",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "mots-c-capsules",
       "detailKey": "mots-c-2",
       "legacySlugs": [
@@ -10821,7 +10821,7 @@
           "id": "48579",
           "wooVariantId": 48579,
           "sku": "WC-V-48579",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "6mg/cap",
           "attributes": {
             "weight": "6mg/cap"
@@ -10859,11 +10859,11 @@
       "discountRule": 2,
       "date": "2026-05-01",
       "latestOrder": 1777593600000,
-      "productUrl": "https://peptalith.com/product/orforglipron/",
+      "productUrl": "https://www.peptalith.com/product/orforglipron/",
       "optionLabel": "weight",
       "wooProductId": 36435,
       "sku": "WC-P-36435",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "orforglipron",
       "detailKey": "orforglipron",
       "legacySlugs": [],
@@ -10919,7 +10919,7 @@
           "id": "50649",
           "wooVariantId": 50649,
           "sku": "WC-V-50649",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500/500mcg/cap",
           "attributes": {
             "weight": "500/500mcg/cap"
@@ -10958,11 +10958,11 @@
       "discountRule": 2,
       "date": "2026-06-02",
       "latestOrder": 1780358400000,
-      "productUrl": "https://peptalith.com/product/regen/",
+      "productUrl": "https://www.peptalith.com/product/regen/",
       "optionLabel": "weight",
       "wooProductId": 50648,
       "sku": "WC-P-50648",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "regen",
       "detailKey": "regen",
       "legacySlugs": [],
@@ -11022,7 +11022,7 @@
           "id": "30978",
           "wooVariantId": 30978,
           "sku": "WC-V-30978",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500mcg/cap",
           "attributes": {
             "weight": "500mcg/cap"
@@ -11051,7 +11051,7 @@
           "id": "30979",
           "wooVariantId": 30979,
           "sku": "WC-V-30979",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "1000mcg/cap",
           "attributes": {
             "weight": "1000mcg/cap"
@@ -11089,11 +11089,11 @@
       "discountRule": 2,
       "date": "2026-02-23",
       "latestOrder": 1771804800000,
-      "productUrl": "https://peptalith.com/product/slu-pp-332-capsules/",
+      "productUrl": "https://www.peptalith.com/product/slu-pp-332-capsules/",
       "optionLabel": "weight",
       "wooProductId": 30663,
       "sku": "WC-P-30663",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "slu-pp-332-capsules",
       "detailKey": "slu-pp-332-2",
       "legacySlugs": [
@@ -11161,7 +11161,7 @@
           "id": "31040",
           "wooVariantId": 31040,
           "sku": "WC-V-31040",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500mcg/cap",
           "attributes": {
             "weight": "500mcg/cap"
@@ -11199,11 +11199,11 @@
       "discountRule": 2,
       "date": "2026-02-23",
       "latestOrder": 1771804800000,
-      "productUrl": "https://peptalith.com/product/tb-500-t-beta-4/",
+      "productUrl": "https://www.peptalith.com/product/tb-500-t-beta-4/",
       "optionLabel": "weight",
       "wooProductId": 30573,
       "sku": "WC-P-30573",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "tb-500-t-beta-4",
       "detailKey": "tb-500-t%ce%b2-4",
       "legacySlugs": [
@@ -11266,7 +11266,7 @@
           "id": "31023",
           "wooVariantId": 31023,
           "sku": "WC-V-31023",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500mcg/cap",
           "attributes": {
             "weight": "500mcg/cap"
@@ -11304,11 +11304,11 @@
       "discountRule": 2,
       "date": "2026-02-23",
       "latestOrder": 1771804800000,
-      "productUrl": "https://peptalith.com/product/teso-ns2330/",
+      "productUrl": "https://www.peptalith.com/product/teso-ns2330/",
       "optionLabel": "weight",
       "wooProductId": 30656,
       "sku": "WC-P-30656",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "teso-ns2330",
       "detailKey": "teso",
       "legacySlugs": [
@@ -11371,7 +11371,7 @@
           "id": "31006",
           "wooVariantId": 31006,
           "sku": "WC-V-31006",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500mg/cap",
           "attributes": {
             "weight": "500mg/cap"
@@ -11409,11 +11409,11 @@
       "discountRule": 2,
       "date": "2026-02-23",
       "latestOrder": 1771804800000,
-      "productUrl": "https://peptalith.com/product/tudca/",
+      "productUrl": "https://www.peptalith.com/product/tudca/",
       "optionLabel": "weight",
       "wooProductId": 30668,
       "sku": "WC-P-30668",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "tudca",
       "detailKey": "tudca",
       "legacySlugs": [],
@@ -11474,7 +11474,7 @@
           "id": "50714",
           "wooVariantId": 50714,
           "sku": "WC-V-50714",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "volume": "20mg"
@@ -11511,11 +11511,11 @@
       "discountRule": 2,
       "date": "2026-06-17",
       "latestOrder": 1781654400000,
-      "productUrl": "https://peptalith.com/product/aod9604-liquid/",
+      "productUrl": "https://www.peptalith.com/product/aod9604-liquid/",
       "optionLabel": "volume",
       "wooProductId": 50712,
       "sku": "WC-P-50712",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "aod9604-liquid",
       "detailKey": "aod9604-2",
       "legacySlugs": [
@@ -11569,7 +11569,7 @@
           "id": "35664",
           "wooVariantId": 35664,
           "sku": "WC-V-35664",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30mg",
           "attributes": {
             "volume": "30mg"
@@ -11607,11 +11607,11 @@
       "discountRule": 2,
       "date": "2026-03-16",
       "latestOrder": 1773619200000,
-      "productUrl": "https://peptalith.com/product/bpc-157-liquid/",
+      "productUrl": "https://www.peptalith.com/product/bpc-157-liquid/",
       "optionLabel": "volume",
       "wooProductId": 33343,
       "sku": "WC-P-33343",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "bpc-157-liquid",
       "detailKey": "bpc-157-pure-health-peptides",
       "legacySlugs": [
@@ -11674,7 +11674,7 @@
           "id": "35666",
           "wooVariantId": 35666,
           "sku": "WC-V-35666",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30/30mg",
           "attributes": {
             "volume": "30/30mg"
@@ -11712,11 +11712,11 @@
       "discountRule": 2,
       "date": "2026-03-16",
       "latestOrder": 1773619200000,
-      "productUrl": "https://peptalith.com/product/bpc-157-tb-500-t-beta-4/",
+      "productUrl": "https://www.peptalith.com/product/bpc-157-tb-500-t-beta-4/",
       "optionLabel": "volume",
       "wooProductId": 33355,
       "sku": "WC-P-33355",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "bpc-157-tb-500-t-beta-4",
       "detailKey": "bpc-157-tb-500-2",
       "legacySlugs": [
@@ -11779,7 +11779,7 @@
           "id": "50702",
           "wooVariantId": 50702,
           "sku": "WC-V-50702",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30mg",
           "attributes": {
             "volume": "30mg"
@@ -11816,11 +11816,11 @@
       "discountRule": 2,
       "date": "2026-06-02",
       "latestOrder": 1780358400000,
-      "productUrl": "https://peptalith.com/product/dsip-liquid/",
+      "productUrl": "https://www.peptalith.com/product/dsip-liquid/",
       "optionLabel": "volume",
       "wooProductId": 50701,
       "sku": "WC-P-50701",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "dsip-liquid",
       "detailKey": "dsip-2",
       "legacySlugs": [
@@ -11874,7 +11874,7 @@
           "id": "50715",
           "wooVariantId": 50715,
           "sku": "WC-V-50715",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "50mg",
           "attributes": {
             "volume": "50mg"
@@ -11912,11 +11912,11 @@
       "discountRule": 2,
       "date": "2026-06-02",
       "latestOrder": 1780358400000,
-      "productUrl": "https://peptalith.com/product/epithalon-liquid/",
+      "productUrl": "https://www.peptalith.com/product/epithalon-liquid/",
       "optionLabel": "volume",
       "wooProductId": 50698,
       "sku": "WC-P-50698",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "epithalon-liquid",
       "detailKey": "epithalon-3",
       "legacySlugs": [
@@ -11974,7 +11974,7 @@
           "id": "50722",
           "wooVariantId": 50722,
           "sku": "WC-V-50722",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "50mg",
           "attributes": {
             "volume": "50mg"
@@ -12013,11 +12013,11 @@
       "discountRule": 2,
       "date": "2026-06-02",
       "latestOrder": 1780358400000,
-      "productUrl": "https://peptalith.com/product/ghk-cu-liquid/",
+      "productUrl": "https://www.peptalith.com/product/ghk-cu-liquid/",
       "optionLabel": "volume",
       "wooProductId": 50719,
       "sku": "WC-P-50719",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "ghk-cu-liquid",
       "detailKey": "ghk-cu-2",
       "legacySlugs": [
@@ -12079,7 +12079,7 @@
           "id": "50711",
           "wooVariantId": 50711,
           "sku": "WC-V-50711",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "40mg",
           "attributes": {
             "volume": "40mg"
@@ -12117,11 +12117,11 @@
       "discountRule": 2,
       "date": "2026-06-02",
       "latestOrder": 1780358400000,
-      "productUrl": "https://peptalith.com/product/kpv-liquid/",
+      "productUrl": "https://www.peptalith.com/product/kpv-liquid/",
       "optionLabel": "volume",
       "wooProductId": 50709,
       "sku": "WC-P-50709",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "kpv-liquid",
       "detailKey": "kpv-3",
       "legacySlugs": [
@@ -12179,7 +12179,7 @@
           "id": "35520",
           "wooVariantId": 35520,
           "sku": "WC-V-35520",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10ml",
           "attributes": {
             "volume": "10ml"
@@ -12218,11 +12218,11 @@
       "discountRule": 1,
       "date": "2026-03-15",
       "latestOrder": 1773532800000,
-      "productUrl": "https://peptalith.com/product/lc-120-lipo-c-formulation/",
+      "productUrl": "https://www.peptalith.com/product/lc-120-lipo-c-formulation/",
       "optionLabel": "volume",
       "wooProductId": 30551,
       "sku": "WC-P-30551",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "lc-120-lipo-c-formulation",
       "detailKey": "lc120",
       "legacySlugs": [
@@ -12289,7 +12289,7 @@
           "id": "31046",
           "wooVariantId": 31046,
           "sku": "WC-V-31046",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10 ml",
           "attributes": {
             "volume": "10 ml"
@@ -12327,11 +12327,11 @@
       "discountRule": 1,
       "date": "2026-03-15",
       "latestOrder": 1773532800000,
-      "productUrl": "https://peptalith.com/product/lc-216-lipo-b-formulation/",
+      "productUrl": "https://www.peptalith.com/product/lc-216-lipo-b-formulation/",
       "optionLabel": "volume",
       "wooProductId": 30560,
       "sku": "WC-P-30560",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "lc-216-lipo-b-formulation",
       "detailKey": "lc-216",
       "legacySlugs": [
@@ -12394,7 +12394,7 @@
           "id": "36650",
           "wooVariantId": 36650,
           "sku": "WC-V-36650",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "1500mg",
           "attributes": {
             "volume": "1500mg"
@@ -12432,11 +12432,11 @@
       "discountRule": 2,
       "date": "2026-03-20",
       "latestOrder": 1773964800000,
-      "productUrl": "https://peptalith.com/product/nad-plus-nicotinamide-adenine-dinucleotide/",
+      "productUrl": "https://www.peptalith.com/product/nad-plus-nicotinamide-adenine-dinucleotide/",
       "optionLabel": "volume",
       "wooProductId": 33348,
       "sku": "WC-P-33348",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "nad-plus-nicotinamide-adenine-dinucleotide",
       "detailKey": "nad%e2%81%ba-nicotinamide-adenine-dinucleotide",
       "legacySlugs": [
@@ -12499,7 +12499,7 @@
           "id": "36832",
           "wooVariantId": 36832,
           "sku": "WC-V-36832",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30mg",
           "attributes": {
             "volume": "30mg"
@@ -12536,11 +12536,11 @@
       "discountRule": 2,
       "date": "2026-03-20",
       "latestOrder": 1773964800000,
-      "productUrl": "https://peptalith.com/product/pt-141-liquid/",
+      "productUrl": "https://www.peptalith.com/product/pt-141-liquid/",
       "optionLabel": "volume",
       "wooProductId": 33354,
       "sku": "WC-P-33354",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "pt-141-liquid",
       "detailKey": "pt-141-2",
       "legacySlugs": [
@@ -12599,7 +12599,7 @@
           "id": "36828",
           "wooVariantId": 36828,
           "sku": "WC-V-36828",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "40mg",
           "attributes": {
             "volume": "40mg"
@@ -12636,11 +12636,11 @@
       "discountRule": 2,
       "date": "2026-03-20",
       "latestOrder": 1773964800000,
-      "productUrl": "https://peptalith.com/product/selank-tp-7/",
+      "productUrl": "https://www.peptalith.com/product/selank-tp-7/",
       "optionLabel": "volume",
       "wooProductId": 33353,
       "sku": "WC-P-33353",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "selank-tp-7",
       "detailKey": "selank-tp-7",
       "legacySlugs": [],
@@ -12697,7 +12697,7 @@
           "id": "36821",
           "wooVariantId": 36821,
           "sku": "WC-V-36821",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "50mg",
           "attributes": {
             "volume": "50mg"
@@ -12734,11 +12734,11 @@
       "discountRule": 2,
       "date": "2026-03-20",
       "latestOrder": 1773964800000,
-      "productUrl": "https://peptalith.com/product/semx-liquid/",
+      "productUrl": "https://www.peptalith.com/product/semx-liquid/",
       "optionLabel": "volume",
       "wooProductId": 33349,
       "sku": "WC-P-33349",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "semx-liquid",
       "detailKey": "semx-2",
       "legacySlugs": [
@@ -12797,7 +12797,7 @@
           "id": "36826",
           "wooVariantId": 36826,
           "sku": "WC-V-36826",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30mg",
           "attributes": {
             "volume": "30mg"
@@ -12835,11 +12835,11 @@
       "discountRule": 2,
       "date": "2026-03-20",
       "latestOrder": 1773964800000,
-      "productUrl": "https://peptalith.com/product/tb-500-t-beta-4-liquid/",
+      "productUrl": "https://www.peptalith.com/product/tb-500-t-beta-4-liquid/",
       "optionLabel": "volume",
       "wooProductId": 33347,
       "sku": "WC-P-33347",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "tb-500-t-beta-4-liquid",
       "detailKey": "tb-500-t%ce%b24-pure-health-peptides",
       "legacySlugs": [
@@ -12902,7 +12902,7 @@
           "id": "50718",
           "wooVariantId": 50718,
           "sku": "WC-V-50718",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "volume": "20mg"
@@ -12941,11 +12941,11 @@
       "discountRule": 2,
       "date": "2026-06-02",
       "latestOrder": 1780358400000,
-      "productUrl": "https://peptalith.com/product/vip-liquid/",
+      "productUrl": "https://www.peptalith.com/product/vip-liquid/",
       "optionLabel": "volume",
       "wooProductId": 50716,
       "sku": "WC-P-50716",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "vip-liquid",
       "detailKey": "vip-pure-health-peptides",
       "legacySlugs": [
@@ -13007,7 +13007,7 @@
           "id": "50725",
           "wooVariantId": 50725,
           "sku": "WC-V-50725",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "60mg",
           "attributes": {
             "volume": "60mg"
@@ -13045,11 +13045,11 @@
       "discountRule": 2,
       "date": "2026-06-02",
       "latestOrder": 1780358400000,
-      "productUrl": "https://peptalith.com/product/vocus/",
+      "productUrl": "https://www.peptalith.com/product/vocus/",
       "optionLabel": "volume",
       "wooProductId": 50723,
       "sku": "WC-P-50723",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "vocus",
       "detailKey": "vocus",
       "legacySlugs": [],
@@ -13105,7 +13105,7 @@
           "id": "62047",
           "wooVariantId": 62047,
           "sku": "WC-V-62047",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "Syst. A/B/C/D/E",
           "attributes": {
             "items": "Syst. A/B/C/D/E"
@@ -13142,11 +13142,11 @@
       "discountRule": 2,
       "date": "2026-06-24",
       "latestOrder": 1782259200000,
-      "productUrl": "https://peptalith.com/product/complete-configuration-modular-peptide-systems-a-b-c-d-e/",
+      "productUrl": "https://www.peptalith.com/product/complete-configuration-modular-peptide-systems-a-b-c-d-e/",
       "optionLabel": "Items",
       "wooProductId": 57263,
       "sku": "WC-P-57263",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "complete-configuration-modular-peptide-systems-a-b-c-d-e",
       "detailKey": "complete-configuration-modular-peptide-systems-abcde",
       "legacySlugs": [
@@ -13200,7 +13200,7 @@
           "id": "57221",
           "wooVariantId": 57221,
           "sku": "WC-V-57221",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30mL",
           "attributes": {
             "volume": "30mL"
@@ -13237,11 +13237,11 @@
       "discountRule": 2,
       "date": "2026-06-24",
       "latestOrder": 1782259200000,
-      "productUrl": "https://peptalith.com/product/modular-peptide-system-a-dual-peptide-serum/",
+      "productUrl": "https://www.peptalith.com/product/modular-peptide-system-a-dual-peptide-serum/",
       "optionLabel": "volume",
       "wooProductId": 57217,
       "sku": "WC-P-57217",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "modular-peptide-system-a-dual-peptide-serum",
       "detailKey": "modular-peptide-system-a-dual-peptide-serum",
       "legacySlugs": [],
@@ -13303,7 +13303,7 @@
           "id": "57236",
           "wooVariantId": 57236,
           "sku": "WC-V-57236",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mL",
           "attributes": {
             "volume": "20mL"
@@ -13340,11 +13340,11 @@
       "discountRule": 2,
       "date": "2026-06-24",
       "latestOrder": 1782259200000,
-      "productUrl": "https://peptalith.com/product/modular-peptide-system-b-pure-peptide-gel/",
+      "productUrl": "https://www.peptalith.com/product/modular-peptide-system-b-pure-peptide-gel/",
       "optionLabel": "volume",
       "wooProductId": 57235,
       "sku": "WC-P-57235",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "modular-peptide-system-b-pure-peptide-gel",
       "detailKey": "modular-peptide-system-b-pure-peptide-gel",
       "legacySlugs": [],
@@ -13406,7 +13406,7 @@
           "id": "57241",
           "wooVariantId": 57241,
           "sku": "WC-V-57241",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "15ml",
           "attributes": {
             "volume": "15ml"
@@ -13443,11 +13443,11 @@
       "discountRule": 2,
       "date": "2026-06-23",
       "latestOrder": 1782172800000,
-      "productUrl": "https://peptalith.com/product/modular-peptide-system-c-controlled-rheology-peptide-emulsion/",
+      "productUrl": "https://www.peptalith.com/product/modular-peptide-system-c-controlled-rheology-peptide-emulsion/",
       "optionLabel": "volume",
       "wooProductId": 57238,
       "sku": "WC-P-57238",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "modular-peptide-system-c-controlled-rheology-peptide-emulsion",
       "detailKey": "modular-peptide-system-c-controlled-rheology-peptide-emulsion",
       "legacySlugs": [],
@@ -13509,7 +13509,7 @@
           "id": "57247",
           "wooVariantId": 57247,
           "sku": "WC-V-57247",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20ml",
           "attributes": {
             "volume": "20ml"
@@ -13546,11 +13546,11 @@
       "discountRule": 2,
       "date": "2026-06-24",
       "latestOrder": 1782259200000,
-      "productUrl": "https://peptalith.com/product/modular-peptide-system-d-copper-peptide-complex/",
+      "productUrl": "https://www.peptalith.com/product/modular-peptide-system-d-copper-peptide-complex/",
       "optionLabel": "volume",
       "wooProductId": 57242,
       "sku": "WC-P-57242",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "modular-peptide-system-d-copper-peptide-complex",
       "detailKey": "modular-peptide-system-d-copper-peptide-complex",
       "legacySlugs": [],
@@ -13612,7 +13612,7 @@
           "id": "57255",
           "wooVariantId": 57255,
           "sku": "WC-V-57255",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30ml",
           "attributes": {
             "volume": "30ml"
@@ -13649,11 +13649,11 @@
       "discountRule": 2,
       "date": "2026-06-24",
       "latestOrder": 1782259200000,
-      "productUrl": "https://peptalith.com/product/modular-peptide-system-e-multi-peptide-complex/",
+      "productUrl": "https://www.peptalith.com/product/modular-peptide-system-e-multi-peptide-complex/",
       "optionLabel": "volume",
       "wooProductId": 57250,
       "sku": "WC-P-57250",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "modular-peptide-system-e-multi-peptide-complex",
       "detailKey": "modular-peptide-system-e-multi-peptide-complex",
       "legacySlugs": [],
@@ -13715,7 +13715,7 @@
           "id": "62044",
           "wooVariantId": 62044,
           "sku": "WC-V-62044",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "Syst. A/C/E",
           "attributes": {
             "items": "Syst. A/C/E"
@@ -13752,11 +13752,11 @@
       "discountRule": 2,
       "date": "2026-06-24",
       "latestOrder": 1782259200000,
-      "productUrl": "https://peptalith.com/product/phase-1-configuration-modular-peptide-systems-a-c-e/",
+      "productUrl": "https://www.peptalith.com/product/phase-1-configuration-modular-peptide-systems-a-c-e/",
       "optionLabel": "Items",
       "wooProductId": 57256,
       "sku": "WC-P-57256",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "phase-1-configuration-modular-peptide-systems-a-c-e",
       "detailKey": "phase-1-configuration-modular-peptide-systems-ace",
       "legacySlugs": [
@@ -13810,7 +13810,7 @@
           "id": "62045",
           "wooVariantId": 62045,
           "sku": "WC-V-62045",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "Syst. B/D",
           "attributes": {
             "items": "Syst. B/D"
@@ -13847,11 +13847,11 @@
       "discountRule": 2,
       "date": "2026-06-24",
       "latestOrder": 1782259200000,
-      "productUrl": "https://peptalith.com/product/phase-2-configuration-modular-peptide-systems-b-d/",
+      "productUrl": "https://www.peptalith.com/product/phase-2-configuration-modular-peptide-systems-b-d/",
       "optionLabel": "Items",
       "wooProductId": 57258,
       "sku": "WC-P-57258",
-      "skuSource": "derived",
+      "skuSource": "merchant",
       "slug": "phase-2-configuration-modular-peptide-systems-b-d",
       "detailKey": "phase-2-configuration-modular-peptide-systems-bd",
       "legacySlugs": [

@@ -1,5 +1,5 @@
 {
-  "version": "45c5f103f1efac7f0ffc",
+  "version": "4138a5e274d762ef1fbd",
   "products": [
     {
       "id": "vials-25738",
@@ -17,7 +17,7 @@
           "id": "26282",
           "wooVariantId": 26282,
           "sku": "WC-V-26282",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "50mg",
           "attributes": {
             "weight": "50mg"
@@ -60,7 +60,7 @@
           "id": "29631",
           "wooVariantId": 29631,
           "sku": "WC-V-29631",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mL",
           "attributes": {
             "volume": "10mL"
@@ -103,7 +103,7 @@
           "id": "9896",
           "wooVariantId": 9896,
           "sku": "WC-V-9896",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -132,7 +132,7 @@
           "id": "9897",
           "wooVariantId": 9897,
           "sku": "WC-V-9897",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -175,7 +175,7 @@
           "id": "26284",
           "wooVariantId": 26284,
           "sku": "WC-V-26284",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "50mg",
           "attributes": {
             "weight": "50mg"
@@ -218,7 +218,7 @@
           "id": "586",
           "wooVariantId": 586,
           "sku": "WC-V-586",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -247,7 +247,7 @@
           "id": "5792",
           "wooVariantId": 5792,
           "sku": "WC-V-5792",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -290,7 +290,7 @@
           "id": "21122",
           "wooVariantId": 21122,
           "sku": "WC-V-21122",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -319,7 +319,7 @@
           "id": "21123",
           "wooVariantId": 21123,
           "sku": "WC-V-21123",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -362,7 +362,7 @@
           "id": "3638",
           "wooVariantId": 3638,
           "sku": "WC-V-3638",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10ml",
           "attributes": {
             "weight": "10ml"
@@ -405,7 +405,7 @@
           "id": "420",
           "wooVariantId": 420,
           "sku": "WC-V-420",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -434,7 +434,7 @@
           "id": "2501",
           "wooVariantId": 2501,
           "sku": "WC-V-2501",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -463,7 +463,7 @@
           "id": "5775",
           "wooVariantId": 5775,
           "sku": "WC-V-5775",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "15mg",
           "attributes": {
             "weight": "15mg"
@@ -506,7 +506,7 @@
           "id": "585",
           "wooVariantId": 585,
           "sku": "WC-V-585",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5/5mg",
           "attributes": {
             "weight": "5/5mg"
@@ -535,7 +535,7 @@
           "id": "5781",
           "wooVariantId": 5781,
           "sku": "WC-V-5781",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10/10mg",
           "attributes": {
             "weight": "10/10mg"
@@ -578,7 +578,7 @@
           "id": "48583",
           "wooVariantId": 48583,
           "sku": "WC-V-48583",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -621,7 +621,7 @@
           "id": "57358",
           "wooVariantId": 57358,
           "sku": "WC-V-57358",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -650,7 +650,7 @@
           "id": "57359",
           "wooVariantId": 57359,
           "sku": "WC-V-57359",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -679,7 +679,7 @@
           "id": "57360",
           "wooVariantId": 57360,
           "sku": "WC-V-57360",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30mg",
           "attributes": {
             "weight": "30mg"
@@ -722,7 +722,7 @@
           "id": "27506",
           "wooVariantId": 27506,
           "sku": "WC-V-27506",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -765,7 +765,7 @@
           "id": "442",
           "wooVariantId": 442,
           "sku": "WC-V-442",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -794,7 +794,7 @@
           "id": "443",
           "wooVariantId": 443,
           "sku": "WC-V-443",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -837,7 +837,7 @@
           "id": "444",
           "wooVariantId": 444,
           "sku": "WC-V-444",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -866,7 +866,7 @@
           "id": "6007",
           "wooVariantId": 6007,
           "sku": "WC-V-6007",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -909,7 +909,7 @@
           "id": "22273",
           "wooVariantId": 22273,
           "sku": "WC-V-22273",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5/5mg",
           "attributes": {
             "weight": "5/5mg"
@@ -938,7 +938,7 @@
           "id": "22274",
           "wooVariantId": 22274,
           "sku": "WC-V-22274",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10/10mg",
           "attributes": {
             "weight": "10/10mg"
@@ -981,7 +981,7 @@
           "id": "581",
           "wooVariantId": 581,
           "sku": "WC-V-581",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5/5mg",
           "attributes": {
             "weight": "5/5mg"
@@ -1010,7 +1010,7 @@
           "id": "5779",
           "wooVariantId": 5779,
           "sku": "WC-V-5779",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10/10mg",
           "attributes": {
             "weight": "10/10mg"
@@ -1053,7 +1053,7 @@
           "id": "27513",
           "wooVariantId": 27513,
           "sku": "WC-V-27513",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -1096,7 +1096,7 @@
           "id": "5780",
           "wooVariantId": 5780,
           "sku": "WC-V-5780",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -1125,7 +1125,7 @@
           "id": "580",
           "wooVariantId": 580,
           "sku": "WC-V-580",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -1168,7 +1168,7 @@
           "id": "19760",
           "wooVariantId": 19760,
           "sku": "WC-V-19760",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -1197,7 +1197,7 @@
           "id": "19761",
           "wooVariantId": 19761,
           "sku": "WC-V-19761",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -1226,7 +1226,7 @@
           "id": "19762",
           "wooVariantId": 19762,
           "sku": "WC-V-19762",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "50mg",
           "attributes": {
             "weight": "50mg"
@@ -1269,7 +1269,7 @@
           "id": "27510",
           "wooVariantId": 27510,
           "sku": "WC-V-27510",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "1mg",
           "attributes": {
             "weight": "1mg"
@@ -1312,7 +1312,7 @@
           "id": "21809",
           "wooVariantId": 21809,
           "sku": "WC-V-21809",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "1mg",
           "attributes": {
             "weight": "1mg"
@@ -1355,7 +1355,7 @@
           "id": "14052",
           "wooVariantId": 14052,
           "sku": "WC-V-14052",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -1384,7 +1384,7 @@
           "id": "14053",
           "wooVariantId": 14053,
           "sku": "WC-V-14053",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -1427,7 +1427,7 @@
           "id": "15854",
           "wooVariantId": 15854,
           "sku": "WC-V-15854",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "1mg",
           "attributes": {
             "weight": "1mg"
@@ -1456,7 +1456,7 @@
           "id": "15855",
           "wooVariantId": 15855,
           "sku": "WC-V-15855",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "2mg",
           "attributes": {
             "weight": "2mg"
@@ -1499,7 +1499,7 @@
           "id": "579",
           "wooVariantId": 579,
           "sku": "WC-V-579",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "50mg",
           "attributes": {
             "weight": "50mg"
@@ -1528,7 +1528,7 @@
           "id": "2386",
           "wooVariantId": 2386,
           "sku": "WC-V-2386",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "100mg",
           "attributes": {
             "weight": "100mg"
@@ -1571,7 +1571,7 @@
           "id": "5784",
           "wooVariantId": 5784,
           "sku": "WC-V-5784",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -1614,7 +1614,7 @@
           "id": "2539",
           "wooVariantId": 2539,
           "sku": "WC-V-2539",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -1657,7 +1657,7 @@
           "id": "5767",
           "wooVariantId": 5767,
           "sku": "WC-V-5767",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5/50/2mg",
           "attributes": {
             "weight": "5/50/2mg"
@@ -1686,7 +1686,7 @@
           "id": "5768",
           "wooVariantId": 5768,
           "sku": "WC-V-5768",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10/50/10mg",
           "attributes": {
             "weight": "10/50/10mg"
@@ -1729,7 +1729,7 @@
           "id": "5771",
           "wooVariantId": 5771,
           "sku": "WC-V-5771",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5/50/2/3mg",
           "attributes": {
             "weight": "5/50/2/3mg"
@@ -1758,7 +1758,7 @@
           "id": "5957",
           "wooVariantId": 5957,
           "sku": "WC-V-5957",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10/50/10/5mg",
           "attributes": {
             "weight": "10/50/10/5mg"
@@ -1801,7 +1801,7 @@
           "id": "5783",
           "wooVariantId": 5783,
           "sku": "WC-V-5783",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -1844,7 +1844,7 @@
           "id": "25151",
           "wooVariantId": 25151,
           "sku": "WC-V-25151",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5/5mg",
           "attributes": {
             "weight": "5/5mg"
@@ -1873,7 +1873,7 @@
           "id": "25152",
           "wooVariantId": 25152,
           "sku": "WC-V-25152",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10/10mg",
           "attributes": {
             "weight": "10/10mg"
@@ -1916,7 +1916,7 @@
           "id": "460",
           "wooVariantId": 460,
           "sku": "WC-V-460",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -1945,7 +1945,7 @@
           "id": "461",
           "wooVariantId": 461,
           "sku": "WC-V-461",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -1974,7 +1974,7 @@
           "id": "462",
           "wooVariantId": 462,
           "sku": "WC-V-462",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "15mg",
           "attributes": {
             "weight": "15mg"
@@ -2003,7 +2003,7 @@
           "id": "463",
           "wooVariantId": 463,
           "sku": "WC-V-463",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -2032,7 +2032,7 @@
           "id": "2376",
           "wooVariantId": 2376,
           "sku": "WC-V-2376",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30mg",
           "attributes": {
             "weight": "30mg"
@@ -2075,7 +2075,7 @@
           "id": "475",
           "wooVariantId": 475,
           "sku": "WC-V-475",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -2104,7 +2104,7 @@
           "id": "476",
           "wooVariantId": 476,
           "sku": "WC-V-476",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "15mg",
           "attributes": {
             "weight": "15mg"
@@ -2133,7 +2133,7 @@
           "id": "477",
           "wooVariantId": 477,
           "sku": "WC-V-477",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -2162,7 +2162,7 @@
           "id": "478",
           "wooVariantId": 478,
           "sku": "WC-V-478",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30mg",
           "attributes": {
             "weight": "30mg"
@@ -2205,7 +2205,7 @@
           "id": "4267",
           "wooVariantId": 4267,
           "sku": "WC-V-4267",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -2234,7 +2234,7 @@
           "id": "456",
           "wooVariantId": 456,
           "sku": "WC-V-456",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -2263,7 +2263,7 @@
           "id": "457",
           "wooVariantId": 457,
           "sku": "WC-V-457",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "15mg",
           "attributes": {
             "weight": "15mg"
@@ -2292,7 +2292,7 @@
           "id": "458",
           "wooVariantId": 458,
           "sku": "WC-V-458",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -2321,7 +2321,7 @@
           "id": "5793",
           "wooVariantId": 5793,
           "sku": "WC-V-5793",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30mg",
           "attributes": {
             "weight": "30mg"
@@ -2364,7 +2364,7 @@
           "id": "5109",
           "wooVariantId": 5109,
           "sku": "WC-V-5109",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "600mg",
           "attributes": {
             "weight": "600mg"
@@ -2393,7 +2393,7 @@
           "id": "63452",
           "wooVariantId": 63452,
           "sku": "WC-V-63452",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "1200mg",
           "attributes": {
             "weight": "1200mg"
@@ -2436,7 +2436,7 @@
           "id": "26290",
           "wooVariantId": 26290,
           "sku": "WC-V-26290",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "2mg",
           "attributes": {
             "weight": "2mg"
@@ -2479,7 +2479,7 @@
           "id": "3636",
           "wooVariantId": 3636,
           "sku": "WC-V-3636",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -2522,7 +2522,7 @@
           "id": "578",
           "wooVariantId": 578,
           "sku": "WC-V-578",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -2551,7 +2551,7 @@
           "id": "5795",
           "wooVariantId": 5795,
           "sku": "WC-V-5795",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -2594,7 +2594,7 @@
           "id": "25913",
           "wooVariantId": 25913,
           "sku": "WC-V-25913",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -2637,7 +2637,7 @@
           "id": "13321",
           "wooVariantId": 13321,
           "sku": "WC-V-13321",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -2666,7 +2666,7 @@
           "id": "13322",
           "wooVariantId": 13322,
           "sku": "WC-V-13322",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -2709,7 +2709,7 @@
           "id": "19602",
           "wooVariantId": 19602,
           "sku": "WC-V-19602",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "1mg",
           "attributes": {
             "weight": "1mg"
@@ -2738,7 +2738,7 @@
           "id": "19603",
           "wooVariantId": 19603,
           "sku": "WC-V-19603",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "2mg",
           "attributes": {
             "weight": "2mg"
@@ -2781,7 +2781,7 @@
           "id": "440",
           "wooVariantId": 440,
           "sku": "WC-V-440",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -2810,7 +2810,7 @@
           "id": "441",
           "wooVariantId": 441,
           "sku": "WC-V-441",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -2853,7 +2853,7 @@
           "id": "13627",
           "wooVariantId": 13627,
           "sku": "WC-V-13627",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -2882,7 +2882,7 @@
           "id": "582",
           "wooVariantId": 582,
           "sku": "WC-V-582",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -2925,7 +2925,7 @@
           "id": "14050",
           "wooVariantId": 14050,
           "sku": "WC-V-14050",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10/50/10/10mg",
           "attributes": {
             "weight": "10/50/10/10mg"
@@ -2968,7 +2968,7 @@
           "id": "9922",
           "wooVariantId": 9922,
           "sku": "WC-V-9922",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -2997,7 +2997,7 @@
           "id": "9923",
           "wooVariantId": 9923,
           "sku": "WC-V-9923",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -3040,7 +3040,7 @@
           "id": "14935",
           "wooVariantId": 14935,
           "sku": "WC-V-14935",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -3069,7 +3069,7 @@
           "id": "14936",
           "wooVariantId": 14936,
           "sku": "WC-V-14936",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -3112,7 +3112,7 @@
           "id": "583",
           "wooVariantId": 583,
           "sku": "WC-V-583",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -3141,7 +3141,7 @@
           "id": "584",
           "wooVariantId": 584,
           "sku": "WC-V-584",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -3184,7 +3184,7 @@
           "id": "449",
           "wooVariantId": 449,
           "sku": "WC-V-449",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -3213,7 +3213,7 @@
           "id": "450",
           "wooVariantId": 450,
           "sku": "WC-V-450",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -3256,7 +3256,7 @@
           "id": "27508",
           "wooVariantId": 27508,
           "sku": "WC-V-27508",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "2mg",
           "attributes": {
             "weight": "2mg"
@@ -3299,7 +3299,7 @@
           "id": "25514",
           "wooVariantId": 25514,
           "sku": "WC-V-25514",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -3328,7 +3328,7 @@
           "id": "25515",
           "wooVariantId": 25515,
           "sku": "WC-V-25515",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -3357,7 +3357,7 @@
           "id": "25516",
           "wooVariantId": 25516,
           "sku": "WC-V-25516",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "40mg",
           "attributes": {
             "weight": "40mg"
@@ -3400,7 +3400,7 @@
           "id": "27505",
           "wooVariantId": 27505,
           "sku": "WC-V-27505",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -3443,7 +3443,7 @@
           "id": "26279",
           "wooVariantId": 26279,
           "sku": "WC-V-26279",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -3486,7 +3486,7 @@
           "id": "26280",
           "wooVariantId": 26280,
           "sku": "WC-V-26280",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -3529,7 +3529,7 @@
           "id": "452",
           "wooVariantId": 452,
           "sku": "WC-V-452",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "100mg",
           "attributes": {
             "weight": "100mg"
@@ -3558,7 +3558,7 @@
           "id": "453",
           "wooVariantId": 453,
           "sku": "WC-V-453",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500mg",
           "attributes": {
             "weight": "500mg"
@@ -3601,7 +3601,7 @@
           "id": "27507",
           "wooVariantId": 27507,
           "sku": "WC-V-27507",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -3644,7 +3644,7 @@
           "id": "26508",
           "wooVariantId": 26508,
           "sku": "WC-V-26508",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -3673,7 +3673,7 @@
           "id": "26509",
           "wooVariantId": 26509,
           "sku": "WC-V-26509",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -3716,7 +3716,7 @@
           "id": "27512",
           "wooVariantId": 27512,
           "sku": "WC-V-27512",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -3759,7 +3759,7 @@
           "id": "9918",
           "wooVariantId": 9918,
           "sku": "WC-V-9918",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "2mg",
           "attributes": {
             "weight": "2mg"
@@ -3788,7 +3788,7 @@
           "id": "9919",
           "wooVariantId": 9919,
           "sku": "WC-V-9919",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -3831,7 +3831,7 @@
           "id": "14931",
           "wooVariantId": 14931,
           "sku": "WC-V-14931",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -3860,7 +3860,7 @@
           "id": "14932",
           "wooVariantId": 14932,
           "sku": "WC-V-14932",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -3903,7 +3903,7 @@
           "id": "14879",
           "wooVariantId": 14879,
           "sku": "WC-V-14879",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -3932,7 +3932,7 @@
           "id": "14880",
           "wooVariantId": 14880,
           "sku": "WC-V-14880",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -3975,7 +3975,7 @@
           "id": "24840",
           "wooVariantId": 24840,
           "sku": "WC-V-24840",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -4004,7 +4004,7 @@
           "id": "24841",
           "wooVariantId": 24841,
           "sku": "WC-V-24841",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "40mg",
           "attributes": {
             "weight": "40mg"
@@ -4047,7 +4047,7 @@
           "id": "5782",
           "wooVariantId": 5782,
           "sku": "WC-V-5782",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -4090,7 +4090,7 @@
           "id": "5791",
           "wooVariantId": 5791,
           "sku": "WC-V-5791",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -4119,7 +4119,7 @@
           "id": "5960",
           "wooVariantId": 5960,
           "sku": "WC-V-5960",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -4162,7 +4162,7 @@
           "id": "24789",
           "wooVariantId": 24789,
           "sku": "WC-V-24789",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -4191,7 +4191,7 @@
           "id": "24790",
           "wooVariantId": 24790,
           "sku": "WC-V-24790",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -4234,7 +4234,7 @@
           "id": "16390",
           "wooVariantId": 16390,
           "sku": "WC-V-16390",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -4263,7 +4263,7 @@
           "id": "16391",
           "wooVariantId": 16391,
           "sku": "WC-V-16391",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -4306,7 +4306,7 @@
           "id": "57351",
           "wooVariantId": 57351,
           "sku": "WC-V-57351",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -4335,7 +4335,7 @@
           "id": "57352",
           "wooVariantId": 57352,
           "sku": "WC-V-57352",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -4378,7 +4378,7 @@
           "id": "26278",
           "wooVariantId": 26278,
           "sku": "WC-V-26278",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -4421,7 +4421,7 @@
           "id": "468",
           "wooVariantId": 468,
           "sku": "WC-V-468",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -4450,7 +4450,7 @@
           "id": "469",
           "wooVariantId": 469,
           "sku": "WC-V-469",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -4493,7 +4493,7 @@
           "id": "471",
           "wooVariantId": 471,
           "sku": "WC-V-471",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -4522,7 +4522,7 @@
           "id": "472",
           "wooVariantId": 472,
           "sku": "WC-V-472",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -4565,7 +4565,7 @@
           "id": "9913",
           "wooVariantId": 9913,
           "sku": "WC-V-9913",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -4594,7 +4594,7 @@
           "id": "9914",
           "wooVariantId": 9914,
           "sku": "WC-V-9914",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -4637,7 +4637,7 @@
           "id": "14882",
           "wooVariantId": 14882,
           "sku": "WC-V-14882",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -4666,7 +4666,7 @@
           "id": "14883",
           "wooVariantId": 14883,
           "sku": "WC-V-14883",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -4709,7 +4709,7 @@
           "id": "15718",
           "wooVariantId": 15718,
           "sku": "WC-V-15718",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -4738,7 +4738,7 @@
           "id": "15719",
           "wooVariantId": 15719,
           "sku": "WC-V-15719",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -4781,7 +4781,7 @@
           "id": "26276",
           "wooVariantId": 26276,
           "sku": "WC-V-26276",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -4824,7 +4824,7 @@
           "id": "14937",
           "wooVariantId": 14937,
           "sku": "WC-V-14937",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -4853,7 +4853,7 @@
           "id": "14938",
           "wooVariantId": 14938,
           "sku": "WC-V-14938",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "weight": "20mg"
@@ -4896,7 +4896,7 @@
           "id": "9905",
           "wooVariantId": 9905,
           "sku": "WC-V-9905",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg",
           "attributes": {
             "weight": "5mg"
@@ -4925,7 +4925,7 @@
           "id": "9906",
           "wooVariantId": 9906,
           "sku": "WC-V-9906",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg",
           "attributes": {
             "weight": "10mg"
@@ -4968,7 +4968,7 @@
           "id": "30982",
           "wooVariantId": 30982,
           "sku": "WC-V-30982",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "50mg/cap",
           "attributes": {
             "weight": "50mg/cap"
@@ -5011,7 +5011,7 @@
           "id": "44784",
           "wooVariantId": 44784,
           "sku": "WC-V-44784",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "50mg/cap",
           "attributes": {
             "weight": "50mg/cap"
@@ -5054,7 +5054,7 @@
           "id": "31041",
           "wooVariantId": 31041,
           "sku": "WC-V-31041",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500mcg/cap",
           "attributes": {
             "weight": "500mcg/cap"
@@ -5097,7 +5097,7 @@
           "id": "31036",
           "wooVariantId": 31036,
           "sku": "WC-V-31036",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500/500mcg/cap",
           "attributes": {
             "weight": "500/500mcg/cap"
@@ -5140,7 +5140,7 @@
           "id": "31011",
           "wooVariantId": 31011,
           "sku": "WC-V-31011",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "5mg/cap",
           "attributes": {
             "weight": "5mg/cap"
@@ -5169,7 +5169,7 @@
           "id": "31012",
           "wooVariantId": 31012,
           "sku": "WC-V-31012",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10mg/cap",
           "attributes": {
             "weight": "10mg/cap"
@@ -5212,7 +5212,7 @@
           "id": "50657",
           "wooVariantId": 50657,
           "sku": "WC-V-50657",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500mcg/cap",
           "attributes": {
             "weight": "500mcg/cap"
@@ -5241,7 +5241,7 @@
           "id": "50658",
           "wooVariantId": 50658,
           "sku": "WC-V-50658",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "1000mcg/cap",
           "attributes": {
             "weight": "1000mcg/cap"
@@ -5284,7 +5284,7 @@
           "id": "44795",
           "wooVariantId": 44795,
           "sku": "WC-V-44795",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "0.5/2/0.5mg/cap",
           "attributes": {
             "weight": "0.5/2/0.5mg/cap"
@@ -5327,7 +5327,7 @@
           "id": "30986",
           "wooVariantId": 30986,
           "sku": "WC-V-30986",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "12.5mg/cap",
           "attributes": {
             "weight": "12.5mg/cap"
@@ -5356,7 +5356,7 @@
           "id": "30987",
           "wooVariantId": 30987,
           "sku": "WC-V-30987",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "25mg/cap",
           "attributes": {
             "weight": "25mg/cap"
@@ -5399,7 +5399,7 @@
           "id": "57874",
           "wooVariantId": 57874,
           "sku": "WC-V-57874",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500mcg/cap",
           "attributes": {
             "weight": "500mcg/cap"
@@ -5442,7 +5442,7 @@
           "id": "30983",
           "wooVariantId": 30983,
           "sku": "WC-V-30983",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg/cap",
           "attributes": {
             "weight": "20mg/cap"
@@ -5485,7 +5485,7 @@
           "id": "50654",
           "wooVariantId": 50654,
           "sku": "WC-V-50654",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500mcg/cap",
           "attributes": {
             "weight": "500mcg/cap"
@@ -5514,7 +5514,7 @@
           "id": "50655",
           "wooVariantId": 50655,
           "sku": "WC-V-50655",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "1000mcg/cap",
           "attributes": {
             "weight": "1000mcg/cap"
@@ -5557,7 +5557,7 @@
           "id": "48579",
           "wooVariantId": 48579,
           "sku": "WC-V-48579",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "6mg/cap",
           "attributes": {
             "weight": "6mg/cap"
@@ -5600,7 +5600,7 @@
           "id": "50649",
           "wooVariantId": 50649,
           "sku": "WC-V-50649",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500/500mcg/cap",
           "attributes": {
             "weight": "500/500mcg/cap"
@@ -5643,7 +5643,7 @@
           "id": "30978",
           "wooVariantId": 30978,
           "sku": "WC-V-30978",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500mcg/cap",
           "attributes": {
             "weight": "500mcg/cap"
@@ -5672,7 +5672,7 @@
           "id": "30979",
           "wooVariantId": 30979,
           "sku": "WC-V-30979",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "1000mcg/cap",
           "attributes": {
             "weight": "1000mcg/cap"
@@ -5715,7 +5715,7 @@
           "id": "31040",
           "wooVariantId": 31040,
           "sku": "WC-V-31040",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500mcg/cap",
           "attributes": {
             "weight": "500mcg/cap"
@@ -5758,7 +5758,7 @@
           "id": "31023",
           "wooVariantId": 31023,
           "sku": "WC-V-31023",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500mcg/cap",
           "attributes": {
             "weight": "500mcg/cap"
@@ -5801,7 +5801,7 @@
           "id": "31006",
           "wooVariantId": 31006,
           "sku": "WC-V-31006",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "500mg/cap",
           "attributes": {
             "weight": "500mg/cap"
@@ -5844,7 +5844,7 @@
           "id": "50714",
           "wooVariantId": 50714,
           "sku": "WC-V-50714",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "volume": "20mg"
@@ -5887,7 +5887,7 @@
           "id": "35664",
           "wooVariantId": 35664,
           "sku": "WC-V-35664",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30mg",
           "attributes": {
             "volume": "30mg"
@@ -5930,7 +5930,7 @@
           "id": "35666",
           "wooVariantId": 35666,
           "sku": "WC-V-35666",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30/30mg",
           "attributes": {
             "volume": "30/30mg"
@@ -5973,7 +5973,7 @@
           "id": "50702",
           "wooVariantId": 50702,
           "sku": "WC-V-50702",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30mg",
           "attributes": {
             "volume": "30mg"
@@ -6016,7 +6016,7 @@
           "id": "50715",
           "wooVariantId": 50715,
           "sku": "WC-V-50715",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "50mg",
           "attributes": {
             "volume": "50mg"
@@ -6059,7 +6059,7 @@
           "id": "50722",
           "wooVariantId": 50722,
           "sku": "WC-V-50722",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "50mg",
           "attributes": {
             "volume": "50mg"
@@ -6102,7 +6102,7 @@
           "id": "50711",
           "wooVariantId": 50711,
           "sku": "WC-V-50711",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "40mg",
           "attributes": {
             "volume": "40mg"
@@ -6145,7 +6145,7 @@
           "id": "35520",
           "wooVariantId": 35520,
           "sku": "WC-V-35520",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10ml",
           "attributes": {
             "volume": "10ml"
@@ -6188,7 +6188,7 @@
           "id": "31046",
           "wooVariantId": 31046,
           "sku": "WC-V-31046",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "10 ml",
           "attributes": {
             "volume": "10 ml"
@@ -6231,7 +6231,7 @@
           "id": "36650",
           "wooVariantId": 36650,
           "sku": "WC-V-36650",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "1500mg",
           "attributes": {
             "volume": "1500mg"
@@ -6274,7 +6274,7 @@
           "id": "36832",
           "wooVariantId": 36832,
           "sku": "WC-V-36832",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30mg",
           "attributes": {
             "volume": "30mg"
@@ -6317,7 +6317,7 @@
           "id": "36828",
           "wooVariantId": 36828,
           "sku": "WC-V-36828",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "40mg",
           "attributes": {
             "volume": "40mg"
@@ -6360,7 +6360,7 @@
           "id": "36821",
           "wooVariantId": 36821,
           "sku": "WC-V-36821",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "50mg",
           "attributes": {
             "volume": "50mg"
@@ -6403,7 +6403,7 @@
           "id": "36826",
           "wooVariantId": 36826,
           "sku": "WC-V-36826",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30mg",
           "attributes": {
             "volume": "30mg"
@@ -6446,7 +6446,7 @@
           "id": "50718",
           "wooVariantId": 50718,
           "sku": "WC-V-50718",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mg",
           "attributes": {
             "volume": "20mg"
@@ -6489,7 +6489,7 @@
           "id": "50725",
           "wooVariantId": 50725,
           "sku": "WC-V-50725",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "60mg",
           "attributes": {
             "volume": "60mg"
@@ -6532,7 +6532,7 @@
           "id": "62047",
           "wooVariantId": 62047,
           "sku": "WC-V-62047",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "Syst. A/B/C/D/E",
           "attributes": {
             "items": "Syst. A/B/C/D/E"
@@ -6575,7 +6575,7 @@
           "id": "57221",
           "wooVariantId": 57221,
           "sku": "WC-V-57221",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30mL",
           "attributes": {
             "volume": "30mL"
@@ -6618,7 +6618,7 @@
           "id": "57236",
           "wooVariantId": 57236,
           "sku": "WC-V-57236",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20mL",
           "attributes": {
             "volume": "20mL"
@@ -6661,7 +6661,7 @@
           "id": "57241",
           "wooVariantId": 57241,
           "sku": "WC-V-57241",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "15ml",
           "attributes": {
             "volume": "15ml"
@@ -6704,7 +6704,7 @@
           "id": "57247",
           "wooVariantId": 57247,
           "sku": "WC-V-57247",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "20ml",
           "attributes": {
             "volume": "20ml"
@@ -6747,7 +6747,7 @@
           "id": "57255",
           "wooVariantId": 57255,
           "sku": "WC-V-57255",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "30ml",
           "attributes": {
             "volume": "30ml"
@@ -6790,7 +6790,7 @@
           "id": "62044",
           "wooVariantId": 62044,
           "sku": "WC-V-62044",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "Syst. A/C/E",
           "attributes": {
             "items": "Syst. A/C/E"
@@ -6833,7 +6833,7 @@
           "id": "62045",
           "wooVariantId": 62045,
           "sku": "WC-V-62045",
-          "skuSource": "derived",
+          "skuSource": "merchant",
           "label": "Syst. B/D",
           "attributes": {
             "items": "Syst. B/D"

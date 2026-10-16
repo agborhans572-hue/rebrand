@@ -10,4 +10,6 @@ WooCommerce is the commercial source of truth, but production builds consume onl
 
 Product and variant IDs are immutable. Duplicate IDs, SKUs, or slugs are rejected; the synchronizer never invents a `-2` slug. Development snapshots use clearly marked derived Woo IDs as provisional SKUs, but `npm run catalog:validate:production` rejects them and every missing/unapproved logistics value.
 
+On 2026-10-16, the merchant explicitly approved the existing SKU identifiers. `product-logistics-master.csv` now records those same 115 product SKUs and 181 variant SKUs as the merchant's selected identifiers. No identifier was renamed, and WooCommerce was not modified. The CSV `approved` column applies to the complete shipping/logistics record: it remains `false` until measured shipping weights and package dimensions are supplied and approved. SKU approval does not certify missing shipping data.
+
 `retired-products.json` is the source for HTTP 410 product routes. Unknown, hidden, and non-published products return HTTP 404 at the Netlify edge.
