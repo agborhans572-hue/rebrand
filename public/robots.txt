@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 # Public sign-in and checkout shells expose noindex. Customer data requires authorization.
 
-Sitemap: https://peptalith.com/sitemap.xml
+Sitemap: https://www.peptalith.com/sitemap.xml

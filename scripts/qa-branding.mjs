@@ -5,7 +5,7 @@ import { productionRoutes, SITE_ORIGIN } from './site-routes.mjs'
 
 const readJson = async (file) => JSON.parse(await readFile(file, 'utf8'))
 const oldBrand = /\bpure\s+(?:health|elite)\b/i
-assert.equal(SITE_ORIGIN, 'https://peptalith.com')
+assert.equal(SITE_ORIGIN, 'https://www.peptalith.com')
 const manifest = await readJson('public/site.webmanifest')
 assert.equal(manifest.name, 'Peptalith')
 assert.equal(manifest.short_name, 'Peptalith')

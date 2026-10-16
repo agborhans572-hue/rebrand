@@ -24,7 +24,7 @@ for (const name of required) {
   if (!process.env[name]?.trim()) errors.push(`${name} is required`)
 }
 if (!process.env.SITE_URL?.startsWith('https://')) errors.push('SITE_URL must use HTTPS')
-if (process.env.SITE_URL !== 'https://peptalith.com') {
+if (process.env.SITE_URL !== 'https://www.peptalith.com') {
   errors.push('SITE_URL must be the canonical production origin')
 }
 if (process.env.VITE_SITE_URL !== process.env.SITE_URL) {

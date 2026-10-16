@@ -31,7 +31,7 @@ try {
       assert.ok(state.description && state.links > 0 && state.content > 40, path + ' metadata/content/links')
       if (expected) {
         assert.equal(state.title, expected.title.replace(/\s+/g, ' '), path + ' title')
-        assert.equal(state.canonical, 'https://peptalith.com' + path, path + ' canonical')
+        assert.equal(state.canonical, 'https://www.peptalith.com' + path, path + ' canonical')
         assert.equal(state.robots.startsWith('index, follow'), expected.indexable, path + ' robots')
         if (expected.kind === 'product') assert.equal(state.schema?.['@graph'].find((n) => n['@type'] === 'Product')?.name, expected.product.name, path + ' schema')
       } else assert.ok(state.robots.includes('noindex') && !state.canonical && !state.schema, path + ' genuine 404')

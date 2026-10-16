@@ -6,7 +6,7 @@ import { articleCitationUrls } from '../src/educationAuthority.js'
 const catalog = JSON.parse(readFileSync(new URL('../catalog/catalog.generated.json', import.meta.url), 'utf8'))
 const shopProducts = catalog.products
 
-export const SITE_ORIGIN = 'https://peptalith.com'
+export const SITE_ORIGIN = 'https://www.peptalith.com'
 
 const productDetails = JSON.parse(
   readFileSync(new URL('../src/productDetailData.json', import.meta.url), 'utf8'),
@@ -151,7 +151,7 @@ function staticSchema(route) {
           '@type': 'ListItem',
           position: index + 1,
           name: product.name,
-          url: new URL(product.productUrl, SITE_ORIGIN).href,
+          url: new URL(new URL(product.productUrl, SITE_ORIGIN).pathname, SITE_ORIGIN).href,
         })),
     })
   }
@@ -416,7 +416,7 @@ const staticRoutes = [
 ]
 
 const productRoutes = shopProducts.map((product) => {
-  const productUrl = new URL(product.productUrl, SITE_ORIGIN)
+  const productUrl = new URL(new URL(product.productUrl, SITE_ORIGIN).pathname, SITE_ORIGIN)
   const slug = productUrl.pathname.split('/').filter(Boolean).at(-1)
   const detail = productDetails[product.detailKey || slug]
   const image = detail?.images?.find((item) => item.role === 'primary')?.src || product.image

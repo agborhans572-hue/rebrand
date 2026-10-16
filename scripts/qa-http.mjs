@@ -43,7 +43,7 @@ try {
       assert.equal(response.headers.get('location'), alias.canonical + '?variation_id=420&utm_source=legacy')
       const final = await request(response.headers.get('location'))
       assert.equal(final.response.status, 200, path + ' must terminate in one hop')
-      assert.match(final.body, new RegExp('rel="canonical" href="https://peptalith.com' + alias.canonical + '"'))
+      assert.match(final.body, new RegExp('rel="canonical" href="https://www.peptalith.com' + alias.canonical + '"'))
     }
   }
   for (const path of ['/unknown-route/', '/my-account/orders/', '/product/%2525/', '/product/%ZZ/', '/product-form/unknown/', '/nested/missing/index.html']) {

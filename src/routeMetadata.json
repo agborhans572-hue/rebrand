@@ -5,30 +5,30 @@
     "description": "Shop high-purity research peptides for controlled in vitro laboratory use. Every batch is independently tested in the USA with a searchable COA.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/hero-vials.png",
+    "image": "https://www.peptalith.com/assets/hero-vials.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -104,29 +104,29 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/#webpage",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#webpage",
+          "url": "https://www.peptalith.com/",
           "name": "Research Peptides for Laboratory Use | Peptalith",
           "description": "Shop high-purity research peptides for controlled in vitro laboratory use. Every batch is independently tested in the USA with a searchable COA.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/hero-vials.png"
+            "url": "https://www.peptalith.com/assets/hero-vials.png"
           },
           "inLanguage": "en-US"
         }
@@ -139,30 +139,30 @@
     "description": "Browse 115 research peptides and laboratory materials with third-party batch testing, searchable Certificates of Analysis, and fast U.S. shipping.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/hero-vials.png",
+    "image": "https://www.peptalith.com/assets/hero-vials.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -238,53 +238,53 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "CollectionPage",
-          "@id": "https://peptalith.com/shop/#webpage",
-          "url": "https://peptalith.com/shop/",
+          "@id": "https://www.peptalith.com/shop/#webpage",
+          "url": "https://www.peptalith.com/shop/",
           "name": "Research Peptides for Sale | COA-Verified USA Catalog",
           "description": "Browse 115 research peptides and laboratory materials with third-party batch testing, searchable Certificates of Analysis, and fast U.S. shipping.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/hero-vials.png"
+            "url": "https://www.peptalith.com/assets/hero-vials.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/shop/#breadcrumb",
+          "@id": "https://www.peptalith.com/shop/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Research Peptides",
-              "item": "https://peptalith.com/shop/"
+              "item": "https://www.peptalith.com/shop/"
             }
           ]
         },
         {
           "@type": "ItemList",
-          "@id": "https://peptalith.com/shop/#catalog",
+          "@id": "https://www.peptalith.com/shop/#catalog",
           "name": "Research Peptides and Laboratory Materials",
           "numberOfItems": 115,
           "itemListElement": [
@@ -292,145 +292,145 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Bacteriostatic Water",
-              "url": "https://peptalith.com/product/bacteriostatic-water/"
+              "url": "https://www.peptalith.com/product/bacteriostatic-water/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "GLP-3 (R)",
-              "url": "https://peptalith.com/product/glp-3-r/"
+              "url": "https://www.peptalith.com/product/glp-3-r/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "BPC-157",
-              "url": "https://peptalith.com/product/bpc-157/"
+              "url": "https://www.peptalith.com/product/bpc-157/"
             },
             {
               "@type": "ListItem",
               "position": 4,
               "name": "BPC-157/TB-500",
-              "url": "https://peptalith.com/product/bpc-157-tb-500/"
+              "url": "https://www.peptalith.com/product/bpc-157-tb-500/"
             },
             {
               "@type": "ListItem",
               "position": 5,
               "name": "NAD+",
-              "url": "https://peptalith.com/product/nad/"
+              "url": "https://www.peptalith.com/product/nad/"
             },
             {
               "@type": "ListItem",
               "position": 6,
               "name": "GHK-Cu",
-              "url": "https://peptalith.com/product/ghk-cu/"
+              "url": "https://www.peptalith.com/product/ghk-cu/"
             },
             {
               "@type": "ListItem",
               "position": 7,
               "name": "MOTS-c",
-              "url": "https://peptalith.com/product/mots-c/"
+              "url": "https://www.peptalith.com/product/mots-c/"
             },
             {
               "@type": "ListItem",
               "position": 8,
               "name": "Tesmorelin",
-              "url": "https://peptalith.com/product/tesmorelin/"
+              "url": "https://www.peptalith.com/product/tesmorelin/"
             },
             {
               "@type": "ListItem",
               "position": 9,
               "name": "PT-141",
-              "url": "https://peptalith.com/product/pt-141/"
+              "url": "https://www.peptalith.com/product/pt-141/"
             },
             {
               "@type": "ListItem",
               "position": 10,
               "name": "CJC-1295/Ipamorelin",
-              "url": "https://peptalith.com/product/cjc-1295-ipamorelin/"
+              "url": "https://www.peptalith.com/product/cjc-1295-ipamorelin/"
             },
             {
               "@type": "ListItem",
               "position": 11,
               "name": "TB-500",
-              "url": "https://peptalith.com/product/tb-500/"
+              "url": "https://www.peptalith.com/product/tb-500/"
             },
             {
               "@type": "ListItem",
               "position": 12,
               "name": "GLOW – BPC-157/GHK-Cu/TB-500 Blend",
-              "url": "https://peptalith.com/product/glow-bpc-157-ghk-cu-tb-500-blend/"
+              "url": "https://www.peptalith.com/product/glow-bpc-157-ghk-cu-tb-500-blend/"
             },
             {
               "@type": "ListItem",
               "position": 13,
               "name": "AOD9604",
-              "url": "https://peptalith.com/product/aod9604/"
+              "url": "https://www.peptalith.com/product/aod9604/"
             },
             {
               "@type": "ListItem",
               "position": 14,
               "name": "Sermorlin",
-              "url": "https://peptalith.com/product/sermorlin/"
+              "url": "https://www.peptalith.com/product/sermorlin/"
             },
             {
               "@type": "ListItem",
               "position": 15,
               "name": "Ipamorelin",
-              "url": "https://peptalith.com/product/ipamorelin/"
+              "url": "https://www.peptalith.com/product/ipamorelin/"
             },
             {
               "@type": "ListItem",
               "position": 16,
               "name": "DSIP",
-              "url": "https://peptalith.com/product/dsip/"
+              "url": "https://www.peptalith.com/product/dsip/"
             },
             {
               "@type": "ListItem",
               "position": 17,
               "name": "Epithalon",
-              "url": "https://peptalith.com/product/epithalon/"
+              "url": "https://www.peptalith.com/product/epithalon/"
             },
             {
               "@type": "ListItem",
               "position": 18,
               "name": "Melanoten-2",
-              "url": "https://peptalith.com/product/melanoten-2/"
+              "url": "https://www.peptalith.com/product/melanoten-2/"
             },
             {
               "@type": "ListItem",
               "position": 19,
               "name": "GLP-2 (T)",
-              "url": "https://peptalith.com/product/glp-2-t/"
+              "url": "https://www.peptalith.com/product/glp-2-t/"
             },
             {
               "@type": "ListItem",
               "position": 20,
               "name": "KPV",
-              "url": "https://peptalith.com/product/kpv/"
+              "url": "https://www.peptalith.com/product/kpv/"
             },
             {
               "@type": "ListItem",
               "position": 21,
               "name": "KLOW",
-              "url": "https://peptalith.com/product/klow/"
+              "url": "https://www.peptalith.com/product/klow/"
             },
             {
               "@type": "ListItem",
               "position": 22,
               "name": "GLP-1 (S)",
-              "url": "https://peptalith.com/product/glp-1-s/"
+              "url": "https://www.peptalith.com/product/glp-1-s/"
             },
             {
               "@type": "ListItem",
               "position": 23,
               "name": "Glutathione",
-              "url": "https://peptalith.com/product/glutathione/"
+              "url": "https://www.peptalith.com/product/glutathione/"
             },
             {
               "@type": "ListItem",
               "position": 24,
               "name": "Semx",
-              "url": "https://peptalith.com/product/semx/"
+              "url": "https://www.peptalith.com/product/semx/"
             }
           ]
         }
@@ -443,30 +443,30 @@
     "description": "Learn how Peptalith supports qualified laboratories with independent batch testing, traceable COAs, and research-use-only compliance.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/about/about-bg.jpg",
+    "image": "https://www.peptalith.com/assets/about/about-bg.jpg",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -542,47 +542,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/about-us/#webpage",
-          "url": "https://peptalith.com/about-us/",
+          "@id": "https://www.peptalith.com/about-us/#webpage",
+          "url": "https://www.peptalith.com/about-us/",
           "name": "About Our Research Peptide Quality Standards | Peptalith",
           "description": "Learn how Peptalith supports qualified laboratories with independent batch testing, traceable COAs, and research-use-only compliance.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/about/about-bg.jpg"
+            "url": "https://www.peptalith.com/assets/about/about-bg.jpg"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/about-us/#breadcrumb",
+          "@id": "https://www.peptalith.com/about-us/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "About Us",
-              "item": "https://peptalith.com/about-us/"
+              "item": "https://www.peptalith.com/about-us/"
             }
           ]
         }
@@ -595,30 +595,30 @@
     "description": "Explore research peptides and laboratory materials by analytical area, including cellular energy, peptide stability, signaling, and molecular interactions.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/hero-vials.png",
+    "image": "https://www.peptalith.com/assets/hero-vials.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -694,47 +694,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/research-areas/#webpage",
-          "url": "https://peptalith.com/research-areas/",
+          "@id": "https://www.peptalith.com/research-areas/#webpage",
+          "url": "https://www.peptalith.com/research-areas/",
           "name": "Laboratory Peptide Research Areas | In Vitro Catalog",
           "description": "Explore research peptides and laboratory materials by analytical area, including cellular energy, peptide stability, signaling, and molecular interactions.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/hero-vials.png"
+            "url": "https://www.peptalith.com/assets/hero-vials.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/research-areas/#breadcrumb",
+          "@id": "https://www.peptalith.com/research-areas/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Research Areas",
-              "item": "https://peptalith.com/research-areas/"
+              "item": "https://www.peptalith.com/research-areas/"
             }
           ]
         }
@@ -747,30 +747,30 @@
     "description": "Read evidence-led guides to peptide COAs, HPLC purity, mass spectrometry, storage, material formats, lot numbers, and batch verification.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/hero-vials.png",
+    "image": "https://www.peptalith.com/assets/hero-vials.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -846,53 +846,53 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "CollectionPage",
-          "@id": "https://peptalith.com/news/#webpage",
-          "url": "https://peptalith.com/news/",
+          "@id": "https://www.peptalith.com/news/#webpage",
+          "url": "https://www.peptalith.com/news/",
           "name": "Peptide Testing & Laboratory Guides | Peptalith",
           "description": "Read evidence-led guides to peptide COAs, HPLC purity, mass spectrometry, storage, material formats, lot numbers, and batch verification.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/hero-vials.png"
+            "url": "https://www.peptalith.com/assets/hero-vials.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/news/#breadcrumb",
+          "@id": "https://www.peptalith.com/news/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Laboratory Guides",
-              "item": "https://peptalith.com/news/"
+              "item": "https://www.peptalith.com/news/"
             }
           ]
         },
         {
           "@type": "ItemList",
-          "@id": "https://peptalith.com/news/#guides",
+          "@id": "https://www.peptalith.com/news/#guides",
           "name": "Peptide Testing and Laboratory Guides",
           "numberOfItems": 2,
           "itemListElement": [
@@ -900,13 +900,13 @@
               "@type": "ListItem",
               "position": 1,
               "name": "How to Read a Peptide Certificate of Analysis",
-              "url": "https://peptalith.com/news/how-to-read-a-peptide-certificate-of-analysis/"
+              "url": "https://www.peptalith.com/news/how-to-read-a-peptide-certificate-of-analysis/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Understanding HPLC Purity Testing",
-              "url": "https://peptalith.com/news/understanding-hplc-purity-testing/"
+              "url": "https://www.peptalith.com/news/understanding-hplc-purity-testing/"
             }
           ]
         }
@@ -919,30 +919,30 @@
     "description": "A field-by-field guide to peptide COAs: lot matching, methods, specifications, results, approvals, and the limits of what a certificate proves.",
     "kind": "article",
     "indexable": true,
-    "image": "https://peptalith.com/assets/peptide-info/coa-lab.png",
+    "image": "https://www.peptalith.com/assets/peptide-info/coa-lab.png",
     "imageAlt": "How to Read a Peptide COA — laboratory research guide",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -1018,74 +1018,74 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/news/how-to-read-a-peptide-certificate-of-analysis/#webpage",
-          "url": "https://peptalith.com/news/how-to-read-a-peptide-certificate-of-analysis/",
+          "@id": "https://www.peptalith.com/news/how-to-read-a-peptide-certificate-of-analysis/#webpage",
+          "url": "https://www.peptalith.com/news/how-to-read-a-peptide-certificate-of-analysis/",
           "name": "How to Read a Peptide COA | Laboratory Guide",
           "description": "A field-by-field guide to peptide COAs: lot matching, methods, specifications, results, approvals, and the limits of what a certificate proves.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptide-info/coa-lab.png"
+            "url": "https://www.peptalith.com/assets/peptide-info/coa-lab.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/news/how-to-read-a-peptide-certificate-of-analysis/#breadcrumb",
+          "@id": "https://www.peptalith.com/news/how-to-read-a-peptide-certificate-of-analysis/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Laboratory Guides",
-              "item": "https://peptalith.com/news/"
+              "item": "https://www.peptalith.com/news/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "How to Read a Peptide COA",
-              "item": "https://peptalith.com/news/how-to-read-a-peptide-certificate-of-analysis/"
+              "item": "https://www.peptalith.com/news/how-to-read-a-peptide-certificate-of-analysis/"
             }
           ]
         },
         {
           "@type": "Article",
-          "@id": "https://peptalith.com/news/how-to-read-a-peptide-certificate-of-analysis/#article",
+          "@id": "https://www.peptalith.com/news/how-to-read-a-peptide-certificate-of-analysis/#article",
           "headline": "How to Read a Peptide Certificate of Analysis",
           "description": "A field-by-field guide to peptide COAs: lot matching, methods, specifications, results, approvals, and the limits of what a certificate proves.",
           "datePublished": "2026-09-14",
           "dateModified": "2026-09-14",
           "articleSection": "Batch documentation",
           "author": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "mainEntityOfPage": {
-            "@id": "https://peptalith.com/news/how-to-read-a-peptide-certificate-of-analysis/#webpage"
+            "@id": "https://www.peptalith.com/news/how-to-read-a-peptide-certificate-of-analysis/#webpage"
           },
-          "image": "https://peptalith.com/assets/peptide-info/coa-lab.png",
+          "image": "https://www.peptalith.com/assets/peptide-info/coa-lab.png",
           "citation": [
             "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q7a-good-manufacturing-practice-guidance-active-pharmaceutical-ingredients",
             "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q2r2-validation-analytical-procedures",
@@ -1104,30 +1104,30 @@
     "description": "Learn what an HPLC chromatogram and area-percent result show, which method details matter, and what peptide purity does not prove by itself.",
     "kind": "article",
     "indexable": true,
-    "image": "https://peptalith.com/assets/peptide-info/coa-lab.png",
+    "image": "https://www.peptalith.com/assets/peptide-info/coa-lab.png",
     "imageAlt": "Understanding HPLC Purity — laboratory research guide",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -1203,74 +1203,74 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/news/understanding-hplc-purity-testing/#webpage",
-          "url": "https://peptalith.com/news/understanding-hplc-purity-testing/",
+          "@id": "https://www.peptalith.com/news/understanding-hplc-purity-testing/#webpage",
+          "url": "https://www.peptalith.com/news/understanding-hplc-purity-testing/",
           "name": "Understanding HPLC Purity | Laboratory Guide",
           "description": "Learn what an HPLC chromatogram and area-percent result show, which method details matter, and what peptide purity does not prove by itself.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptide-info/coa-lab.png"
+            "url": "https://www.peptalith.com/assets/peptide-info/coa-lab.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/news/understanding-hplc-purity-testing/#breadcrumb",
+          "@id": "https://www.peptalith.com/news/understanding-hplc-purity-testing/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Laboratory Guides",
-              "item": "https://peptalith.com/news/"
+              "item": "https://www.peptalith.com/news/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Understanding HPLC Purity",
-              "item": "https://peptalith.com/news/understanding-hplc-purity-testing/"
+              "item": "https://www.peptalith.com/news/understanding-hplc-purity-testing/"
             }
           ]
         },
         {
           "@type": "Article",
-          "@id": "https://peptalith.com/news/understanding-hplc-purity-testing/#article",
+          "@id": "https://www.peptalith.com/news/understanding-hplc-purity-testing/#article",
           "headline": "Understanding HPLC Purity Testing",
           "description": "Learn what an HPLC chromatogram and area-percent result show, which method details matter, and what peptide purity does not prove by itself.",
           "datePublished": "2026-09-14",
           "dateModified": "2026-09-14",
           "articleSection": "Analytical methods",
           "author": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "mainEntityOfPage": {
-            "@id": "https://peptalith.com/news/understanding-hplc-purity-testing/#webpage"
+            "@id": "https://www.peptalith.com/news/understanding-hplc-purity-testing/#webpage"
           },
-          "image": "https://peptalith.com/assets/peptide-info/coa-lab.png",
+          "image": "https://www.peptalith.com/assets/peptide-info/coa-lab.png",
           "citation": [
             "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q2r2-validation-analytical-procedures",
             "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q6a-specifications-test-procedures-and-acceptance-criteria-new-drug-substances-and-new-drug-products",
@@ -1288,30 +1288,30 @@
     "description": "See how Peptalith attributes, sources, discloses, updates, and corrects educational content about laboratory research materials.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/hero-vials.png",
+    "image": "https://www.peptalith.com/assets/hero-vials.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -1387,47 +1387,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/editorial-standards/#webpage",
-          "url": "https://peptalith.com/editorial-standards/",
+          "@id": "https://www.peptalith.com/editorial-standards/#webpage",
+          "url": "https://www.peptalith.com/editorial-standards/",
           "name": "Editorial Standards for Laboratory Education | Peptalith",
           "description": "See how Peptalith attributes, sources, discloses, updates, and corrects educational content about laboratory research materials.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/hero-vials.png"
+            "url": "https://www.peptalith.com/assets/hero-vials.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/editorial-standards/#breadcrumb",
+          "@id": "https://www.peptalith.com/editorial-standards/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Editorial Standards",
-              "item": "https://peptalith.com/editorial-standards/"
+              "item": "https://www.peptalith.com/editorial-standards/"
             }
           ]
         }
@@ -1440,30 +1440,30 @@
     "description": "Explore Peptalith Elite Access rewards, member tiers, and research catalog benefits.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/hero-vials.png",
+    "image": "https://www.peptalith.com/assets/hero-vials.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -1539,47 +1539,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/peptalith-elite-access/#webpage",
-          "url": "https://peptalith.com/peptalith-elite-access/",
+          "@id": "https://www.peptalith.com/peptalith-elite-access/#webpage",
+          "url": "https://www.peptalith.com/peptalith-elite-access/",
           "name": "Peptalith Elite Access | Peptalith",
           "description": "Explore Peptalith Elite Access rewards, member tiers, and research catalog benefits.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/hero-vials.png"
+            "url": "https://www.peptalith.com/assets/hero-vials.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/peptalith-elite-access/#breadcrumb",
+          "@id": "https://www.peptalith.com/peptalith-elite-access/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Peptalith Elite Access",
-              "item": "https://peptalith.com/peptalith-elite-access/"
+              "item": "https://www.peptalith.com/peptalith-elite-access/"
             }
           ]
         }
@@ -1592,30 +1592,30 @@
     "description": "Securely access your Peptalith profile, address, orders, and account settings.",
     "kind": "page",
     "indexable": false,
-    "image": "https://peptalith.com/assets/hero-vials.png",
+    "image": "https://www.peptalith.com/assets/hero-vials.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -1691,47 +1691,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/my-account/#webpage",
-          "url": "https://peptalith.com/my-account/",
+          "@id": "https://www.peptalith.com/my-account/#webpage",
+          "url": "https://www.peptalith.com/my-account/",
           "name": "My Account | Peptalith",
           "description": "Securely access your Peptalith profile, address, orders, and account settings.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/hero-vials.png"
+            "url": "https://www.peptalith.com/assets/hero-vials.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/my-account/#breadcrumb",
+          "@id": "https://www.peptalith.com/my-account/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "My Account",
-              "item": "https://peptalith.com/my-account/"
+              "item": "https://www.peptalith.com/my-account/"
             }
           ]
         }
@@ -1744,30 +1744,30 @@
     "description": "Complete a secure Peptalith account verification or sign-in.",
     "kind": "page",
     "indexable": false,
-    "image": "https://peptalith.com/assets/hero-vials.png",
+    "image": "https://www.peptalith.com/assets/hero-vials.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -1843,47 +1843,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/auth/callback/#webpage",
-          "url": "https://peptalith.com/auth/callback/",
+          "@id": "https://www.peptalith.com/auth/callback/#webpage",
+          "url": "https://www.peptalith.com/auth/callback/",
           "name": "Verifying Account | Peptalith",
           "description": "Complete a secure Peptalith account verification or sign-in.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/hero-vials.png"
+            "url": "https://www.peptalith.com/assets/hero-vials.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/auth/callback/#breadcrumb",
+          "@id": "https://www.peptalith.com/auth/callback/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Verifying Account",
-              "item": "https://peptalith.com/auth/callback/"
+              "item": "https://www.peptalith.com/auth/callback/"
             }
           ]
         }
@@ -1896,30 +1896,30 @@
     "description": "Complete a secure Peptalith customer password reset.",
     "kind": "page",
     "indexable": false,
-    "image": "https://peptalith.com/assets/hero-vials.png",
+    "image": "https://www.peptalith.com/assets/hero-vials.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -1995,47 +1995,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/auth/reset-password/#webpage",
-          "url": "https://peptalith.com/auth/reset-password/",
+          "@id": "https://www.peptalith.com/auth/reset-password/#webpage",
+          "url": "https://www.peptalith.com/auth/reset-password/",
           "name": "Reset Password | Peptalith",
           "description": "Complete a secure Peptalith customer password reset.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/hero-vials.png"
+            "url": "https://www.peptalith.com/assets/hero-vials.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/auth/reset-password/#breadcrumb",
+          "@id": "https://www.peptalith.com/auth/reset-password/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Reset Password",
-              "item": "https://peptalith.com/auth/reset-password/"
+              "item": "https://www.peptalith.com/auth/reset-password/"
             }
           ]
         }
@@ -2048,30 +2048,30 @@
     "description": "Request a new Peptalith account verification or recovery link.",
     "kind": "page",
     "indexable": false,
-    "image": "https://peptalith.com/assets/hero-vials.png",
+    "image": "https://www.peptalith.com/assets/hero-vials.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -2147,47 +2147,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/auth/error/#webpage",
-          "url": "https://peptalith.com/auth/error/",
+          "@id": "https://www.peptalith.com/auth/error/#webpage",
+          "url": "https://www.peptalith.com/auth/error/",
           "name": "Account Link Error | Peptalith",
           "description": "Request a new Peptalith account verification or recovery link.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/hero-vials.png"
+            "url": "https://www.peptalith.com/assets/hero-vials.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/auth/error/#breadcrumb",
+          "@id": "https://www.peptalith.com/auth/error/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Account Link Error",
-              "item": "https://peptalith.com/auth/error/"
+              "item": "https://www.peptalith.com/auth/error/"
             }
           ]
         }
@@ -2200,30 +2200,30 @@
     "description": "Open the Peptalith order tracking area.",
     "kind": "page",
     "indexable": false,
-    "image": "https://peptalith.com/assets/hero-vials.png",
+    "image": "https://www.peptalith.com/assets/hero-vials.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -2299,47 +2299,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/track-my-order/#webpage",
-          "url": "https://peptalith.com/track-my-order/",
+          "@id": "https://www.peptalith.com/track-my-order/#webpage",
+          "url": "https://www.peptalith.com/track-my-order/",
           "name": "Track My Order | Peptalith",
           "description": "Open the Peptalith order tracking area.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/hero-vials.png"
+            "url": "https://www.peptalith.com/assets/hero-vials.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/track-my-order/#breadcrumb",
+          "@id": "https://www.peptalith.com/track-my-order/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Track My Order",
-              "item": "https://peptalith.com/track-my-order/"
+              "item": "https://www.peptalith.com/track-my-order/"
             }
           ]
         }
@@ -2352,30 +2352,30 @@
     "description": "Complete a Peptalith research product checkout.",
     "kind": "page",
     "indexable": false,
-    "image": "https://peptalith.com/assets/hero-vials.png",
+    "image": "https://www.peptalith.com/assets/hero-vials.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -2451,47 +2451,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/checkout/#webpage",
-          "url": "https://peptalith.com/checkout/",
+          "@id": "https://www.peptalith.com/checkout/#webpage",
+          "url": "https://www.peptalith.com/checkout/",
           "name": "Checkout | Peptalith",
           "description": "Complete a Peptalith research product checkout.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/hero-vials.png"
+            "url": "https://www.peptalith.com/assets/hero-vials.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/checkout/#breadcrumb",
+          "@id": "https://www.peptalith.com/checkout/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Checkout",
-              "item": "https://peptalith.com/checkout/"
+              "item": "https://www.peptalith.com/checkout/"
             }
           ]
         }
@@ -2504,30 +2504,30 @@
     "description": "Review the status and summary of a Peptalith order.",
     "kind": "page",
     "indexable": false,
-    "image": "https://peptalith.com/assets/hero-vials.png",
+    "image": "https://www.peptalith.com/assets/hero-vials.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -2603,47 +2603,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/order-confirmation/#webpage",
-          "url": "https://peptalith.com/order-confirmation/",
+          "@id": "https://www.peptalith.com/order-confirmation/#webpage",
+          "url": "https://www.peptalith.com/order-confirmation/",
           "name": "Order Confirmation | Peptalith",
           "description": "Review the status and summary of a Peptalith order.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/hero-vials.png"
+            "url": "https://www.peptalith.com/assets/hero-vials.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/order-confirmation/#breadcrumb",
+          "@id": "https://www.peptalith.com/order-confirmation/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Order Confirmation",
-              "item": "https://peptalith.com/order-confirmation/"
+              "item": "https://www.peptalith.com/order-confirmation/"
             }
           ]
         }
@@ -2656,30 +2656,30 @@
     "description": "Get answers about research peptide batch testing, Certificates of Analysis, product storage, U.S. shipping, ordering, and research-use requirements.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/hero-vials.png",
+    "image": "https://www.peptalith.com/assets/hero-vials.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -2755,47 +2755,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/faqs/#webpage",
-          "url": "https://peptalith.com/faqs/",
+          "@id": "https://www.peptalith.com/faqs/#webpage",
+          "url": "https://www.peptalith.com/faqs/",
           "name": "Research Peptide FAQs | Testing, COAs, Shipping & Storage",
           "description": "Get answers about research peptide batch testing, Certificates of Analysis, product storage, U.S. shipping, ordering, and research-use requirements.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/hero-vials.png"
+            "url": "https://www.peptalith.com/assets/hero-vials.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/faqs/#breadcrumb",
+          "@id": "https://www.peptalith.com/faqs/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Research Peptide FAQs",
-              "item": "https://peptalith.com/faqs/"
+              "item": "https://www.peptalith.com/faqs/"
             }
           ]
         }
@@ -2808,30 +2808,30 @@
     "description": "Contact Peptalith support for catalog, order, shipping, or research documentation questions.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/hero-vials.png",
+    "image": "https://www.peptalith.com/assets/hero-vials.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -2907,47 +2907,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/contact-us/#webpage",
-          "url": "https://peptalith.com/contact-us/",
+          "@id": "https://www.peptalith.com/contact-us/#webpage",
+          "url": "https://www.peptalith.com/contact-us/",
           "name": "Contact Us | Peptalith Support",
           "description": "Contact Peptalith support for catalog, order, shipping, or research documentation questions.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/hero-vials.png"
+            "url": "https://www.peptalith.com/assets/hero-vials.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/contact-us/#breadcrumb",
+          "@id": "https://www.peptalith.com/contact-us/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Contact Us",
-              "item": "https://peptalith.com/contact-us/"
+              "item": "https://www.peptalith.com/contact-us/"
             }
           ]
         }
@@ -2960,30 +2960,30 @@
     "description": "U.S. shipping is $10.99, free on orders of $175 or more after discounts. Review estimated 2-3 business day transit, tracking, and shipment support.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/hero-vials.png",
+    "image": "https://www.peptalith.com/assets/hero-vials.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -3059,47 +3059,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/shipping-policy/#webpage",
-          "url": "https://peptalith.com/shipping-policy/",
+          "@id": "https://www.peptalith.com/shipping-policy/#webpage",
+          "url": "https://www.peptalith.com/shipping-policy/",
           "name": "U.S. Shipping Policy | Rates & Delivery | Peptalith",
           "description": "U.S. shipping is $10.99, free on orders of $175 or more after discounts. Review estimated 2-3 business day transit, tracking, and shipment support.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/hero-vials.png"
+            "url": "https://www.peptalith.com/assets/hero-vials.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/shipping-policy/#breadcrumb",
+          "@id": "https://www.peptalith.com/shipping-policy/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "U.S. Shipping Policy",
-              "item": "https://peptalith.com/shipping-policy/"
+              "item": "https://www.peptalith.com/shipping-policy/"
             }
           ]
         }
@@ -3112,30 +3112,30 @@
     "description": "Review Peptalith cancellation, return authorization, damage claim, and refund procedures.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/hero-vials.png",
+    "image": "https://www.peptalith.com/assets/hero-vials.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -3211,47 +3211,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/refund-policy/#webpage",
-          "url": "https://peptalith.com/refund-policy/",
+          "@id": "https://www.peptalith.com/refund-policy/#webpage",
+          "url": "https://www.peptalith.com/refund-policy/",
           "name": "Refund Policy | Peptalith",
           "description": "Review Peptalith cancellation, return authorization, damage claim, and refund procedures.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/hero-vials.png"
+            "url": "https://www.peptalith.com/assets/hero-vials.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/refund-policy/#breadcrumb",
+          "@id": "https://www.peptalith.com/refund-policy/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Refund Policy",
-              "item": "https://peptalith.com/refund-policy/"
+              "item": "https://www.peptalith.com/refund-policy/"
             }
           ]
         }
@@ -3264,30 +3264,30 @@
     "description": "Learn how Peptalith collects, uses, protects, and retains customer and transaction information.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/hero-vials.png",
+    "image": "https://www.peptalith.com/assets/hero-vials.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -3363,47 +3363,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/privacy-policy/#webpage",
-          "url": "https://peptalith.com/privacy-policy/",
+          "@id": "https://www.peptalith.com/privacy-policy/#webpage",
+          "url": "https://www.peptalith.com/privacy-policy/",
           "name": "Privacy Policy | Peptalith",
           "description": "Learn how Peptalith collects, uses, protects, and retains customer and transaction information.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/hero-vials.png"
+            "url": "https://www.peptalith.com/assets/hero-vials.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/privacy-policy/#breadcrumb",
+          "@id": "https://www.peptalith.com/privacy-policy/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Privacy Policy",
-              "item": "https://peptalith.com/privacy-policy/"
+              "item": "https://www.peptalith.com/privacy-policy/"
             }
           ]
         }
@@ -3416,30 +3416,30 @@
     "description": "Review the purchasing, research-use, site-content, and customer responsibility terms for Peptalith.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/hero-vials.png",
+    "image": "https://www.peptalith.com/assets/hero-vials.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -3515,47 +3515,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/terms-and-conditions/#webpage",
-          "url": "https://peptalith.com/terms-and-conditions/",
+          "@id": "https://www.peptalith.com/terms-and-conditions/#webpage",
+          "url": "https://www.peptalith.com/terms-and-conditions/",
           "name": "Terms and Conditions | Peptalith",
           "description": "Review the purchasing, research-use, site-content, and customer responsibility terms for Peptalith.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/hero-vials.png"
+            "url": "https://www.peptalith.com/assets/hero-vials.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/terms-and-conditions/#breadcrumb",
+          "@id": "https://www.peptalith.com/terms-and-conditions/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Terms and Conditions",
-              "item": "https://peptalith.com/terms-and-conditions/"
+              "item": "https://www.peptalith.com/terms-and-conditions/"
             }
           ]
         }
@@ -3568,30 +3568,30 @@
     "description": "Browse downloadable research peptide information cards with compound identity, molecular details, storage guidance, and laboratory-use references.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/hero-vials.png",
+    "image": "https://www.peptalith.com/assets/hero-vials.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -3667,47 +3667,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/info-cards/#webpage",
-          "url": "https://peptalith.com/info-cards/",
+          "@id": "https://www.peptalith.com/info-cards/#webpage",
+          "url": "https://www.peptalith.com/info-cards/",
           "name": "Research Peptide Product Information Cards | Peptalith",
           "description": "Browse downloadable research peptide information cards with compound identity, molecular details, storage guidance, and laboratory-use references.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/hero-vials.png"
+            "url": "https://www.peptalith.com/assets/hero-vials.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/info-cards/#breadcrumb",
+          "@id": "https://www.peptalith.com/info-cards/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Product Information Cards",
-              "item": "https://peptalith.com/info-cards/"
+              "item": "https://www.peptalith.com/info-cards/"
             }
           ]
         }
@@ -3720,30 +3720,30 @@
     "description": "Learn how third-party HPLC and analytical testing verify research peptide identity, purity, quantity, and batch quality through a Certificate of Analysis.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/peptide-info/coa-lab.png",
+    "image": "https://www.peptalith.com/assets/peptide-info/coa-lab.png",
     "imageAlt": "Research peptide Certificate of Analysis documentation",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -3819,47 +3819,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/coa-process/#webpage",
-          "url": "https://peptalith.com/coa-process/",
+          "@id": "https://www.peptalith.com/coa-process/#webpage",
+          "url": "https://www.peptalith.com/coa-process/",
           "name": "How Research Peptide COA Testing Works | Peptalith",
           "description": "Learn how third-party HPLC and analytical testing verify research peptide identity, purity, quantity, and batch quality through a Certificate of Analysis.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptide-info/coa-lab.png"
+            "url": "https://www.peptalith.com/assets/peptide-info/coa-lab.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/coa-process/#breadcrumb",
+          "@id": "https://www.peptalith.com/coa-process/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "COA Testing Process",
-              "item": "https://peptalith.com/coa-process/"
+              "item": "https://www.peptalith.com/coa-process/"
             }
           ]
         }
@@ -3872,30 +3872,30 @@
     "description": "Review sourcing, handling, batch documentation, and independent quality-control standards for Peptalith laboratory research materials.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/about/news-manufacturing.png",
+    "image": "https://www.peptalith.com/assets/about/news-manufacturing.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -3971,47 +3971,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/manufacturing/#webpage",
-          "url": "https://peptalith.com/manufacturing/",
+          "@id": "https://www.peptalith.com/manufacturing/#webpage",
+          "url": "https://www.peptalith.com/manufacturing/",
           "name": "Research Peptide Quality & Manufacturing Standards | Peptalith",
           "description": "Review sourcing, handling, batch documentation, and independent quality-control standards for Peptalith laboratory research materials.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/about/news-manufacturing.png"
+            "url": "https://www.peptalith.com/assets/about/news-manufacturing.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/manufacturing/#breadcrumb",
+          "@id": "https://www.peptalith.com/manufacturing/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Quality & Manufacturing",
-              "item": "https://peptalith.com/manufacturing/"
+              "item": "https://www.peptalith.com/manufacturing/"
             }
           ]
         }
@@ -4024,30 +4024,30 @@
     "description": "Use the laboratory peptide dilution guide and downloadable reference materials for controlled in vitro research preparation and concentration planning.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/hero-vials.png",
+    "image": "https://www.peptalith.com/assets/hero-vials.png",
     "imageAlt": "Peptalith laboratory research materials",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -4123,47 +4123,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "WebPage",
-          "@id": "https://peptalith.com/dilution-guide/#webpage",
-          "url": "https://peptalith.com/dilution-guide/",
+          "@id": "https://www.peptalith.com/dilution-guide/#webpage",
+          "url": "https://www.peptalith.com/dilution-guide/",
           "name": "Laboratory Peptide Dilution Guide | Research Reference",
           "description": "Use the laboratory peptide dilution guide and downloadable reference materials for controlled in vitro research preparation and concentration planning.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/hero-vials.png"
+            "url": "https://www.peptalith.com/assets/hero-vials.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/dilution-guide/#breadcrumb",
+          "@id": "https://www.peptalith.com/dilution-guide/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Laboratory Dilution Guide",
-              "item": "https://peptalith.com/dilution-guide/"
+              "item": "https://www.peptalith.com/dilution-guide/"
             }
           ]
         }
@@ -4176,30 +4176,30 @@
     "description": "Search batch-specific research peptide Certificates of Analysis by product format, compound, and lot to verify identity, purity, quantity, and quality results.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/peptalith-coa-montage.png",
+    "image": "https://www.peptalith.com/assets/peptalith-coa-montage.png",
     "imageAlt": "Research peptide Certificate of Analysis documentation",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -4275,47 +4275,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "CollectionPage",
-          "@id": "https://peptalith.com/coa-library/#webpage",
-          "url": "https://peptalith.com/coa-library/",
+          "@id": "https://www.peptalith.com/coa-library/#webpage",
+          "url": "https://www.peptalith.com/coa-library/",
           "name": "Research Peptide COA Library | Batch Test Results",
           "description": "Search batch-specific research peptide Certificates of Analysis by product format, compound, and lot to verify identity, purity, quantity, and quality results.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-coa-montage.png"
+            "url": "https://www.peptalith.com/assets/peptalith-coa-montage.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/coa-library/#breadcrumb",
+          "@id": "https://www.peptalith.com/coa-library/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "COA Library",
-              "item": "https://peptalith.com/coa-library/"
+              "item": "https://www.peptalith.com/coa-library/"
             }
           ]
         }
@@ -4328,30 +4328,30 @@
     "description": "Browse batch-specific Certificates of Analysis for research peptide vials, including independent identity, purity, quantity, and quality test documentation.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/peptalith-coa-montage.png",
+    "image": "https://www.peptalith.com/assets/peptalith-coa-montage.png",
     "imageAlt": "Research peptide Certificate of Analysis documentation",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -4427,47 +4427,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "CollectionPage",
-          "@id": "https://peptalith.com/coa-library/vials/#webpage",
-          "url": "https://peptalith.com/coa-library/vials/",
+          "@id": "https://www.peptalith.com/coa-library/vials/#webpage",
+          "url": "https://www.peptalith.com/coa-library/vials/",
           "name": "Research Peptide Vial COAs | Batch Certificates",
           "description": "Browse batch-specific Certificates of Analysis for research peptide vials, including independent identity, purity, quantity, and quality test documentation.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-coa-montage.png"
+            "url": "https://www.peptalith.com/assets/peptalith-coa-montage.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/coa-library/vials/#breadcrumb",
+          "@id": "https://www.peptalith.com/coa-library/vials/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Vial COAs",
-              "item": "https://peptalith.com/coa-library/vials/"
+              "item": "https://www.peptalith.com/coa-library/vials/"
             }
           ]
         }
@@ -4480,30 +4480,30 @@
     "description": "Browse batch-specific Certificates of Analysis for research capsules with independent identity, assay, quantity, and quality testing documentation.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/peptalith-coa-montage.png",
+    "image": "https://www.peptalith.com/assets/peptalith-coa-montage.png",
     "imageAlt": "Research peptide Certificate of Analysis documentation",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -4579,47 +4579,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "CollectionPage",
-          "@id": "https://peptalith.com/coa-library/capsules/#webpage",
-          "url": "https://peptalith.com/coa-library/capsules/",
+          "@id": "https://www.peptalith.com/coa-library/capsules/#webpage",
+          "url": "https://www.peptalith.com/coa-library/capsules/",
           "name": "Research Capsule COAs | Batch Certificates",
           "description": "Browse batch-specific Certificates of Analysis for research capsules with independent identity, assay, quantity, and quality testing documentation.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-coa-montage.png"
+            "url": "https://www.peptalith.com/assets/peptalith-coa-montage.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/coa-library/capsules/#breadcrumb",
+          "@id": "https://www.peptalith.com/coa-library/capsules/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Capsule COAs",
-              "item": "https://peptalith.com/coa-library/capsules/"
+              "item": "https://www.peptalith.com/coa-library/capsules/"
             }
           ]
         }
@@ -4632,30 +4632,30 @@
     "description": "Browse batch-specific Certificates of Analysis for liquid research materials with independent identity, assay, quantity, and quality documentation.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/peptalith-coa-montage.png",
+    "image": "https://www.peptalith.com/assets/peptalith-coa-montage.png",
     "imageAlt": "Research peptide Certificate of Analysis documentation",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -4731,47 +4731,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "CollectionPage",
-          "@id": "https://peptalith.com/coa-library/liquids/#webpage",
-          "url": "https://peptalith.com/coa-library/liquids/",
+          "@id": "https://www.peptalith.com/coa-library/liquids/#webpage",
+          "url": "https://www.peptalith.com/coa-library/liquids/",
           "name": "Research Liquid COAs | Batch Certificates",
           "description": "Browse batch-specific Certificates of Analysis for liquid research materials with independent identity, assay, quantity, and quality documentation.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-coa-montage.png"
+            "url": "https://www.peptalith.com/assets/peptalith-coa-montage.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/coa-library/liquids/#breadcrumb",
+          "@id": "https://www.peptalith.com/coa-library/liquids/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Liquid COAs",
-              "item": "https://peptalith.com/coa-library/liquids/"
+              "item": "https://www.peptalith.com/coa-library/liquids/"
             }
           ]
         }
@@ -4784,30 +4784,30 @@
     "description": "Browse batch-specific Certificates of Analysis for topical research systems with independent identity, assay, quantity, and quality documentation.",
     "kind": "page",
     "indexable": true,
-    "image": "https://peptalith.com/assets/peptalith-coa-montage.png",
+    "image": "https://www.peptalith.com/assets/peptalith-coa-montage.png",
     "imageAlt": "Research peptide Certificate of Analysis documentation",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://peptalith.com/#organization",
+          "@id": "https://www.peptalith.com/#organization",
           "name": "Peptalith",
-          "url": "https://peptalith.com/",
+          "url": "https://www.peptalith.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-logo.svg"
+            "url": "https://www.peptalith.com/assets/peptalith-logo.svg"
           },
           "email": "info@peptalith.com",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
-            "merchantReturnLink": "https://peptalith.com/refund-policy/"
+            "merchantReturnLink": "https://www.peptalith.com/refund-policy/"
           },
           "hasShippingService": {
             "@type": "ShippingService",
-            "@id": "https://peptalith.com/shipping-policy/#us-shipping",
+            "@id": "https://www.peptalith.com/shipping-policy/#us-shipping",
             "name": "U.S. standard shipping",
-            "url": "https://peptalith.com/shipping-policy/",
+            "url": "https://www.peptalith.com/shipping-policy/",
             "description": "$10.99 shipping; free at $175 or more after product discounts. Estimated transit 2-3 business days after processing.",
             "shippingConditions": [
               {
@@ -4883,47 +4883,47 @@
         },
         {
           "@type": "WebSite",
-          "@id": "https://peptalith.com/#website",
-          "url": "https://peptalith.com/",
+          "@id": "https://www.peptalith.com/#website",
+          "url": "https://www.peptalith.com/",
           "name": "Peptalith",
           "publisher": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "CollectionPage",
-          "@id": "https://peptalith.com/coa-library/topicals/#webpage",
-          "url": "https://peptalith.com/coa-library/topicals/",
+          "@id": "https://www.peptalith.com/coa-library/topicals/#webpage",
+          "url": "https://www.peptalith.com/coa-library/topicals/",
           "name": "Research Topical COAs | Batch Certificates",
           "description": "Browse batch-specific Certificates of Analysis for topical research systems with independent identity, assay, quantity, and quality documentation.",
           "isPartOf": {
-            "@id": "https://peptalith.com/#website"
+            "@id": "https://www.peptalith.com/#website"
           },
           "about": {
-            "@id": "https://peptalith.com/#organization"
+            "@id": "https://www.peptalith.com/#organization"
           },
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://peptalith.com/assets/peptalith-coa-montage.png"
+            "url": "https://www.peptalith.com/assets/peptalith-coa-montage.png"
           },
           "inLanguage": "en-US"
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "https://peptalith.com/coa-library/topicals/#breadcrumb",
+          "@id": "https://www.peptalith.com/coa-library/topicals/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://peptalith.com/"
+              "item": "https://www.peptalith.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Topical COAs",
-              "item": "https://peptalith.com/coa-library/topicals/"
+              "item": "https://www.peptalith.com/coa-library/topicals/"
             }
           ]
         }

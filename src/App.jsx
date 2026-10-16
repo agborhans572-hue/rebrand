@@ -898,7 +898,9 @@ export default function App() {
       ? 'This research product is unavailable or is no longer part of the active Peptalith catalog.'
       : metadata.description
     const configuredOrigin = import.meta.env.VITE_SITE_URL?.trim().replace(/\/$/, '')
-    const origin = configuredOrigin || 'https://peptalith.com'
+    const origin = !configuredOrigin || configuredOrigin === 'https://peptalith.com'
+      ? 'https://www.peptalith.com'
+      : configuredOrigin
     const metadataPath = knownRoute ? metadata.path : location.pathname
     const canonicalUrl = `${origin}${metadataPath}`
     const socialImage = metadata.image || `${origin}/assets/hero-vials.png`
