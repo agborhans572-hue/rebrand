@@ -2,7 +2,7 @@ import type { Handler } from '@netlify/functions'
 import { randomUUID } from 'node:crypto'
 import { cronSecret } from './_shared/env.js'
 import { errorResponse, json } from './_shared/http.js'
-import { services } from './_shared/services.js'
+import { databaseServices } from './_shared/services.js'
 
 function authorized(header: string | undefined, secret: string) {
   return header === `Bearer ${secret}`
@@ -29,7 +29,7 @@ export const handler: Handler = async (event) => {
       return json(401, { message: 'Cron authorization failed.' })
     }
 
-    const { supabase } = services()
+    const { supabase } = databaseServices()
     const workerId = `account-delete-${randomUUID()}`
     const { data: requests, error } = await (supabase as any).rpc('claim_account_deletions', {
       p_worker_id: workerId,

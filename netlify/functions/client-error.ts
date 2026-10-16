@@ -2,7 +2,7 @@ import type { Handler } from '@netlify/functions'
 import { z } from 'zod'
 import { clientFingerprint, errorResponse, HttpError, json, parseJson, requireSameOrigin } from './_shared/http.js'
 import { reportOperationalError } from './_shared/monitor.js'
-import { fingerprint, services } from './_shared/services.js'
+import { fingerprint, databaseServices } from './_shared/services.js'
 
 const clientError = z.object({
   message: z.string().min(1).max(500),
@@ -13,7 +13,7 @@ const clientError = z.object({
 export const handler: Handler = async (event) => {
   try {
     if (event.httpMethod !== 'POST') return json(405, { message: 'Method not allowed.' })
-    const { env, supabase } = services()
+    const { env, supabase } = databaseServices()
     requireSameOrigin(event, env.SITE_URL)
     const { data: allowed, error } = await supabase.rpc('consume_rate_limit', {
       p_scope: 'client-error',

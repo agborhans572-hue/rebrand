@@ -1,10 +1,19 @@
 import { z } from 'zod'
 
-const baseFields = {
-  APP_ENV: z.enum(['development', 'staging', 'production']).default('development'),
+const databaseFields = {
   SITE_URL: z.string().url(),
   SUPABASE_URL: z.string().url(),
   SUPABASE_SERVICE_ROLE_KEY: z.string().min(30),
+  MONITORING_WEBHOOK_URL: z.string().url().optional(),
+}
+
+export function databaseEnv(environment: Record<string, string | undefined> = process.env) {
+  return z.object(databaseFields).parse(environment)
+}
+
+const baseFields = {
+  ...databaseFields,
+  APP_ENV: z.enum(['development', 'staging', 'production']).default('development'),
   STRIPE_SECRET_KEY: z.string().regex(/^sk_(test|live)_/),
   WOOCOMMERCE_URL: z.string().url(),
   WC_CONSUMER_KEY: z.string().min(10),
@@ -13,7 +22,6 @@ const baseFields = {
   WOO_BRIDGE_SECRET_CURRENT: z.string().min(32).optional(),
   WOO_BRIDGE_SECRET_PREVIOUS: z.string().min(32).optional(),
   WOO_WEBHOOK_SECRET: z.string().min(32).optional(),
-  MONITORING_WEBHOOK_URL: z.string().url().optional(),
 }
 
 const baseSchema = z.object(baseFields)

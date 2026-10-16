@@ -1,7 +1,17 @@
 import { createHash } from 'node:crypto'
 import { createClient } from '@supabase/supabase-js'
 import Stripe from 'stripe'
-import { serverEnv } from './env.js'
+import { databaseEnv, serverEnv } from './env.js'
+
+export function databaseServices() {
+  const env = databaseEnv()
+  return {
+    env,
+    supabase: createClient(env.SUPABASE_URL, env.SUPABASE_SERVICE_ROLE_KEY, {
+      auth: { autoRefreshToken: false, persistSession: false },
+    }),
+  }
+}
 
 export function services() {
   const env = serverEnv()

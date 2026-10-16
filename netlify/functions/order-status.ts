@@ -1,11 +1,11 @@
 import type { Handler } from '@netlify/functions'
 import { errorResponse, json, requireSameOrigin } from './_shared/http.js'
-import { services } from './_shared/services.js'
+import { databaseServices } from './_shared/services.js'
 
 export const handler: Handler = async (event) => {
   try {
     if (event.httpMethod !== 'GET') return json(405, { message: 'Method not allowed.' })
-    const { env, supabase } = services()
+    const { env, supabase } = databaseServices()
     requireSameOrigin(event, env.SITE_URL)
     const sessionId = event.queryStringParameters?.session_id
     if (!sessionId?.startsWith('cs_')) return json(400, { message: 'Invalid checkout session.' })

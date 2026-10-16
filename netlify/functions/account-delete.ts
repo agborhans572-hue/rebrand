@@ -3,7 +3,7 @@ import { createHash } from 'node:crypto'
 import { z } from 'zod'
 import { requireActiveCustomer, requireRecentAuthentication } from './_shared/customer-auth.js'
 import { clientFingerprint, errorResponse, HttpError, json, parseJson, requireSameOrigin } from './_shared/http.js'
-import { fingerprint, services } from './_shared/services.js'
+import { fingerprint, databaseServices } from './_shared/services.js'
 
 const requestSchema = z.object({
   confirmation: z.literal('DELETE'),
@@ -17,7 +17,7 @@ type DeletionRequest = {
 export const handler: Handler = async (event) => {
   try {
     if (event.httpMethod !== 'POST') return json(405, { message: 'Method not allowed.' })
-    const { env, supabase } = services()
+    const { env, supabase } = databaseServices()
     requireSameOrigin(event, env.SITE_URL)
     parseJson(event, requestSchema)
 

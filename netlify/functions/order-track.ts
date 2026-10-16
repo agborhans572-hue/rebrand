@@ -1,7 +1,7 @@
 import type { Handler } from '@netlify/functions'
 import { z } from 'zod'
 import { clientFingerprint, errorResponse, HttpError, json, parseJson, requireSameOrigin } from './_shared/http.js'
-import { fingerprint, services } from './_shared/services.js'
+import { fingerprint, databaseServices } from './_shared/services.js'
 
 const trackingRequest = z.object({
   orderid: z.string().trim().min(8).max(40),
@@ -19,7 +19,7 @@ const fulfillmentMessages: Record<string, string> = {
 export const handler: Handler = async (event) => {
   try {
     if (event.httpMethod !== 'POST') return json(405, { message: 'Method not allowed.' })
-    const { env, supabase } = services()
+    const { env, supabase } = databaseServices()
     requireSameOrigin(event, env.SITE_URL)
     const { data: allowed, error: rateError } = await supabase.rpc('consume_rate_limit', {
       p_scope: 'order-track',
