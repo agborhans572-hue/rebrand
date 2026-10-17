@@ -1,6 +1,22 @@
 import shippingPolicy from './shippingPolicy.json' with { type: 'json' }
+import { waiverPolicy } from './waiverPolicy.js'
 
 export const policies = {
+  waiver: waiverPolicy,
+  disclaimer: {
+    eyebrow: 'Legal',
+    title: 'Disclaimer',
+    effectiveDate: 'October 17, 2026',
+    sections: [
+      ['Research use only', 'Peptalith supplies materials solely for controlled laboratory and analytical research by qualified professionals. Products are not intended for human consumption, veterinary use, diagnosis, treatment, cure, or prevention of disease. Purchasers must be at least 21 years old and legally qualified to purchase and handle these materials.'],
+      ['Information and professional advice', 'Website content is provided for general informational and educational purposes. Peptalith does not provide medical, legal, regulatory, or other professional advice. Product descriptions and research references do not authorize personal, clinical, or therapeutic use.'],
+      ['FDA disclaimer', 'The statements on this website have not been evaluated by the U.S. Food and Drug Administration. Peptalith is a chemical supplier, not a compounding pharmacy or compounding facility under section 503A of the Federal Food, Drug, and Cosmetic Act, and not an outsourcing facility under section 503B.'],
+      ['Specifications and warranties', 'Batch-specific written specifications and Certificates of Analysis describe the applicable production lot. No research outcome, clinical efficacy, or suitability for an unauthorized use is promised. Except for the batch-level conformance described in the Waiver Agreement and rights that cannot legally be excluded, materials and website information are supplied as is and as available.'],
+      ['Handling and purchaser responsibility', 'The purchaser is responsible for qualifications, institutional approvals, lawful possession and use, appropriate storage, safe handling, security, documentation, and disposal. Unauthorized use is prohibited. Review the Waiver Agreement for the assumption-of-risk, release, and indemnification provisions.'],
+      ['Liability and non-excludable rights', 'The limitations, exceptions, and governing-law provisions in the Waiver Agreement apply. Nothing in this disclaimer excludes rights or liability that cannot legally be excluded. Shipping and refund questions are governed by the published Shipping Policy and Refund Policy.'],
+    ],
+    relatedLinks: [['Waiver Agreement', '/waiver-agreement-policy/'], ['Terms and Conditions', '/terms-and-conditions/'], ['Privacy Policy', '/privacy-policy/'], ['Shipping Policy', '/shipping-policy/'], ['Refund Policy', '/refund-policy/']],
+  },
   shipping: {
     eyebrow: 'Customer policy',
     title: 'Shipping Policy',

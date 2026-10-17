@@ -360,6 +360,16 @@ const staticRoutes = [
     description: 'Review the purchasing, research-use, site-content, and customer responsibility terms for Peptalith.',
   },
   {
+    path: '/disclaimer/',
+    title: 'Research Use Disclaimer | Peptalith',
+    description: 'Read the Peptalith research-use disclaimer, purchaser responsibilities, batch documentation limits, and links to customer policies.',
+  },
+  {
+    path: '/waiver-agreement-policy/',
+    title: 'Waiver Agreement for Research Compounds | Peptalith',
+    description: 'Review Peptalith\'s research-compound waiver covering research use, eligibility, risk, indemnification, verification, governing law, and acceptance.',
+  },
+  {
     path: '/info-cards/',
     title: 'Research Peptide Product Information Cards | Peptalith',
     description: 'Browse downloadable research peptide information cards with compound identity, molecular details, storage guidance, and laboratory-use references.',

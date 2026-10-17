@@ -139,7 +139,7 @@ function routeHtml(source, route, rendered, manifest, chrome, stylesheets) {
     (_match, prefix, suffix) => prefix + (escapeHtml(route.imageAlt || route.title)) + suffix,
   )
   const entry = route.kind === 'product' ? 'src/ProductDetailPage.jsx' : {
-    '/': 'src/HomePage.jsx', '/shop/': 'src/ShopPage.jsx', '/shipping-policy/': 'src/PolicyPages.jsx', '/refund-policy/': 'src/PolicyPages.jsx', '/privacy-policy/': 'src/PolicyPages.jsx', '/terms-and-conditions/': 'src/PolicyPages.jsx',
+    '/': 'src/HomePage.jsx', '/shop/': 'src/ShopPage.jsx', '/shipping-policy/': 'src/PolicyPages.jsx', '/refund-policy/': 'src/PolicyPages.jsx', '/privacy-policy/': 'src/PolicyPages.jsx', '/terms-and-conditions/': 'src/PolicyPages.jsx', '/disclaimer/': 'src/PolicyPages.jsx', '/waiver-agreement-policy/': 'src/PolicyPages.jsx',
   }[route.path] || (route.kind === 'article' || ['/news/', '/editorial-standards/'].includes(route.path) ? 'src/EducationPages.jsx' : route.path.startsWith('/coa-library/') ? 'src/CoaLibraryPages.jsx' : ['/about-us/', '/research-areas/', '/pure-elite-access/'].includes(route.path) ? 'src/AboutPages.jsx' : ['/faqs/', '/contact-us/'].includes(route.path) ? 'src/SupportPages.jsx' : 'src/PeptideInfoPages.jsx')
   const background = responsiveImage(route.path === '/' ? '/assets/hero-molecule.jpg' : route.path === '/coa-library/' ? '/assets/coa-library/coa-hero.png' : '')
   if (background?.src) html = html.replace('</head>', '<link rel="preload" as="image" fetchpriority="high" href="' + background.src + '"></head>')

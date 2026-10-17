@@ -3,11 +3,11 @@
   "observationNote": "Pre-change production responses; null means not individually measured. Expected responses require local host-aware QA and post-deployment verification.",
   "counts": {
     "canonicalProducts": 115,
-    "otherPublicPages": 24,
+    "otherPublicPages": 26,
     "errorTemplates": 1,
-    "indexable": 139,
+    "indexable": 141,
     "private": 7,
-    "pageValidations": 146,
+    "pageValidations": 148,
     "productAliases": 32
   },
   "routes": [
@@ -615,6 +615,62 @@
       "expectedStatus": 308,
       "observedStatus": null,
       "canonical": "/terms-and-conditions/",
+      "robots": null,
+      "sitemap": false
+    },
+    {
+      "path": "/disclaimer/",
+      "classification": "indexable-200",
+      "expectedStatus": 200,
+      "observedStatus": 200,
+      "canonical": "/disclaimer/",
+      "robots": "index, follow",
+      "sitemap": true,
+      "kind": "page"
+    },
+    {
+      "path": "/disclaimer",
+      "classification": "permanent-redirect",
+      "expectedStatus": 308,
+      "observedStatus": null,
+      "canonical": "/disclaimer/",
+      "robots": null,
+      "sitemap": false
+    },
+    {
+      "path": "/disclaimer/index.html",
+      "classification": "permanent-redirect",
+      "expectedStatus": 308,
+      "observedStatus": null,
+      "canonical": "/disclaimer/",
+      "robots": null,
+      "sitemap": false
+    },
+    {
+      "path": "/waiver-agreement-policy/",
+      "classification": "indexable-200",
+      "expectedStatus": 200,
+      "observedStatus": 200,
+      "canonical": "/waiver-agreement-policy/",
+      "robots": "index, follow",
+      "sitemap": true,
+      "kind": "page"
+    },
+    {
+      "path": "/waiver-agreement-policy",
+      "classification": "permanent-redirect",
+      "expectedStatus": 308,
+      "observedStatus": null,
+      "canonical": "/waiver-agreement-policy/",
+      "robots": null,
+      "sitemap": false
+    },
+    {
+      "path": "/waiver-agreement-policy/index.html",
+      "classification": "permanent-redirect",
+      "expectedStatus": 308,
+      "observedStatus": null,
+      "canonical": "/waiver-agreement-policy/",
       "robots": null,
       "sitemap": false
     },

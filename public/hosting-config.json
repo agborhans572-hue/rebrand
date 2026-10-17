@@ -595,6 +595,26 @@
       "permanent": true
     },
     {
+      "source": "/disclaimer",
+      "destination": "/disclaimer/",
+      "permanent": true
+    },
+    {
+      "source": "/disclaimer/index.html",
+      "destination": "/disclaimer/",
+      "permanent": true
+    },
+    {
+      "source": "/waiver-agreement-policy",
+      "destination": "/waiver-agreement-policy/",
+      "permanent": true
+    },
+    {
+      "source": "/waiver-agreement-policy/index.html",
+      "destination": "/waiver-agreement-policy/",
+      "permanent": true
+    },
+    {
       "source": "/info-cards",
       "destination": "/info-cards/",
       "permanent": true

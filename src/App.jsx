@@ -234,6 +234,8 @@ const routePaths = Object.fromEntries(Object.entries({
   refundPolicy: '/refund-policy/',
   privacyPolicy: '/privacy-policy/',
   terms: '/terms-and-conditions/',
+  disclaimer: '/disclaimer/',
+  waiver: '/waiver-agreement-policy/',
 }).map(([route, path]) => [route, appPath(path)]))
 
 const navRouteByLabel = {
@@ -261,6 +263,8 @@ const navRouteByLabel = {
   'Refund Policy': 'refundPolicy',
   'Privacy Policy': 'privacyPolicy',
   'Terms and Conditions': 'terms',
+  Disclaimer: 'disclaimer',
+  'Waiver Agreement': 'waiver',
 }
 
 const navGroups = [
@@ -665,14 +669,9 @@ const footerGroups = {
   legal: ['Shipping Policy', 'Refund Policy', 'Privacy Policy', 'Terms and Conditions', 'Disclaimer', 'Waiver Agreement'],
 }
 
-const footerLegalUrls = {
-  Disclaimer: 'https://purehealthpeptides.com/disclaimer/',
-  'Waiver Agreement': 'https://purehealthpeptides.com/waiver-agreement-policy/',
-}
-
 function FooterLink({ children, onNavigate }) {
   const route = navRouteByLabel[children]
-  const href = route ? routePaths[route] : footerLegalUrls[children]
+  const href = routePaths[route]
 
   return (
     <a
@@ -1118,6 +1117,8 @@ export default function App() {
     if (pageRoute === 'faqs') return <FaqPage />
     if (pageRoute === 'contact') return <><ContactPage /><Newsletter /></>
     if (pageRoute === 'shippingPolicy') return <PolicyPage type="shipping" />
+    if (pageRoute === 'disclaimer') return <PolicyPage type="disclaimer" />
+    if (pageRoute === 'waiver') return <PolicyPage type="waiver" />
     if (pageRoute === 'refundPolicy') return <PolicyPage type="refunds" />
     if (pageRoute === 'privacyPolicy') return <PolicyPage type="privacy" />
     if (pageRoute === 'terms') return <PolicyPage type="terms" />

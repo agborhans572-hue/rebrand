@@ -1,6 +1,6 @@
 # Route classification
 
-139 canonical indexable pages + 7 private shells = 146 page validations. 32 product aliases (31 original + Semax migration) are separate redirects. Only indexable-200 entries belong in the sitemap.
+141 canonical indexable pages + 7 private shells = 148 page validations. 32 product aliases (31 original + Semax migration) are separate redirects. Only indexable-200 entries belong in the sitemap.
 
 Observed statuses are pre-change production measurements; — means unmeasured.
 
@@ -71,6 +71,12 @@ Observed statuses are pre-change production measurements; — means unmeasured.
 | /terms-and-conditions/ | indexable-200 | 200 | 200 | /terms-and-conditions/ | index, follow | yes |
 | /terms-and-conditions | permanent-redirect | 308 | — | /terms-and-conditions/ | — | no |
 | /terms-and-conditions/index.html | permanent-redirect | 308 | — | /terms-and-conditions/ | — | no |
+| /disclaimer/ | indexable-200 | 200 | 200 | /disclaimer/ | index, follow | yes |
+| /disclaimer | permanent-redirect | 308 | — | /disclaimer/ | — | no |
+| /disclaimer/index.html | permanent-redirect | 308 | — | /disclaimer/ | — | no |
+| /waiver-agreement-policy/ | indexable-200 | 200 | 200 | /waiver-agreement-policy/ | index, follow | yes |
+| /waiver-agreement-policy | permanent-redirect | 308 | — | /waiver-agreement-policy/ | — | no |
+| /waiver-agreement-policy/index.html | permanent-redirect | 308 | — | /waiver-agreement-policy/ | — | no |
 | /info-cards/ | indexable-200 | 200 | 200 | /info-cards/ | index, follow | yes |
 | /info-cards | permanent-redirect | 308 | — | /info-cards/ | — | no |
 | /info-cards/index.html | permanent-redirect | 308 | — | /info-cards/ | — | no |

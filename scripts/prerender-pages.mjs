@@ -24,6 +24,7 @@ export async function prerenderPages() {
       '/': [home.default], '/shop/': [shop.default], '/about-us/': [about.AboutPage], '/research-areas/': [about.ResearchAreasPage], '/news/': [education.LearningCenterPage], '/editorial-standards/': [education.EditorialStandardsPage], '/peptalith-elite-access/': [about.ElitePage],
       '/faqs/': [support.FaqPage], '/contact-us/': [support.ContactPage], '/info-cards/': [info.ProductInfoPage], '/coa-process/': [info.CoaProcessPage], '/manufacturing/': [info.ManufacturingPage], '/dilution-guide/': [info.DilutionGuidePage], '/coa-library/': [coa.CoaLibraryPage],
       '/shipping-policy/': [policy.default, { type: 'shipping' }], '/refund-policy/': [policy.default, { type: 'refunds' }], '/privacy-policy/': [policy.default, { type: 'privacy' }], '/terms-and-conditions/': [policy.default, { type: 'terms' }],
+      '/disclaimer/': [policy.default, { type: 'disclaimer' }], '/waiver-agreement-policy/': [policy.default, { type: 'waiver' }],
     }
     for (const route of productionRoutes.filter((item) => item.kind === 'article')) pages[route.path] = [education.EducationArticlePage, { slug: route.article.slug }]
     for (const [category, source] of Object.entries(coaSource)) {

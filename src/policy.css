@@ -39,4 +39,6 @@
 
 .policy-content h2 { margin: 0 0 10px; font-size: 1.35rem; }
 .policy-content p { margin: 0; color: #435264; line-height: 1.8; }
+.policy-content p + p { margin-top: 16px; }
+.policy-content nav { margin-bottom: 28px; }
 .policy-content a { color: #147fae; font-weight: 600; }

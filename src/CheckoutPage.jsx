@@ -13,6 +13,7 @@ import {
 } from 'lucide-react'
 import './checkout.css'
 import TurnstileChallenge from './TurnstileChallenge.jsx'
+import { appPath } from './appPath.js'
 
 const SHIPPING_RATE = 10.99
 const FREE_SHIPPING_THRESHOLD = 175
@@ -284,7 +285,11 @@ export function CheckoutPage({ items, onBackToCart, onPlaceOrder, onShop }) {
               <input name="researchAgreement" type="checkbox" required />
               <span>
                 I confirm that I am at least 21 years old, am qualified to purchase these materials,
-                and will use all products solely for in vitro laboratory research—not for human or veterinary use. *
+                and will use all products solely for in vitro laboratory research—not for human or veterinary use.
+                {' '}I have read and agree to the <a href={appPath('/waiver-agreement-policy/')} target="_blank" rel="noreferrer">Waiver Agreement</a>
+                {' '}and <a href={appPath('/terms-and-conditions/')} target="_blank" rel="noreferrer">Terms and Conditions</a>,
+                {' '}and have reviewed the <a href={appPath('/disclaimer/')} target="_blank" rel="noreferrer">Disclaimer</a>
+                {' '}and <a href={appPath('/privacy-policy/')} target="_blank" rel="noreferrer">Privacy Policy</a>. *
               </span>
             </label>
           </fieldset>
